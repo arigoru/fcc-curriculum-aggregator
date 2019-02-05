@@ -1,0 +1,361 @@
+body,
+html {
+  background-color: #bbafaf;
+  margin: 0px;
+  padding: 0px;
+  --nav-height: 30px;
+  --slide-nav-width: 200px;
+  --slide-nav-width: calc(200% / 7);
+  /* color sheme starts here */
+  --baseHue: 100;
+  --saturation: 1;
+  --hue2: calc(var(--baseHue) + 20);
+  --hue3: calc(var(--baseHue) + 50);
+  --hue4: calc(var(--baseHue) + 60);
+/* backup of theme before brightness changes */
+  /* --theme-color-6: hsl(var(--hue4),20%,20%);
+  --theme-color-2: hsl(var(--hue4), 80%, 15%);
+  --theme-color-3: hsl(var(--hue4), 80%, 25%);
+  --theme-color-4: hsl(var(--hue3), 40%, 40%);
+  --theme-color-5: hsl(var(--hue2), 40%, 75%);
+  --theme-color-1: hsl(var(--baseHue),75%,75%); */
+
+  --theme-color-6: hsl(var(--hue4),   calc(20% * var(--saturation)),20%);
+  --theme-color-2: hsl(var(--hue4),   calc(80% * var(--saturation)), 15%);
+  --theme-color-3: hsl(var(--hue4),   calc(80% * var(--saturation)), 25%);
+  --theme-color-4: hsl(var(--hue3),   calc(40% * var(--saturation)), 60%);
+  --theme-color-5: hsl(var(--hue2),   calc(40% * var(--saturation)), 80%);
+  --theme-color-1: hsl(var(--baseHue),calc(75% * var(--saturation)),85%);
+
+
+  --ui-color-text: var(--theme-color-6);
+  --ui-color-bg: var(--theme-color-1);
+  --ui-color-link-slide: var(--theme-color-3);
+  --ui-color-link-slide-h: var(--theme-color-4);
+/* code sections colors */
+  --ui-color-code-text: var(--theme-color-3);
+  --ui-color-code-bg: var(--theme-color-5);
+  --ui-color-code-bg-h: var(--theme-color-4);
+
+/* side menu colors */
+  --ui-color-text-nav: var(--theme-color-1);
+  --ui-color-link-nav: var(--theme-color-5);
+  --ui-color-link-nav-h: var(--theme-color-1);
+  --ui-color-bg-nav: var(--theme-color-2);
+
+  /* top menu texts*/
+  --ui-color-text-menu-s: var(--theme-color-5);
+  --ui-color-text-menu-h: var(--theme-color-5);
+  --ui-color-text-menu: var(--theme-color-3);
+  /* top menu bgs */
+  --ui-color-menu-h: var(--theme-color-2);
+  --ui-color-menu-s: var(--theme-color-3);
+   --ui-color-menu-bg: var(--theme-color-5);
+  /* drop menu bgs */
+  --ui-color-drop-bg: var(--theme-color-5);
+  --ui-color-drop-h: var(--theme-color-3);
+  /* drop menu colors */
+  --ui-color-drop-text: var(--theme-color-2);
+  --ui-color-drop-text-h: var(--theme-color-5);
+
+  --ui-color-button-text: var(--theme-color-6);
+  --ui-color-button-text-h: var(--theme-color-5);
+  --ui-color-button-bg: var(--theme-color-4);
+  --ui-color-button-h: var(--theme-color-3);
+
+  /* color sheme ends */
+  overflow: hidden;
+}
+
+#nav-top {
+  color: var(--ui-color-text-menu);
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: stretch;
+  height: var(--nav-height);
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  cursor: pointer;
+  z-index: 10;
+  /* hide navbar temporary */
+  /* display: none;  */
+}
+
+.nav-section {
+  /* width: calc(100% / 7); */
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  position: relative;
+  padding: 0px;
+  flex-grow: 0;
+}
+.nav-section-secondary {
+  flex-shrink: 2;
+}
+
+
+.nav-section-title {
+  background-color: var(--ui-color-menu-bg);
+  height: 100%;
+  padding: 5px;
+  z-index: 10;
+  text-align: center;
+}
+
+.nav-section-current {
+  background-color:var(--ui-color-menu-s);
+  color: var(--ui-color-text-menu-s) !important;
+}
+
+.nav-section-dropdown {
+  list-style: none;
+  margin: 0px;
+  height: auto;
+  width:150%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: stretch;
+  position: absolute;
+  top: var(--nav-height);
+  align-content: stretch;
+  /* display:none; */
+  padding: 0px;
+  transition: all .5s ease;
+  transform: translateY(-100%);
+  z-index: 9;
+}
+.nav-section-dropdown-left {
+  right: 0;
+}
+
+.nav-drop-element:hover{
+  background-color:var(--ui-color-drop-h);
+  color: var(--ui-color-drop-text-h);
+}
+
+.nav-drop-element {
+  text-align: center;
+  list-style: none; 
+  flex-grow: 1;
+  background: var(--ui-color-drop-bg);
+  color: var(--ui-color-drop-text);
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  /* position: relative; */
+  z-index: 9;
+}
+.nav-drop-separator {
+  text-align: center;
+  list-style: none; 
+  flex-grow: 1;
+  background: var(--ui-color-drop-h);
+  color: var(--ui-color-drop-text-h);
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  /* position: relative; */
+  z-index: 9;
+}
+.nav-section:hover .nav-section-title {
+  background-color: var(--ui-color-menu-h);
+  color: var(--ui-color-text-menu-h) !important;
+}
+
+.nav-section:hover .nav-section-dropdown {
+  display: flex;
+  transform: translateY(0%);
+}
+
+#all-slides-container {
+  background-color: var(--ui-color-bg);
+  display: flex;
+  flex-flow: row nowrap;
+  width: 700%;
+  	transition: all 1s ease-in-out;
+	-webkit-transform: translate3d(0, 0, 0);
+	-webkit-backface-visibility: hidden;
+  height: 100vh;
+  z-index:1;
+}
+
+.nav-side {
+  color: var(--ui-color-text-nav);
+  background:var(--ui-color-bg-nav);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: var(--slide-nav-width);
+  height: 100%;
+  overflow-y: auto;
+  padding: 20px;
+}
+.nav-side a {
+  color: var(--ui-color-link-nav);
+}
+.nav-side a:hover {
+  color: var(--ui-color-link-nav-h);
+}
+.location-indicator {
+  position: absolute;
+  width: 93%;
+  height: 27px;
+  right: 5%;
+  top: -100px;
+  border: var(--ui-color-link-nav) 2px dotted;
+  transform:translateY(-3px);
+}
+
+
+.one-slide {
+  margin-top:var(--nav-height);
+  position: relative;
+  width:100%;
+  width:100vw;
+  height: calc(100% - var(--nav-height));
+  /* max-height:  */
+
+}
+.slide-content {
+  margin-left: var(--slide-nav-width);
+  max-height: 100%;
+  overflow-y: auto;
+  padding: 30px;
+  background:var(--ui-color-bg);
+  color: var(--ui-color-text);
+}
+.slide-content a {
+  color: var(--ui-color-link-slide);
+}
+.slide-content a:hover{
+  color: var(--ui-color-link-slide-h);
+}
+
+/* section title */
+.slide-content > h3 {
+  margin-top: 40px;
+  margin-bottom: -30px;
+}
+/* lesson title */
+.slide-content > h4 {
+  margin-top: 40px;
+  display: inline-block;
+}
+.section-button {
+  margin-left: 15px;
+  margin-bottom: 15px;
+  color: var(--ui-color-button-text);
+  background-color: var(--ui-color-button-bg);
+}
+.section-button:hover {
+  color: var(--ui-color-button-text-h);
+  background-color: var(--ui-color-button-h);
+}
+
+
+.slide-content code,
+.slide-content blockquote,
+.codeTooltip {
+  background-color: var(--ui-color-code-bg);
+  color:var(--ui-color-code-text);
+  border: var(--ui-color-code-bg) 1px solid;
+}
+.slide-content blockquote {
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+  margin: 0;
+  margin-bottom: 1.45rem;
+  font-family: monospace;
+  font-size: 16px;
+  border: var(--ui-color-code-bg) 4px solid;
+}
+.slide-content blockquote:hover,
+.slide-content code:hover {
+  /* background-color: var(--ui-color-code-bg-h); */
+  border-color: var(--ui-color-code-bg-h);
+}
+
+.codeTooltip {
+  border: var(--ui-color-code-bg-h) 2px solid;
+  width: auto;
+  height: auto;
+  position: absolute;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  /* top: calc(var(--nav-height) + 5px); */
+  top: 5px;
+  right: 50px;
+  z-index: 1000
+}
+
+.scrimba-video {
+  width: 100%;
+  height: 80vh;
+}
+
+/* junk area */
+/*
+#slide-1 {
+  background: hsl(10,50%,50%);
+}
+#slide-2 {
+  background: hsl(50,50%,50%);
+}
+#slide-3 {
+  background: hsl(100,50%,50%);
+}
+#slide-4 {
+  background: hsl(150,50%,50%);
+}
+#slide-5 {
+  background: hsl(200,50%,50%);
+}
+#slide-6 {
+  background: hsl(250,50%,50%);
+}
+#slide-7 {
+  background: hsl(300,50%,50%);
+}*/
+
+/* secondary drop down menu just in case */
+.second-drop-right {
+  position: absolute;
+  top: 0px;
+  width:100%;
+  min-height: 100%;
+  transform: translateX(0%);
+  transform: scaleY(0.1);
+
+  transition: all .5s ease;
+  background: red;
+  z-index: 8;
+} 
+.nav-drop-element:hover + .second-drop-right,
+.second-drop-right:hover {
+  transform: translateX(100%);
+}
+
+
+
+/* media notes:
+vertical mode - top bar 80px
+--slide-nav-width 0px
+.nav-side display: none
+*/
+
+@media (max-width: 800px) {
+  body, html{
+    --slide-nav-width: 0px;
+    --nav-height: 60px;    
+  }
+  .nav-side {
+    display: none;
+  }
+  #nav-top{
+    font-size: 0.8em;
+  }
+}
