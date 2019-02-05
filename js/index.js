@@ -1,17 +1,72 @@
 // TODO:
-// - theme switcher
-// - content to cheatsheets switcher
-
+// - content to actual cheatsheets switcher
+const JSONURLS = {
+  meta: "https://arigoru.github.io/fcc-curriculum-aggregator/json/meta.json",
+  1: "https://arigoru.github.io/fcc-curriculum-aggregator/json/1.json",
+  2: "https://arigoru.github.io/fcc-curriculum-aggregator/json/2.json",
+  3: "https://arigoru.github.io/fcc-curriculum-aggregator/json/3.json",
+  4: "https://arigoru.github.io/fcc-curriculum-aggregator/json/4.json",
+  5: "https://arigoru.github.io/fcc-curriculum-aggregator/json/5.json",
+  6: "https://arigoru.github.io/fcc-curriculum-aggregator/json/6.json"
+}
 $(docReady);
 var scrollTimeout;
+let $loading = $("<div>");
+const loadingAnimation = {
+  play: function(){
+    $("#main-body").append($loading)
+    $loading.addClass("loadingAnimation").attr("id","loadingAnimation");
+    $loading.append("<h1>Loading, please wait...</h1>");
+    $loading.animate({opacity:1},2000);
+  },
+  stop: function(){
+    $loading.animate({opacity:1},2000,()=>{
+      $loading.animate({opacity:0},2000,()=>{
+        $loading.remove();
+      });
+    })
+  }
+}
 
 function docReady(e) {
-  // $(".hidden-radio").change("checked",radioChecked);
-  // $(".nav-click").click(scrollToSection);
-  // .nav-section-title
-  $(".nav-section-title").click(navigationClicked);
-  getTestJSON();
+  loadingAnimation.play();
+  getJSON(JSONURLS.meta).then(() => {
+    parseMeta();
+    getJSON(JSONURLS[1]).then(() => {
+      getJSON(JSONURLS[2]).then(() => {
+        getJSON(JSONURLS[3]).then(() => {
+          getJSON(JSONURLS[4]).then(() => {
+            getJSON(JSONURLS[5]).then(() => {
+              getJSON(JSONURLS[6]).then(() => {
+                renderLessonsToPage(); // assumes that curriculum is now proper array of meta
+                updateEventHandlers();
+                loadingAnimation.stop();
+                processHashAnchor();
+              })
+            })
+          })
+        })
+      })
+    })
+  });
+  updateEventHandlers();
+  currentLessons = $(`h4[id^='slide-${currentIndex}']`);
+}
 
+function processHashAnchor() {
+  let hash = location.hash.slice(1);
+  if (/\d-\d+-\d+/.test(hash)) {
+    $(`#nav-side-${hash}`).click();
+    scrollNavigation(hash);
+  } else if (/[1-7]/.test(hash)) {
+    $(`#nav-section-title-${hash}`).click();
+  } else {
+    $(`#nav-section-title-7`).click();
+  }
+}
+
+function updateEventHandlers() {
+  $(".nav-section-title").click(navigationClicked);
   $(".nav-drop-element").click(navigationClicked);
   $(".lesson-link").click(navigationClicked);
   $(".scrimba").click(showVideoClick);
@@ -26,23 +81,90 @@ function docReady(e) {
     scrollTimeout = setTimeout(scrollHandler, 1000);
   });
   $(".slide-content blockquote,.slide-content code").mousedown(copyCodeHandler);
-  // tooltip testst
+}
 
-
-  // --------------------------------
-
-  currentLessons = $(`h4[id^='slide-${currentIndex}']`);
-  let hash = location.hash.slice(1);
-  if (/\d-\d+-\d+/.test(hash)) {
-    $(`#nav-side-${hash}`).click();
-    scrollNavigation(hash);
-  } else if (/[1-7]/.test(hash)) {
-    $(`#nav-section-title-${hash}`).click();
-  } else {
-    $(`#nav-section-title-7`).click();
+function filterMeta(dashedName) {
+  return function (element) {
+    // consider using super order?
+    return element.superBlock === dashedName;
+    // let regex = new RegExp("^[0]" + id);
   }
 }
 
+var curriculum;
+
+function parseMeta() {
+  // get initial sceleton of array
+  curriculum = [
+    {
+      slideId: 1,
+      title: "Responsive Web Design",
+      meta: unparsedData.curriculumMetaRaw.filter(filterMeta("responsive-web-design")),
+    },
+    {
+      slideId: 2,
+      title: "Javascript Algorithms And Data Structures",
+      meta: unparsedData.curriculumMetaRaw.filter(filterMeta("javascript-algorithms-and-data-structures"))
+    },
+    {
+      slideId: 3,
+      title: "Front End Libraries",
+      meta: unparsedData.curriculumMetaRaw.filter(filterMeta("front-end-libraries"))
+    },
+    {
+      slideId: 4,
+      title: "Data Visualization",
+      meta: unparsedData.curriculumMetaRaw.filter(filterMeta("data-visualization"))
+    },
+    {
+      slideId: 5,
+      title: "Apis And Microservices",
+      meta: unparsedData.curriculumMetaRaw.filter(filterMeta("apis-and-microservices"))
+    },
+    {
+      slideId: 6,
+      title: "Information Security And Quality Assurance",
+      meta: unparsedData.curriculumMetaRaw.filter(filterMeta("information-security-and-quality-assurance"))
+    },
+  ]
+
+  curriculum.forEach(e => {
+    e.meta.sort((a, b) => (a.order - b.order));
+  });
+}
+let unparsedData;
+let currentJSON = 0;
+// curriculum[0].lessons=
+function getJSON(url) {
+  return $.ajax({
+    headers: {
+      Accept: "application/json"
+    },
+    url: url,
+    success: function (jsonData) {
+      switch (currentJSON) {
+        case 0:
+          if (typeof jsonData === "string") {
+            unparsedData = JSON.parse(jsonData);
+          } else { unparsedData = jsonData; }
+          break;
+        case 1:
+        case 2:
+        case 3:
+        case 4:
+        case 5:
+        case 6:
+          if (typeof jsonData === "string") {
+            curriculum[currentJSON - 1].lessons = JSON.parse(jsonData)[`lessons-${currentJSON}`];
+          } else {
+            curriculum[currentJSON - 1].lessons = jsonData[`lessons-${currentJSON}`];
+          }
+          break;
+      }
+      currentJSON++;
+    }
+  });
+}
 
 function copyCodeHandler(event) {
   if (event.which === 1) {
@@ -90,21 +212,21 @@ function showVideoClick(event) {
   if ($(this).attr("data-status") === "display") {
     // hide video
     $(this).text("Show video")
-    .attr("data-status","hidden")
-    .next().remove();
+      .attr("data-status", "hidden")
+      .next().remove();
   } else {
     // show video
     $(this).text("Hide video")
-    .attr("data-status","display")
-    .after(`<iframe class="scrimba-video" frameborder="0" src=${$(this).attr("data-video")}></iframe>`);
+      .attr("data-status", "display")
+      .after(`<iframe class="scrimba-video" frameborder="0" src=${$(this).attr("data-video")}></iframe>`);
   }
 }
 
-function getTestJSON() {
+function renderLessonsToPage() {
   //   $.getJSON("challenges/rwd.json", function(json) {
   //     console.log(json); // this will show the info it in firebug console
   // });
-  console.log(curriculum);
+  // console.log(curriculum);
   // roll over all main sections
   for (let i = 0; i < curriculum.length; i++) {
     // add slide title
@@ -126,9 +248,9 @@ function getTestJSON() {
       section.challengeOrder.forEach((subSection, z) => {
         $temp.append(`<li><a class="lesson-link" id="nav-side-${i + 1}-${j + 1}-${z + 1}" href="#" data-slide-id="${i + 1}" data-section="${j + 1}" data-lesson="${z + 1}">${subSection[1]}</a></li>`);
         currentSlide.append(renderSubSectionTitle(i + 1, j + 1, z + 1, subSection[1]));
-        let lessonUrl = `https://learn.freecodecamp.org/${section.superBlock}/${section.dashedName}/${subSection[1].toLowerCase().trim().replace(/\s+/g,'-').replace(/[^\-a-zA-Z0-9]+/g,'')}`;
-        currentSlide.append(renderLessonUrl(lessonUrl,subSection[1]));        
-        if (curriculum[i].lessons[subSection[0]].videoUrl.length>5) currentSlide.append(renderVideoButton(curriculum[i].lessons[subSection[0]].videoUrl));
+        let lessonUrl = `https://learn.freecodecamp.org/${section.superBlock}/${section.dashedName}/${subSection[1].toLowerCase().trim().replace(/\s+/g, '-').replace(/[^\-a-zA-Z0-9]+/g, '')}`;
+        currentSlide.append(renderLessonUrl(lessonUrl, subSection[1]));
+        if (curriculum[i].lessons[subSection[0]].videoUrl.length > 5) currentSlide.append(renderVideoButton(curriculum[i].lessons[subSection[0]].videoUrl));
         currentSlide.append("<section>" + curriculum[i].lessons[subSection[0]].content + "</section>");
         // curriculum[i].lessons[subSection[0]].videoUrl 
       });
@@ -138,11 +260,11 @@ function getTestJSON() {
   }
 
 }
-const renderLessonUrl = (url,title)=>{
+const renderLessonUrl = (url, title) => {
   return `<a href="${url}" target="_blank"><button class="btn section-button">Link to original lesson</button></a>`;
-} 
+}
 
-const renderVideoButton = (url)=>{
+const renderVideoButton = (url) => {
   return `<button class="btn scrimba section-button" data-video="${url}">Show video</button>`
 }
 
@@ -178,7 +300,7 @@ function getClosestAnchor() {
 function changeHue(hue) {
   $("body").get(0).style.setProperty("--baseHue", `${hue}`);
 }
-function changeSaturation(saturation){
+function changeSaturation(saturation) {
   $("body").get(0).style.setProperty("--saturation", `${saturation}`);
 }
 function navigationClicked(event) {
@@ -197,16 +319,16 @@ function navigationClicked(event) {
       case "4":
         changeHue(300);
         break;
-        case "5":
+      case "5":
         changeSaturation(0);
         break;
-        case "6":
+      case "6":
         changeSaturation(2);
         break;
-        case "7":
+      case "7":
         changeSaturation(1);
         break;
-        case "8":
+      case "8":
         changeSaturation(3);
         break;
       default:
@@ -233,34 +355,6 @@ function navigationClicked(event) {
   }
   // cant change focus, will ruin animation on some browsers :(
   // $(`#slide-${id}`).focus();
-  return false;
-}
-
-
-function navigationClickedOld(event) {
-  event.preventDefault();
-  // console.log(event);
-  let id = 0, section = 0, lesson = 0;
-  if ($(this).attr("data-lesson") != undefined) {
-    id = Number($(this).attr("data-slide-id"));
-    section = Number($(this).attr("data-section"));
-    lesson = Number($(this).attr("data-lesson"));
-    $(`#slide-${id}`).stop().animate({
-      scrollTop: $(`#slide-${id}-${section}-${lesson}`)
-        .offset().top - navBarHeight + $(`#slide-${id}`).scrollTop()
-    }, 2000);
-  } else if ($(this).attr("data-section") != undefined) {
-    id = Number($(this).parent().attr("data-slide-id"));
-    section = $(this).attr("data-section");
-    $(`#slide-${id}`).stop().animate({
-      scrollTop: $(`#slide-${id}-${section}`)
-        .offset().top - navBarHeight + $(`#slide-${id}`).scrollTop()
-    }, 2000);
-  } else {
-    id = Number($(this).attr("data-slide-id"));
-  }
-  $("#all-slides-container").css("transform", `translateX(calc(calc(-100% * ${id - 1}) / 7))`);
-  $(`#slide-${id}`).focus();
   return false;
 }
 

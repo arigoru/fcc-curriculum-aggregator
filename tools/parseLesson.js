@@ -1,7 +1,6 @@
 // we should input markdown of an lesson into file
 // we should output JSON of an lesson
-
-// https://github.com/substack/stream-handbook
+// working with streams in js reference: https://github.com/substack/stream-handbook
 
 var Transform = require('stream').Transform;
 

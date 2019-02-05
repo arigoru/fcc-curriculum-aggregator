@@ -82,6 +82,24 @@ html {
   /* display: none;  */
 }
 
+.loadingAnimation {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: hsla(var(--hue4), 80%, 15%,90%);
+  top: 0px;
+  left: 0px;
+  z-index: 1000;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.loadingAnimation h1 {
+  color: var(--theme-color-1);
+}
+
+
 .nav-section {
   /* width: calc(100% / 7); */
   width: 100%;
@@ -289,7 +307,7 @@ html {
   /* top: calc(var(--nav-height) + 5px); */
   top: 5px;
   right: 50px;
-  z-index: 1000
+  z-index: 20
 }
 
 .scrimba-video {
