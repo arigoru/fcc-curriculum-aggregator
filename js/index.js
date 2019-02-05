@@ -1,5 +1,4 @@
-// TODO:
-// - content to actual cheatsheets switcher
+$(docReady);
 const JSONURLS = {
   meta: "https://arigoru.github.io/fcc-curriculum-aggregator/json/meta.json",
   1: "https://arigoru.github.io/fcc-curriculum-aggregator/json/1.json",
@@ -9,19 +8,17 @@ const JSONURLS = {
   5: "https://arigoru.github.io/fcc-curriculum-aggregator/json/5.json",
   6: "https://arigoru.github.io/fcc-curriculum-aggregator/json/6.json"
 }
-$(docReady);
-var scrollTimeout;
 let $loading = $("<div>");
 const loadingAnimation = {
-  play: function(){
+  play: function () {
     $("#main-body").append($loading)
-    $loading.addClass("loadingAnimation").attr("id","loadingAnimation");
+    $loading.addClass("loadingAnimation").attr("id", "loadingAnimation");
     $loading.append("<h1>Loading, please wait...</h1>");
-    $loading.animate({opacity:1},2000);
+    $loading.animate({ opacity: 1 }, 2000);
   },
-  stop: function(){
-    $loading.animate({opacity:1},2000,()=>{
-      $loading.animate({opacity:0},2000,()=>{
+  stop: function () {
+    $loading.animate({ opacity: 1 }, 100, () => {
+      $loading.animate({ opacity: 0 }, 2000, () => {
         $loading.remove();
       });
     })
@@ -65,10 +62,9 @@ function processHashAnchor() {
   }
 }
 
+let scrollTimeout; const scrollInterval = 1000;
 function updateEventHandlers() {
-  $(".nav-section-title").click(navigationClicked);
-  $(".nav-drop-element").click(navigationClicked);
-  $(".lesson-link").click(navigationClicked);
+  $(".nav-section-title, .nav-drop-element, .lesson-link").click(navigationClicked);
   $(".scrimba").click(showVideoClick);
   $(window).resize(function () {
     $(`#nav-section-title-${currentIndex}`).click();
@@ -78,16 +74,14 @@ function updateEventHandlers() {
       clearTimeout(scrollTimeout);
       scrollTimeout = null;
     }
-    scrollTimeout = setTimeout(scrollHandler, 1000);
+    scrollTimeout = setTimeout(scrollHandler, scrollInterval);
   });
-  $(".slide-content blockquote,.slide-content code").mousedown(copyCodeHandler);
+  $(".slide-content blockquote, .slide-content code").mousedown(copyCodeHandler);
 }
 
 function filterMeta(dashedName) {
   return function (element) {
-    // consider using super order?
     return element.superBlock === dashedName;
-    // let regex = new RegExp("^[0]" + id);
   }
 }
 
@@ -134,7 +128,6 @@ function parseMeta() {
 }
 let unparsedData;
 let currentJSON = 0;
-// curriculum[0].lessons=
 function getJSON(url) {
   return $.ajax({
     headers: {
@@ -218,48 +211,58 @@ function showVideoClick(event) {
     // show video
     $(this).text("Hide video")
       .attr("data-status", "display")
-      .after(`<iframe class="scrimba-video" frameborder="0" src=${$(this).attr("data-video")}></iframe>`);
+      .after(renderVideo($(this).attr("data-video")));
   }
 }
 
 function renderLessonsToPage() {
-  //   $.getJSON("challenges/rwd.json", function(json) {
-  //     console.log(json); // this will show the info it in firebug console
-  // });
-  // console.log(curriculum);
-  // roll over all main sections
   for (let i = 0; i < curriculum.length; i++) {
     // add slide title
     let currentSlide = $(`#slide-${i + 1}`);
     let currentNav = $(`#nav-side-${i + 1}`);
     let currentMenu = $(`#nav-section-dropdown-${i + 1}`);
     currentSlide.html(renderSlideTitle(i + 1, curriculum[i].title));
-    currentNav.html(`<h4>${curriculum[i].title}</h2><div id="location-indicator-${i + 1}" class="location-indicator"></div>`)
+    // renderSideNav
+    currentNav.html(renderSideNav(curriculum[i].title, i + 1));
     // roll over all sections
     curriculum[i].meta.forEach((section, j) => {
       currentSlide.append(renderSectionTitle(i + 1, j + 1, section.name));
       currentMenu.append(renderSectionMenuItem(i + 1, j + 1, section.name));
-      currentNav.append(`<h5 id="nav-side-${i + 1}-${j + 1}">${section.name}</h5>\n`);
-      // temp
+      currentNav.append(renderSideSectionName(section.name,i+1,j+1));
       var $temp = $("<ul>");
       currentNav.append($temp);
-      // temp
       // roll over all lessons
       section.challengeOrder.forEach((subSection, z) => {
-        $temp.append(`<li><a class="lesson-link" id="nav-side-${i + 1}-${j + 1}-${z + 1}" href="#" data-slide-id="${i + 1}" data-section="${j + 1}" data-lesson="${z + 1}">${subSection[1]}</a></li>`);
+        $temp.append(renderLessonLink(subSection[1],i+1,j+1,z+1));
         currentSlide.append(renderSubSectionTitle(i + 1, j + 1, z + 1, subSection[1]));
-        let lessonUrl = `https://learn.freecodecamp.org/${section.superBlock}/${section.dashedName}/${subSection[1].toLowerCase().trim().replace(/\s+/g, '-').replace(/[^\-a-zA-Z0-9]+/g, '')}`;
+        let lessonUrl = makeLessonUrl(section.superBlock, section.dashedName,
+          subSection[1].toLowerCase().trim().replace(/\s+/g, '-').replace(/[^\-a-zA-Z0-9]+/g, '')
+        );
         currentSlide.append(renderLessonUrl(lessonUrl, subSection[1]));
         if (curriculum[i].lessons[subSection[0]].videoUrl.length > 5) currentSlide.append(renderVideoButton(curriculum[i].lessons[subSection[0]].videoUrl));
         currentSlide.append("<section>" + curriculum[i].lessons[subSection[0]].content + "</section>");
-        // curriculum[i].lessons[subSection[0]].videoUrl 
       });
-      // currentNav.append(`</ul>`);
-
     });
   }
 
 }
+
+const makeLessonUrl = (category,section,lesson) => {
+  return `https://learn.freecodecamp.org/${category}/${section}/${lesson}/`;
+}
+
+const renderLessonLink = (title,slide,section,lesson) =>{
+  return `<li><a class="lesson-link" id="nav-side-${slide}-${section}-${lesson}" href="#" data-slide-id="${slide}" data-section="${section}" data-lesson="${lesson}">${title}</a></li>`;
+}
+
+const renderSideNav = (title, index) => {
+  return `<h4>${title}</h2><div id="location-indicator-${index}" class="location-indicator"></div>`;
+}
+const renderSideSectionName = (name,slide,section)=>{
+  return `<h5 id="nav-side-${slide}-${section}">${name}</h5>\n`;
+}
+const renderVideo = (url) => `<iframe class="scrimba-video" frameborder="0" src=${url}></iframe>`;
+
 const renderLessonUrl = (url, title) => {
   return `<a href="${url}" target="_blank"><button class="btn section-button">Link to original lesson</button></a>`;
 }
@@ -271,9 +274,11 @@ const renderVideoButton = (url) => {
 const renderSlideTitle = (id, title) => {
   return `<h2 id="slide-${id}-0">${title}</h2>`;
 }
+
 const renderSectionTitle = (slideId, sectionId, title) => {
   return `<h3 id="slide-${slideId}-${sectionId}">${title}</h3>`;
 }
+
 const renderSectionMenuItem = (slideId, sectionId, title) => {
   return `<li class="nav-drop-element" data-section="${sectionId}">${title}</li>`;
 }
@@ -283,12 +288,11 @@ const renderSubSectionTitle = (slideId, sectionId, subSectionId, title) => {
   return `<h4 id="slide-${slideId}-${sectionId}-${subSectionId}">${title}</h4>`;
 }
 
+
 function getClosestAnchor() {
   let closest = currentLessons.eq(0).position().top;
-  // console.log(closest);
   let tInd = 0;
   for (let i = 1; i < currentLessons.length; i++) {
-    // last negative number is what we looking for
     if (currentLessons.eq(i).position().top > 100) {
       tInd = i - 1;
       break;
@@ -304,6 +308,7 @@ function changeSaturation(saturation) {
   $("body").get(0).style.setProperty("--saturation", `${saturation}`);
 }
 function navigationClicked(event) {
+  event.preventDefault();
   if ($(this).attr("data-slide-id") === "0") {
     switch ($(this).attr("data-action")) {
       case "1":
@@ -337,8 +342,6 @@ function navigationClicked(event) {
     }
     return false;
   }
-  event.preventDefault();
-  // console.log(event);
   let id = 0, section = 0, lesson = 0;
   if ($(this).attr("data-lesson") != undefined) {
     id = Number($(this).attr("data-slide-id"));
@@ -353,13 +356,11 @@ function navigationClicked(event) {
     id = Number($(this).attr("data-slide-id"));
     scrollToLesson(id);
   }
-  // cant change focus, will ruin animation on some browsers :(
-  // $(`#slide-${id}`).focus();
   return false;
 }
 
 const navBarHeight = 30;
-let currentIndex = 1;
+let currentIndex = 1;     // current slide shown
 let currentLessons;
 
 function scrollToLesson(slide, section = 0, lesson = 0) {
@@ -384,7 +385,6 @@ function scrollToLesson(slide, section = 0, lesson = 0) {
   // make sure horizontal scroll stays on 0
   // $('html').scrollLeft(0);
   // $('html').stop().animate({scrollLeft: transformX}, 2000);
-  // console.log(transformX);
   return false;
 }
 function scrollNavigation(target) {
@@ -392,5 +392,4 @@ function scrollNavigation(target) {
     scrollTop: $(`#nav-side-${target}`)
       .offset().top - navBarHeight * 3 + $(`#nav-side-${currentIndex}`).scrollTop()
   }, 2000);
-
 }

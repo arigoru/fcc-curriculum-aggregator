@@ -6,19 +6,13 @@ html {
   --nav-height: 30px;
   --slide-nav-width: 200px;
   --slide-nav-width: calc(200% / 7);
+
   /* color sheme starts here */
   --baseHue: 100;
   --saturation: 1;
   --hue2: calc(var(--baseHue) + 20);
   --hue3: calc(var(--baseHue) + 50);
   --hue4: calc(var(--baseHue) + 60);
-/* backup of theme before brightness changes */
-  /* --theme-color-6: hsl(var(--hue4),20%,20%);
-  --theme-color-2: hsl(var(--hue4), 80%, 15%);
-  --theme-color-3: hsl(var(--hue4), 80%, 25%);
-  --theme-color-4: hsl(var(--hue3), 40%, 40%);
-  --theme-color-5: hsl(var(--hue2), 40%, 75%);
-  --theme-color-1: hsl(var(--baseHue),75%,75%); */
 
   --theme-color-6: hsl(var(--hue4),   calc(20% * var(--saturation)),20%);
   --theme-color-2: hsl(var(--hue4),   calc(80% * var(--saturation)), 15%);
@@ -26,7 +20,6 @@ html {
   --theme-color-4: hsl(var(--hue3),   calc(40% * var(--saturation)), 60%);
   --theme-color-5: hsl(var(--hue2),   calc(40% * var(--saturation)), 80%);
   --theme-color-1: hsl(var(--baseHue),calc(75% * var(--saturation)),85%);
-
 
   --ui-color-text: var(--theme-color-6);
   --ui-color-bg: var(--theme-color-1);
@@ -58,13 +51,37 @@ html {
   --ui-color-drop-text: var(--theme-color-2);
   --ui-color-drop-text-h: var(--theme-color-5);
 
+  /* Buttons in slide section */
   --ui-color-button-text: var(--theme-color-6);
   --ui-color-button-text-h: var(--theme-color-5);
   --ui-color-button-bg: var(--theme-color-4);
   --ui-color-button-h: var(--theme-color-3);
 
+  /* scrollbar */
+  --ui-color-scroll-track: var(--theme-color-5);
+  --ui-color-scroll-thumb: var(--theme-color-3);
+  --ui-color-scroll-thumb-h: var(--theme-color-4);
   /* color sheme ends */
   overflow: hidden;
+}
+
+/* custom scrollbar for chrome\webkit browsers */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--ui-color-scroll-track); 
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: var(--ui-color-scroll-thumb); 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--ui-color-scroll-thumb-h); 
 }
 
 #nav-top {
@@ -78,8 +95,6 @@ html {
   top: 0px;
   cursor: pointer;
   z-index: 10;
-  /* hide navbar temporary */
-  /* display: none;  */
 }
 
 .loadingAnimation {
@@ -101,7 +116,6 @@ html {
 
 
 .nav-section {
-  /* width: calc(100% / 7); */
   width: 100%;
   display: flex;
   flex-flow: column nowrap;
@@ -138,7 +152,6 @@ html {
   position: absolute;
   top: var(--nav-height);
   align-content: stretch;
-  /* display:none; */
   padding: 0px;
   transition: all .5s ease;
   transform: translateY(-100%);
@@ -162,7 +175,6 @@ html {
   width: 100%;
   padding-top: 5px;
   padding-bottom: 5px;
-  /* position: relative; */
   z-index: 9;
 }
 .nav-drop-separator {
@@ -174,7 +186,6 @@ html {
   width: 100%;
   padding-top: 5px;
   padding-bottom: 5px;
-  /* position: relative; */
   z-index: 9;
 }
 .nav-section:hover .nav-section-title {
@@ -224,8 +235,8 @@ html {
   top: -100px;
   border: var(--ui-color-link-nav) 2px dotted;
   transform:translateY(-3px);
+  border-radius: 15px;
 }
-
 
 .one-slide {
   margin-top:var(--nav-height);
@@ -304,7 +315,6 @@ html {
   border-radius: 5px;
   padding: 10px;
   text-align: center;
-  /* top: calc(var(--nav-height) + 5px); */
   top: 5px;
   right: 50px;
   z-index: 20
@@ -314,56 +324,10 @@ html {
   width: 100%;
   height: 80vh;
 }
-
-/* junk area */
-/*
-#slide-1 {
-  background: hsl(10,50%,50%);
-}
-#slide-2 {
-  background: hsl(50,50%,50%);
-}
-#slide-3 {
-  background: hsl(100,50%,50%);
-}
-#slide-4 {
-  background: hsl(150,50%,50%);
-}
-#slide-5 {
-  background: hsl(200,50%,50%);
-}
-#slide-6 {
-  background: hsl(250,50%,50%);
-}
-#slide-7 {
-  background: hsl(300,50%,50%);
-}*/
-
-/* secondary drop down menu just in case */
-.second-drop-right {
-  position: absolute;
-  top: 0px;
-  width:100%;
-  min-height: 100%;
-  transform: translateX(0%);
-  transform: scaleY(0.1);
-
-  transition: all .5s ease;
-  background: red;
-  z-index: 8;
-} 
 .nav-drop-element:hover + .second-drop-right,
 .second-drop-right:hover {
   transform: translateX(100%);
 }
-
-
-
-/* media notes:
-vertical mode - top bar 80px
---slide-nav-width 0px
-.nav-side display: none
-*/
 
 @media (max-width: 800px) {
   body, html{
