@@ -229,9 +229,9 @@ html {
 }
 .location-indicator {
   position: absolute;
-  width: 93%;
+  width: 95%;
   height: 27px;
-  right: 5%;
+  right: 3%;
   top: -100px;
   border: var(--ui-color-link-nav) 2px dotted;
   transform:translateY(-3px);
