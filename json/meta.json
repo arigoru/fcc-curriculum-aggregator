@@ -1,0 +1,6492 @@
+{"curriculumMetaRaw" : [
+{
+  "name": "Advanced Node and Express",
+  "dashedName": "advanced-node-and-express",
+  "order": 3,
+  "time": "5 hours",
+  "template": "",
+  "required": [],
+  "superBlock": "information-security-and-quality-assurance",
+  "superOrder": 6,
+  "challengeOrder": [
+    [
+      "5895f700f9fc0f352b528e63",
+      "Set up a Template Engine"
+    ],
+    [
+      "5895f70bf9fc0f352b528e64",
+      "Use a Template Engine's Powers"
+    ],
+    [
+      "5895f70cf9fc0f352b528e65",
+      "Set up Passport"
+    ],
+    [
+      "5895f70cf9fc0f352b528e66",
+      "Serialization of a User Object"
+    ],
+    [
+      "5895f70cf9fc0f352b528e67",
+      "Implement the Serialization of a Passport User"
+    ],
+    [
+      "5895f70df9fc0f352b528e68",
+      "Authentication Strategies"
+    ],
+    [
+      "5895f70df9fc0f352b528e69",
+      "How to Use Passport Strategies"
+    ],
+    [
+      "5895f70df9fc0f352b528e6a",
+      "Create New Middleware"
+    ],
+    [
+      "5895f70ef9fc0f352b528e6b",
+      "How to Put a Profile Together"
+    ],
+    [
+      "58965611f9fc0f352b528e6c",
+      "Logging a User Out"
+    ],
+    [
+      "58966a17f9fc0f352b528e6d",
+      "Registration of New Users"
+    ],
+    [
+      "58a25c98f9fc0f352b528e7f",
+      "Hashing Your Passwords"
+    ],
+    [
+      "589690e6f9fc0f352b528e6e",
+      "Clean Up Your Project with Modules"
+    ],
+    [
+      "589a69f5f9fc0f352b528e70",
+      "Implementation of Social Authentication"
+    ],
+    [
+      "589a69f5f9fc0f352b528e71",
+      "Implementation of Social Authentication II"
+    ],
+    [
+      "589a8eb3f9fc0f352b528e72",
+      "Implementation of Social Authentication III"
+    ],
+    [
+      "589fc830f9fc0f352b528e74",
+      "Set up the Environment"
+    ],
+    [
+      "589fc831f9fc0f352b528e75",
+      "Communicate by Emitting"
+    ],
+    [
+      "589fc831f9fc0f352b528e76",
+      "Handle a Disconnect"
+    ],
+    [
+      "589fc831f9fc0f352b528e77",
+      "Authentication with Socket.IO"
+    ],
+    [
+      "589fc832f9fc0f352b528e78",
+      "Announce New Users"
+    ],
+    [
+      "589fc832f9fc0f352b528e79",
+      "Send and Display Chat Messages"
+    ]
+  ],
+  "helpRoom": "Help",
+  "fileName": "06-information-security-and-quality-assurance/advanced-express-tools.json"
+},
+{
+  "name": "Algorithms",
+  "dashedName": "algorithms",
+  "order": 1,
+  "time": "",
+  "template": "",
+  "required": [],
+  "superBlock": "coding-interview-prep",
+  "superOrder": 8,
+  "challengeOrder": [
+    [
+      "a3f503de51cf954ede28891d",
+      "Find the Symmetric Difference"
+    ],
+    [
+      "a56138aff60341a09ed6c480",
+      "Inventory Update"
+    ],
+    [
+      "a7bf700cd123b9a54eef01d5",
+      "No Repeats Please"
+    ],
+    [
+      "a3f503de51cfab748ff001aa",
+      "Pairwise"
+    ],
+    [
+      "8d5123c8c441eddfaeb5bdef",
+      "Implement Bubble Sort"
+    ],
+    [
+      "587d8259367417b2b2512c85",
+      "Implement Selection Sort"
+    ],
+    [
+      "587d8259367417b2b2512c86",
+      "Implement Insertion Sort"
+    ],
+    [
+      "587d825a367417b2b2512c89",
+      "Implement Quick Sort"
+    ],
+    [
+      "587d825c367417b2b2512c8f",
+      "Implement Merge Sort"
+    ]
+  ],
+  "helpRoom": "HelpJavaScript",
+  "fileName": "08-coding-interview-prep/algorithms.json"
+},
+{
+  "name": "API's and Microservices Certificate",
+  "dashedName": "apis-and-microservices-certificate",
+  "order": 5,
+  "time": "",
+  "template": "",
+  "required": [],
+  "superBlock": "certificates",
+  "superOrder": 9,
+  "challengeOrder": [
+    [
+      "561add10cb82ac38a17523bc",
+      "API's and Microservices Certificate"
+    ]
+  ],
+  "isPrivate": true,
+  "fileName": "09-certificates/apis-and-microservices-certificate.json"
+},
+{
+  "name": "APIs and Microservices Projects",
+  "dashedName": "apis-and-microservices-projects",
+  "order": 4,
+  "time": "150 hours",
+  "superBlock": "apis-and-microservices",
+  "superOrder": 5,
+  "challengeOrder": [
+    [
+      "bd7158d8c443edefaeb5bdef",
+      "Timestamp Microservice"
+    ],
+    [
+      "bd7158d8c443edefaeb5bdff",
+      "Request Header Parser Microservice"
+    ],
+    [
+      "bd7158d8c443edefaeb5bd0e",
+      "URL Shortener Microservice"
+    ],
+    [
+      "5a8b073d06fa14fcfde687aa",
+      "Exercise Tracker"
+    ],
+    [
+      "bd7158d8c443edefaeb5bd0f",
+      "File Metadata Microservice"
+    ]
+  ]
+},
+{
+  "name": "Applied Accessibility",
+  "dashedName": "applied-accessibility",
+  "order": 3,
+  "time": "5 hours",
+  "template": "",
+  "required": [],
+  "superBlock": "responsive-web-design",
+  "superOrder": 1,
+  "challengeOrder": [
+    [
+      "587d774c367417b2b2512a9c",
+      "Add a Text Alternative to Images for Visually Impaired Accessibility"
+    ],
+    [
+      "587d774c367417b2b2512a9d",
+      "Know When Alt Text Should be Left Blank"
+    ],
+    [
+      "587d774d367417b2b2512a9e",
+      "Use Headings to Show Hierarchical Relationships of Content"
+    ],
+    [
+      "587d774e367417b2b2512a9f",
+      "Jump Straight to the Content Using the main Element"
+    ],
+    [
+      "587d774e367417b2b2512aa0",
+      "Wrap Content in the article Element"
+    ],
+    [
+      "587d7787367417b2b2512aa1",
+      "Make Screen Reader Navigation Easier with the header Landmark"
+    ],
+    [
+      "587d7788367417b2b2512aa2",
+      "Make Screen Reader Navigation Easier with the nav Landmark"
+    ],
+    [
+      "587d7788367417b2b2512aa3",
+      "Make Screen Reader Navigation Easier with the footer Landmark"
+    ],
+    [
+      "587d7789367417b2b2512aa4",
+      "Improve Accessibility of Audio Content with the audio Element"
+    ],
+    [
+      "587d778a367417b2b2512aa5",
+      "Improve Chart Accessibility with the figure Element"
+    ],
+    [
+      "587d778a367417b2b2512aa6",
+      "Improve Form Field Accessibility with the label Element"
+    ],
+    [
+      "587d778b367417b2b2512aa7",
+      "Wrap Radio Buttons in a fieldset Element for Better Accessibility"
+    ],
+    [
+      "587d778b367417b2b2512aa8",
+      "Add an Accessible Date Picker"
+    ],
+    [
+      "587d778c367417b2b2512aa9",
+      "Standardize Times with the HTML5 datetime Attribute"
+    ],
+    [
+      "587d778d367417b2b2512aaa",
+      "Make Elements Only Visible to a Screen Reader by Using Custom CSS"
+    ],
+    [
+      "587d778e367417b2b2512aab",
+      "Improve Readability with High Contrast Text"
+    ],
+    [
+      "587d778f367417b2b2512aac",
+      "Avoid Colorblindness Issues by Using Sufficient Contrast"
+    ],
+    [
+      "587d778f367417b2b2512aad",
+      "Avoid Colorblindness Issues by Carefully Choosing Colors that Convey Information"
+    ],
+    [
+      "587d778f367417b2b2512aae",
+      "Give Links Meaning by Using Descriptive Link Text"
+    ],
+    [
+      "587d7790367417b2b2512aaf",
+      "Make Links Navigatable with HTML Access Keys"
+    ],
+    [
+      "587d7790367417b2b2512ab0",
+      "Use tabindex to Add Keyboard Focus to an Element"
+    ],
+    [
+      "587d7790367417b2b2512ab1",
+      "Use tabindex to Specify the Order of Keyboard Focus for Several Elements"
+    ]
+  ],
+  "helpRoom": "Help",
+  "fileName": "01-responsive-web-design/applied-accessibility.json"
+},
+{
+  "name": "Applied Visual Design",
+  "dashedName": "applied-visual-design",
+  "order": 2,
+  "time": "5 hours",
+  "template": "",
+  "required": [],
+  "superBlock": "responsive-web-design",
+  "superOrder": 1,
+  "challengeOrder": [
+    [
+      "587d7791367417b2b2512ab3",
+      "Create Visual Balance Using the text-align Property"
+    ],
+    [
+      "587d7791367417b2b2512ab4",
+      "Adjust the Width of an Element Using the width Property"
+    ],
+    [
+      "587d7791367417b2b2512ab5",
+      "Adjust the Height of an Element Using the height Property"
+    ],
+    [
+      "587d781a367417b2b2512ab7",
+      "Use the strong Tag to Make Text Bold"
+    ],
+    [
+      "587d781a367417b2b2512ab8",
+      "Use the u Tag to Underline Text"
+    ],
+    [
+      "587d781a367417b2b2512ab9",
+      "Use the em Tag to Italicize Text"
+    ],
+    [
+      "587d781b367417b2b2512aba",
+      "Use the s Tag to Strikethrough Text"
+    ],
+    [
+      "587d781b367417b2b2512abb",
+      "Create a Horizontal Line Using the hr Element"
+    ],
+    [
+      "587d781b367417b2b2512abc",
+      "Adjust the background-color Property of Text"
+    ],
+    [
+      "587d781b367417b2b2512abd",
+      "Adjust the Size of a Header Versus a Paragraph Tag"
+    ],
+    [
+      "587d781b367417b2b2512abe",
+      "Add a box-shadow to a Card-like Element"
+    ],
+    [
+      "587d781c367417b2b2512abf",
+      "Decrease the Opacity of an Element"
+    ],
+    [
+      "587d781c367417b2b2512ac0",
+      "Use the text-transform Property to Make Text Uppercase"
+    ],
+    [
+      "587d781c367417b2b2512ac2",
+      "Set the font-size for Multiple Heading Elements"
+    ],
+    [
+      "587d781c367417b2b2512ac3",
+      "Set the font-weight for Multiple Heading Elements"
+    ],
+    [
+      "587d781c367417b2b2512ac4",
+      "Set the font-size of Paragraph Text"
+    ],
+    [
+      "587d781d367417b2b2512ac5",
+      "Set the line-height of Paragraphs"
+    ],
+    [
+      "587d781d367417b2b2512ac8",
+      "Adjust the Hover State of an Anchor Tag"
+    ],
+    [
+      "587d781e367417b2b2512ac9",
+      "Change an Element's Relative Position"
+    ],
+    [
+      "587d781e367417b2b2512aca",
+      "Move a Relatively Positioned Element with CSS Offsets"
+    ],
+    [
+      "587d781e367417b2b2512acb",
+      "Lock an Element to its Parent with Absolute Positioning"
+    ],
+    [
+      "587d781e367417b2b2512acc",
+      "Lock an Element to the Browser Window with Fixed Positioning"
+    ],
+    [
+      "587d78a3367417b2b2512ace",
+      "Push Elements Left or Right with the float Property"
+    ],
+    [
+      "587d78a3367417b2b2512acf",
+      "Change the Position of Overlapping Elements with the z-index Property"
+    ],
+    [
+      "587d78a3367417b2b2512ad0",
+      "Center an Element Horizontally Using the margin Property"
+    ],
+    [
+      "587d78a3367417b2b2512ad1",
+      "Learn about Complementary Colors"
+    ],
+    [
+      "587d78a4367417b2b2512ad2",
+      "Learn about Tertiary Colors"
+    ],
+    [
+      "587d78a4367417b2b2512ad3",
+      "Adjust the Color of Various Elements to Complementary Colors"
+    ],
+    [
+      "587d78a4367417b2b2512ad4",
+      "Adjust the Hue of a Color"
+    ],
+    [
+      "587d78a4367417b2b2512ad5",
+      "Adjust the Tone of a Color"
+    ],
+    [
+      "587d78a5367417b2b2512ad6",
+      "Create a Gradual CSS Linear Gradient"
+    ],
+    [
+      "587d78a5367417b2b2512ad7",
+      "Use a CSS Linear Gradient to Create a Striped Element"
+    ],
+    [
+      "587d78a5367417b2b2512ad8",
+      "Create Texture by Adding a Subtle Pattern as a Background Image"
+    ],
+    [
+      "587d78a5367417b2b2512ad9",
+      "Use the CSS Transform scale Property to Change the Size of an Element"
+    ],
+    [
+      "587d78a5367417b2b2512ada",
+      "Use the CSS Transform scale Property to Scale an Element on Hover"
+    ],
+    [
+      "587d78a6367417b2b2512adb",
+      "Use the CSS Transform Property skewX to Skew an Element Along the X-Axis"
+    ],
+    [
+      "587d78a6367417b2b2512adc",
+      "Use the CSS Transform Property skewY to Skew an Element Along the Y-Axis"
+    ],
+    [
+      "587d78a6367417b2b2512add",
+      "Create a Graphic Using CSS"
+    ],
+    [
+      "587d78a6367417b2b2512ade",
+      "Create a More Complex Shape Using CSS and HTML"
+    ],
+    [
+      "587d78a7367417b2b2512adf",
+      "Learn How the CSS @keyframes and animation Properties Work"
+    ],
+    [
+      "587d78a7367417b2b2512ae0",
+      "Use CSS Animation to Change the Hover State of a Button"
+    ],
+    [
+      "58a7a6ebf9a6318348e2d5aa",
+      "Modify Fill Mode of an Animation"
+    ],
+    [
+      "587d78a7367417b2b2512ae1",
+      "Create Movement Using CSS Animation"
+    ],
+    [
+      "587d78a7367417b2b2512ae2",
+      "Create Visual Direction by Fading an Element from Left to Right"
+    ],
+    [
+      "587d78a8367417b2b2512ae3",
+      "Animate Elements Continually Using an Infinite Animation Count"
+    ],
+    [
+      "587d78a8367417b2b2512ae4",
+      "Make a CSS Heartbeat using an Infinite Animation Count"
+    ],
+    [
+      "587d78a8367417b2b2512ae5",
+      "Animate Elements at Variable Rates"
+    ],
+    [
+      "587d78a8367417b2b2512ae6",
+      "Animate Multiple Elements at Variable Rates"
+    ],
+    [
+      "587d78a8367417b2b2512ae7",
+      "Change Animation Timing with Keywords"
+    ],
+    [
+      "587d78a9367417b2b2512ae8",
+      "Learn How Bezier Curves Work"
+    ],
+    [
+      "587d78a9367417b2b2512ae9",
+      "Use a Bezier Curve to Move a Graphic"
+    ],
+    [
+      "587d78a9367417b2b2512aea",
+      "Make Motion More Natural Using a Bezier Curve"
+    ]
+  ],
+  "helpRoom": "Help",
+  "fileName": "01-responsive-web-design/applied-visual-design.json"
+},
+{
+  "name": "Basic Algorithm Scripting",
+  "dashedName": "basic-algorithm-scripting",
+  "order": 6,
+  "time": "50 hours",
+  "template": "",
+  "required": [],
+  "superBlock": "javascript-algorithms-and-data-structures",
+  "superOrder": 2,
+  "challengeOrder": [
+    [
+      "56533eb9ac21ba0edf2244b3",
+      "Convert Celsius to Fahrenheit"
+    ],
+    [
+      "a202eed8fc186c8434cb6d61",
+      "Reverse a String"
+    ],
+    [
+      "a302f7aae1aa3152a5b413bc",
+      "Factorialize a Number"
+    ],
+    [
+      "a26cbbe9ad8655a977e1ceb5",
+      "Find the Longest Word in a String"
+    ],
+    [
+      "a789b3483989747d63b0e427",
+      "Return Largest Numbers in Arrays"
+    ],
+    [
+      "acda2fb1324d9b0fa741e6b5",
+      "Confirm the Ending"
+    ],
+    [
+      "afcc8d540bea9ea2669306b6",
+      "Repeat a String Repeat a String"
+    ],
+    [
+      "ac6993d51946422351508a41",
+      "Truncate a String"
+    ],
+    [
+      "a6e40f1041b06c996f7b2406",
+      "Finders Keepers"
+    ],
+    [
+      "a77dbc43c33f39daa4429b4f",
+      "Boo who"
+    ],
+    [
+      "ab6137d4e35944e21037b769",
+      "Title Case a Sentence"
+    ],
+    [
+      "579e2a2c335b9d72dd32e05c",
+      "Slice and Splice"
+    ],
+    [
+      "adf08ec01beb4f99fc7a68f2",
+      "Falsy Bouncer"
+    ],
+    [
+      "a24c1a4622e3c05097f71d67",
+      "Where do I Belong"
+    ],
+    [
+      "af2170cad53daa0770fabdea",
+      "Mutations"
+    ],
+    [
+      "a9bd25c716030ec90084d8a1",
+      "Chunky Monkey"
+    ]
+  ],
+  "helpRoom": "HelpJavaScript",
+  "fileName": "02-javascript-algorithms-and-data-structures/basic-algorithm-scripting.json"
+},
+{
+  "name": "Basic CSS",
+  "dashedName": "basic-css",
+  "order": 1,
+  "time": "5 hours",
+  "template": "",
+  "required": [],
+  "superBlock": "responsive-web-design",
+  "superOrder": 1,
+  "challengeOrder": [
+    [
+      "bad87fee1348bd9aedf08803",
+      "Change the Color of Text"
+    ],
+    [
+      "bad87fee1348bd9aedf08805",
+      "Use CSS Selectors to Style Elements"
+    ],
+    [
+      "bad87fee1348bd9aecf08806",
+      "Use a CSS Class to Style an Element"
+    ],
+    [
+      "bad87fee1348bd9aefe08806",
+      "Style Multiple Elements with a CSS Class"
+    ],
+    [
+      "bad87fee1348bd9aedf08806",
+      "Change the Font Size of an Element"
+    ],
+    [
+      "bad87fee1348bd9aede08807",
+      "Set the Font Family of an Element"
+    ],
+    [
+      "bad87fee1348bd9aedf08807",
+      "Import a Google Font"
+    ],
+    [
+      "bad87fee1348bd9aedf08808",
+      "Specify How Fonts Should Degrade"
+    ],
+    [
+      "bad87fee1348bd9acdf08812",
+      "Size Your Images"
+    ],
+    [
+      "bad87fee1348bd9bedf08813",
+      "Add Borders Around Your Elements"
+    ],
+    [
+      "bad87fee1348bd9aedf08814",
+      "Add Rounded Corners with border-radius"
+    ],
+    [
+      "bad87fee1348bd9aedf08815",
+      "Make Circular Images with a border-radius"
+    ],
+    [
+      "bad87fed1348bd9aede07836",
+      "Give a Background Color to a div Element"
+    ],
+    [
+      "bad87eee1348bd9aede07836",
+      "Set the id of an Element"
+    ],
+    [
+      "bad87dee1348bd9aede07836",
+      "Use an id Attribute to Style an Element"
+    ],
+    [
+      "bad88fee1348bd9aedf08825",
+      "Adjust the Padding of an Element"
+    ],
+    [
+      "bad87fee1348bd9aedf08822",
+      "Adjust the Margin of an Element"
+    ],
+    [
+      "bad87fee1348bd9aedf08823",
+      "Add a Negative Margin to an Element"
+    ],
+    [
+      "bad87fee1348bd9aedf08824",
+      "Add Different Padding to Each Side of an Element"
+    ],
+    [
+      "bad87fee1248bd9aedf08824",
+      "Add Different Margins to Each Side of an Element"
+    ],
+    [
+      "bad87fee1348bd9aedf08826",
+      "Use Clockwise Notation to Specify the Padding of an Element"
+    ],
+    [
+      "bad87fee1348bd9afdf08726",
+      "Use Clockwise Notation to Specify the Margin of an Element"
+    ],
+    [
+      "58c383d33e2e3259241f3076",
+      "Use Attribute Selectors to Style Elements"
+    ],
+    [
+      "bad82fee1322bd9aedf08721",
+      "Understand Absolute versus Relative Units"
+    ],
+    [
+      "bad87fee1348bd9aedf08736",
+      "Style the HTML Body Element"
+    ],
+    [
+      "bad87fee1348bd9aedf08746",
+      "Inherit Styles from the Body Element"
+    ],
+    [
+      "bad87fee1348bd9aedf08756",
+      "Prioritize One Style Over Another"
+    ],
+    [
+      "bad87fee1348bd9aedf04756",
+      "Override Styles in Subsequent CSS"
+    ],
+    [
+      "bad87fee1348bd8aedf06756",
+      "Override Class Declarations by Styling ID Attributes"
+    ],
+    [
+      "bad87fee1348bd9aedf06756",
+      "Override Class Declarations with Inline Styles"
+    ],
+    [
+      "bad87fee1348bd9aedf07756",
+      "Override All Other Styles by using Important"
+    ],
+    [
+      "bad87fee1348bd9aedf08726",
+      "Use Hex Code for Specific Colors"
+    ],
+    [
+      "bad87fee1348bd9aedf08721",
+      "Use Hex Code to Mix Colors"
+    ],
+    [
+      "bad87fee1348bd9aedf08719",
+      "Use Abbreviated Hex Code"
+    ],
+    [
+      "bad87fee1348bd9aede08718",
+      "Use RGB values to Color Elements"
+    ],
+    [
+      "bad82fee1348bd9aedf08721",
+      "Use RGB to Mix Colors"
+    ],
+    [
+      "5a9d725e424fe3d0e10cad10",
+      "Use CSS Variables to change several elements at once"
+    ],
+    [
+      "5a9d726c424fe3d0e10cad11",
+      "Create a custom CSS Variable"
+    ],
+    [
+      "5a9d727a424fe3d0e10cad12",
+      "Use a custom CSS Variable"
+    ],
+    [
+      "5a9d7286424fe3d0e10cad13",
+      "Attach a Fallback value to a CSS Variable"
+    ],
+    [
+      "5b7d72c338cd7e35b63f3e14",
+      "Improve Compatibility with Browser Fallbacks"
+    ],
+    [
+      "5a9d7295424fe3d0e10cad14",
+      "Cascading CSS variables"
+    ],
+    [
+      "5a9d72a1424fe3d0e10cad15",
+      "Change a variable for a specific area"
+    ],
+    [
+      "5a9d72ad424fe3d0e10cad16",
+      "Use a media query to change a variable"
+    ]
+  ],
+  "helpRoom": "Help",
+  "fileName": "01-responsive-web-design/basic-css.json"
+},
+{
+  "name": "Basic Data Structures",
+  "dashedName": "basic-data-structures",
+  "order": 5,
+  "time": "1 hour",
+  "template": "",
+  "required": [],
+  "superBlock": "javascript-algorithms-and-data-structures",
+  "superOrder": 2,
+  "challengeOrder": [
+    [
+      "587d7b7e367417b2b2512b20",
+      "Use an Array to Store a Collection of Data"
+    ],
+    [
+      "5a661e0f1068aca922b3ef17",
+      "Access an Array's Contents Using Bracket Notation"
+    ],
+    [
+      "587d78b2367417b2b2512b0e",
+      "Add Items to an Array with push() and unshift()"
+    ],
+    [
+      "587d78b2367417b2b2512b0f",
+      "Remove Items from an Array with pop() and shift()"
+    ],
+    [
+      "587d78b2367417b2b2512b10",
+      "Remove Items Using splice()"
+    ],
+    [
+      "587d78b3367417b2b2512b11",
+      "Add Items Using splice()"
+    ],
+    [
+      "587d7b7a367417b2b2512b12",
+      "Copy Array Items Using slice()"
+    ],
+    [
+      "587d7b7b367417b2b2512b13",
+      "Copy an Array with the Spread Operator"
+    ],
+    [
+      "587d7b7b367417b2b2512b17",
+      "Combine Arrays with the Spread Operator"
+    ],
+    [
+      "587d7b7b367417b2b2512b14",
+      "Check For The Presence of an Element With indexOf()"
+    ],
+    [
+      "587d7b7b367417b2b2512b15",
+      "Iterate Through All an Array's Items Using For Loops"
+    ],
+    [
+      "587d7b7b367417b2b2512b16",
+      "Create complex multi-dimensional arrays"
+    ],
+    [
+      "587d7b7c367417b2b2512b18",
+      "Add Key-Value Pairs to JavaScript Objects"
+    ],
+    [
+      "587d7b7c367417b2b2512b19",
+      "Modify an Object Nested Within an Object"
+    ],
+    [
+      "587d7b7c367417b2b2512b1a",
+      "Access Property Names with Bracket Notation"
+    ],
+    [
+      "587d7b7c367417b2b2512b1b",
+      "Use the delete Keyword to Remove Object Properties"
+    ],
+    [
+      "587d7b7d367417b2b2512b1c",
+      "Check if an Object has a Property"
+    ],
+    [
+      "587d7b7d367417b2b2512b1d",
+      "Iterate Through the Keys of an Object with a for...in Statement"
+    ],
+    [
+      "587d7b7d367417b2b2512b1e",
+      "Generate an Array of All Object Keys with Object.keys()"
+    ],
+    [
+      "587d7b7d367417b2b2512b1f",
+      "Modify an Array Stored in an Object"
+    ]
+  ],
+  "helpRoom": "Help",
+  "fileName": "02-javascript-algorithms-and-data-structures/basic-data-structures.json"
+},
+{
+  "name": "Basic HTML and HTML5",
+  "dashedName": "basic-html-and-html5",
+  "order": 0,
+  "time": "5 hours",
+  "template": "",
+  "required": [],
+  "superBlock": "responsive-web-design",
+  "superOrder": 1,
+  "challengeOrder": [
+    [
+      "bd7123c8c441eddfaeb5bdef",
+      "Say Hello to HTML Elements"
+    ],
+    [
+      "bad87fee1348bd9aedf0887a",
+      "Headline with the h2 Element"
+    ],
+    [
+      "bad87fee1348bd9aedf08801",
+      "Inform with the Paragraph Element"
+    ],
+    [
+      "bad87fee1348bd9aedf08833",
+      "Fill in the Blank with Placeholder Text"
+    ],
+    [
+      "bad87fee1348bd9aedf08802",
+      "Uncomment HTML"
+    ],
+    [
+      "bad87fee1348bd9aedf08804",
+      "Comment out HTML"
+    ],
+    [
+      "bad87fed1348bd9aedf08833",
+      "Delete HTML Elements"
+    ],
+    [
+      "bad87fee1348bd9aecf08801",
+      "Introduction to HTML5 Elements"
+    ],
+    [
+      "bad87fee1348bd9aedf08812",
+      "Add Images to Your Website"
+    ],
+    [
+      "bad87fee1348bd9aedf08816",
+      "Link to External Pages with Anchor Elements"
+    ],
+    [
+      "bad88fee1348bd9aedf08816",
+      "Link to Internal Sections of a Page with Anchor Elements"
+    ],
+    [
+      "bad87fee1348bd9aede08817",
+      "Nest an Anchor Element within a Paragraph"
+    ],
+    [
+      "bad87fee1348bd9aedf08817",
+      "Make Dead Links Using the Hash Symbol"
+    ],
+    [
+      "bad87fee1348bd9aedf08820",
+      "Turn an Image into a Link"
+    ],
+    [
+      "bad87fee1348bd9aedf08827",
+      "Create a Bulleted Unordered List"
+    ],
+    [
+      "bad87fee1348bd9aedf08828",
+      "Create an Ordered List"
+    ],
+    [
+      "bad87fee1348bd9aedf08829",
+      "Create a Text Field"
+    ],
+    [
+      "bad87fee1348bd9aedf08830",
+      "Add Placeholder Text to a Text Field"
+    ],
+    [
+      "bad87fee1348bd9aede08830",
+      "Create a Form Element"
+    ],
+    [
+      "bad87fee1348bd9aedd08830",
+      "Add a Submit Button to a Form"
+    ],
+    [
+      "bad87fee1348bd9aedc08830",
+      "Use HTML5 to Require a Field"
+    ],
+    [
+      "bad87fee1348bd9aedf08834",
+      "Create a Set of Radio Buttons"
+    ],
+    [
+      "bad87fee1348bd9aedf08835",
+      "Create a Set of Checkboxes"
+    ],
+    [
+      "bad87fee1348bd9aedd08835",
+      "Check Radio Buttons and Checkboxes by Default"
+    ],
+    [
+      "bad87fee1348bd9aede08835",
+      "Nest Many Elements within a Single div Element"
+    ],
+    [
+      "587d78aa367417b2b2512aed",
+      "Declare the Doctype of an HTML Document"
+    ],
+    [
+      "587d78aa367417b2b2512aec",
+      "Define the Head and Body of an HTML Document"
+    ]
+  ],
+  "helpRoom": "Help",
+  "fileName": "01-responsive-web-design/basic-html-and-html5.json"
+},
+{
+  "name": "Basic JavaScript",
+  "dashedName": "basic-javascript",
+  "order": 1,
+  "time": "10 hours",
+  "template": "",
+  "required": [],
+  "superBlock": "javascript-algorithms-and-data-structures",
+  "superOrder": 2,
+  "challengeOrder": [
+    [
+      "bd7123c9c441eddfaeb4bdef",
+      "Comment Your JavaScript Code"
+    ],
+    [
+      "bd7123c9c443eddfaeb5bdef",
+      "Declare JavaScript Variables"
+    ],
+    [
+      "56533eb9ac21ba0edf2244a8",
+      "Storing Values with the Assignment Operator"
+    ],
+    [
+      "56533eb9ac21ba0edf2244a9",
+      "Initializing Variables with the Assignment Operator"
+    ],
+    [
+      "56533eb9ac21ba0edf2244aa",
+      "Understanding Uninitialized Variables"
+    ],
+    [
+      "56533eb9ac21ba0edf2244ab",
+      "Understanding Case Sensitivity in Variables"
+    ],
+    [
+      "cf1111c1c11feddfaeb3bdef",
+      "Add Two Numbers with JavaScript"
+    ],
+    [
+      "cf1111c1c11feddfaeb4bdef",
+      "Subtract One Number from Another with JavaScript"
+    ],
+    [
+      "cf1231c1c11feddfaeb5bdef",
+      "Multiply Two Numbers with JavaScript"
+    ],
+    [
+      "cf1111c1c11feddfaeb6bdef",
+      "Divide One Number by Another with JavaScript"
+    ],
+    [
+      "56533eb9ac21ba0edf2244ac",
+      "Increment a Number with JavaScript"
+    ],
+    [
+      "56533eb9ac21ba0edf2244ad",
+      "Decrement a Number with JavaScript"
+    ],
+    [
+      "cf1391c1c11feddfaeb4bdef",
+      "Create Decimal Numbers with JavaScript"
+    ],
+    [
+      "bd7993c9c69feddfaeb7bdef",
+      "Multiply Two Decimals with JavaScript"
+    ],
+    [
+      "bd7993c9ca9feddfaeb7bdef",
+      "Divide One Decimal by Another with JavaScript"
+    ],
+    [
+      "56533eb9ac21ba0edf2244ae",
+      "Finding a Remainder in JavaScript"
+    ],
+    [
+      "56533eb9ac21ba0edf2244af",
+      "Compound Assignment With Augmented Addition"
+    ],
+    [
+      "56533eb9ac21ba0edf2244b0",
+      "Compound Assignment With Augmented Subtraction"
+    ],
+    [
+      "56533eb9ac21ba0edf2244b1",
+      "Compound Assignment With Augmented Multiplication"
+    ],
+    [
+      "56533eb9ac21ba0edf2244b2",
+      "Compound Assignment With Augmented Division"
+    ],
+    [
+      "bd7123c9c444eddfaeb5bdef",
+      "Declare String Variables"
+    ],
+    [
+      "56533eb9ac21ba0edf2244b5",
+      "Escaping Literal Quotes in Strings"
+    ],
+    [
+      "56533eb9ac21ba0edf2244b4",
+      "Quoting Strings with Single Quotes"
+    ],
+    [
+      "56533eb9ac21ba0edf2244b6",
+      "Escape Sequences in Strings"
+    ],
+    [
+      "56533eb9ac21ba0edf2244b7",
+      "Concatenating Strings with Plus Operator"
+    ],
+    [
+      "56533eb9ac21ba0edf2244b8",
+      "Concatenating Strings with the Plus Equals Operator"
+    ],
+    [
+      "56533eb9ac21ba0edf2244b9",
+      "Constructing Strings with Variables"
+    ],
+    [
+      "56533eb9ac21ba0edf2244ed",
+      "Appending Variables to Strings"
+    ],
+    [
+      "bd7123c9c448eddfaeb5bdef",
+      "Find the Length of a String"
+    ],
+    [
+      "bd7123c9c549eddfaeb5bdef",
+      "Use Bracket Notation to Find the First Character in a String"
+    ],
+    [
+      "56533eb9ac21ba0edf2244ba",
+      "Understand String Immutability"
+    ],
+    [
+      "bd7123c9c450eddfaeb5bdef",
+      "Use Bracket Notation to Find the Nth Character in a String"
+    ],
+    [
+      "bd7123c9c451eddfaeb5bdef",
+      "Use Bracket Notation to Find the Last Character in a String"
+    ],
+    [
+      "bd7123c9c452eddfaeb5bdef",
+      "Use Bracket Notation to Find the Nth-to-Last Character in a String"
+    ],
+    [
+      "56533eb9ac21ba0edf2244bb",
+      "Word Blanks"
+    ],
+    [
+      "bd7993c9c69feddfaeb8bdef",
+      "Store Multiple Values in one Variable using JavaScript Arrays"
+    ],
+    [
+      "cf1111c1c11feddfaeb7bdef",
+      "Nest one Array within Another Array"
+    ],
+    [
+      "56bbb991ad1ed5201cd392ca",
+      "Access Array Data with Indexes"
+    ],
+    [
+      "cf1111c1c11feddfaeb8bdef",
+      "Modify Array Data With Indexes"
+    ],
+    [
+      "56592a60ddddeae28f7aa8e1",
+      "Access Multi-Dimensional Arrays With Indexes"
+    ],
+    [
+      "56bbb991ad1ed5201cd392cb",
+      "Manipulate Arrays With push()"
+    ],
+    [
+      "56bbb991ad1ed5201cd392cc",
+      "Manipulate Arrays With pop()"
+    ],
+    [
+      "56bbb991ad1ed5201cd392cd",
+      "Manipulate Arrays With shift()"
+    ],
+    [
+      "56bbb991ad1ed5201cd392ce",
+      "Manipulate Arrays With unshift()"
+    ],
+    [
+      "56533eb9ac21ba0edf2244bc",
+      "Shopping List"
+    ],
+    [
+      "56bbb991ad1ed5201cd392cf",
+      "Write Reusable JavaScript with Functions"
+    ],
+    [
+      "56533eb9ac21ba0edf2244bd",
+      "Passing Values to Functions with Arguments"
+    ],
+    [
+      "56533eb9ac21ba0edf2244be",
+      "Global Scope and Functions"
+    ],
+    [
+      "56533eb9ac21ba0edf2244bf",
+      "Local Scope and Functions"
+    ],
+    [
+      "56533eb9ac21ba0edf2244c0",
+      "Global vs. Local Scope in Functions"
+    ],
+    [
+      "56533eb9ac21ba0edf2244c2",
+      "Return a Value from a Function with Return"
+    ],
+    [
+      "598e8944f009e646fc236146",
+      "Understanding Undefined Value returned from a Function"
+    ],
+    [
+      "56533eb9ac21ba0edf2244c3",
+      "Assignment with a Returned Value"
+    ],
+    [
+      "56533eb9ac21ba0edf2244c6",
+      "Stand in Line"
+    ],
+    [
+      "bd7123c9c441eddfaeb5bdef",
+      "Understanding Boolean Values"
+    ],
+    [
+      "cf1111c1c12feddfaeb3bdef",
+      "Use Conditional Logic with If Statements"
+    ],
+    [
+      "56533eb9ac21ba0edf2244d0",
+      "Comparison with the Equality Operator"
+    ],
+    [
+      "56533eb9ac21ba0edf2244d1",
+      "Comparison with the Strict Equality Operator"
+    ],
+    [
+      "599a789b454f2bbd91a3ff4d",
+      "Practice comparing different values"
+    ],
+    [
+      "56533eb9ac21ba0edf2244d2",
+      "Comparison with the Inequality Operator"
+    ],
+    [
+      "56533eb9ac21ba0edf2244d3",
+      "Comparison with the Strict Inequality Operator"
+    ],
+    [
+      "56533eb9ac21ba0edf2244d4",
+      "Comparison with the Greater Than Operator"
+    ],
+    [
+      "56533eb9ac21ba0edf2244d5",
+      "Comparison with the Greater Than Or Equal To Operator"
+    ],
+    [
+      "56533eb9ac21ba0edf2244d6",
+      "Comparison with the Less Than Operator"
+    ],
+    [
+      "56533eb9ac21ba0edf2244d7",
+      "Comparison with the Less Than Or Equal To Operator"
+    ],
+    [
+      "56533eb9ac21ba0edf2244d8",
+      "Comparisons with the Logical And Operator"
+    ],
+    [
+      "56533eb9ac21ba0edf2244d9",
+      "Comparisons with the Logical Or Operator"
+    ],
+    [
+      "56533eb9ac21ba0edf2244da",
+      "Introducing Else Statements"
+    ],
+    [
+      "56533eb9ac21ba0edf2244db",
+      "Introducing Else If Statements"
+    ],
+    [
+      "5690307fddb111c6084545d7",
+      "Logical Order in If Else Statements"
+    ],
+    [
+      "56533eb9ac21ba0edf2244dc",
+      "Chaining If Else Statements"
+    ],
+    [
+      "5664820f61c48e80c9fa476c",
+      "Golf Code"
+    ],
+    [
+      "56533eb9ac21ba0edf2244dd",
+      "Selecting from Many Options with Switch Statements"
+    ],
+    [
+      "56533eb9ac21ba0edf2244de",
+      "Adding a Default Option in Switch Statements"
+    ],
+    [
+      "56533eb9ac21ba0edf2244df",
+      "Multiple Identical Options in Switch Statements"
+    ],
+    [
+      "56533eb9ac21ba0edf2244e0",
+      "Replacing If Else Chains with Switch"
+    ],
+    [
+      "5679ceb97cbaa8c51670a16b",
+      "Returning Boolean Values from Functions"
+    ],
+    [
+      "56533eb9ac21ba0edf2244c4",
+      "Return Early Pattern for Functions"
+    ],
+    [
+      "565bbe00e9cc8ac0725390f4",
+      "Counting Cards"
+    ],
+    [
+      "56bbb991ad1ed5201cd392d0",
+      "Build JavaScript Objects"
+    ],
+    [
+      "56533eb9ac21ba0edf2244c7",
+      "Accessing Object Properties with Dot Notation"
+    ],
+    [
+      "56533eb9ac21ba0edf2244c8",
+      "Accessing Object Properties with Bracket Notation"
+    ],
+    [
+      "56533eb9ac21ba0edf2244c9",
+      "Accessing Object Properties with Variables"
+    ],
+    [
+      "56bbb991ad1ed5201cd392d1",
+      "Updating Object Properties"
+    ],
+    [
+      "56bbb991ad1ed5201cd392d2",
+      "Add New Properties to a JavaScript Object"
+    ],
+    [
+      "56bbb991ad1ed5201cd392d3",
+      "Delete Properties from a JavaScript Object"
+    ],
+    [
+      "56533eb9ac21ba0edf2244ca",
+      "Using Objects for Lookups"
+    ],
+    [
+      "567af2437cbaa8c51670a16c",
+      "Testing Objects for Properties"
+    ],
+    [
+      "56533eb9ac21ba0edf2244cb",
+      "Manipulating Complex Objects"
+    ],
+    [
+      "56533eb9ac21ba0edf2244cc",
+      "Accessing Nested Objects"
+    ],
+    [
+      "56533eb9ac21ba0edf2244cd",
+      "Accessing Nested Arrays"
+    ],
+    [
+      "56533eb9ac21ba0edf2244cf",
+      "Record Collection"
+    ],
+    [
+      "cf1111c1c11feddfaeb1bdef",
+      "Iterate with JavaScript While Loops"
+    ],
+    [
+      "cf1111c1c11feddfaeb5bdef",
+      "Iterate with JavaScript For Loops"
+    ],
+    [
+      "56104e9e514f539506016a5c",
+      "Iterate Odd Numbers With a For Loop"
+    ],
+    [
+      "56105e7b514f539506016a5e",
+      "Count Backwards With a For Loop"
+    ],
+    [
+      "5675e877dbd60be8ad28edc6",
+      "Iterate Through an Array with a For Loop"
+    ],
+    [
+      "56533eb9ac21ba0edf2244e1",
+      "Nesting For Loops"
+    ],
+    [
+      "5a2efd662fb457916e1fe604",
+      "Iterate with JavaScript Do...While Loops"
+    ],
+    [
+      "5688e62ea601b2482ff8422b",
+      "Profile Lookup"
+    ],
+    [
+      "cf1111c1c11feddfaeb9bdef",
+      "Generate Random Fractions with JavaScript"
+    ],
+    [
+      "cf1111c1c12feddfaeb1bdef",
+      "Generate Random Whole Numbers with JavaScript"
+    ],
+    [
+      "cf1111c1c12feddfaeb2bdef",
+      "Generate Random Whole Numbers within a Range"
+    ],
+    [
+      "587d7b7e367417b2b2512b23",
+      "Use the parseInt Function"
+    ],
+    [
+      "587d7b7e367417b2b2512b22",
+      "Use the parseInt Function with a Radix"
+    ],
+    [
+      "587d7b7e367417b2b2512b24",
+      "Use the Conditional (Ternary) Operator"
+    ],
+    [
+      "587d7b7e367417b2b2512b21",
+      "Use Multiple Conditional (Ternary) Operators"
+    ]
+  ],
+  "helpRoom": "HelpJavaScript",
+  "fileName": "02-javascript-algorithms-and-data-structures/basic-javascript.json"
+},
+{
+  "name": "Basic Node and Express",
+  "dashedName": "basic-node-and-express",
+  "order": 2,
+  "time": "5 hours",
+  "superBlock": "apis-and-microservices",
+  "superOrder": 5,
+  "challengeOrder": [
+    [
+      "587d7fb0367417b2b2512bed",
+      "Meet the Node console"
+    ],
+    [
+      "587d7fb0367417b2b2512bee",
+      "Start a Working Express Server"
+    ],
+    [
+      "587d7fb0367417b2b2512bef",
+      "Serve an HTML File"
+    ],
+    [
+      "587d7fb0367417b2b2512bf0",
+      "Serve Static Assets"
+    ],
+    [
+      "587d7fb1367417b2b2512bf1",
+      "Serve JSON on a Specific Route"
+    ],
+    [
+      "587d7fb1367417b2b2512bf2",
+      "Use the .env File"
+    ],
+    [
+      "587d7fb1367417b2b2512bf3",
+      "Implement a Root-Level Request Logger Middleware"
+    ],
+    [
+      "587d7fb1367417b2b2512bf4",
+      "Chain Middleware to Create a Time Server"
+    ],
+    [
+      "587d7fb2367417b2b2512bf5",
+      "Get Route Parameter Input from the Client"
+    ],
+    [
+      "587d7fb2367417b2b2512bf6",
+      "Get Query Parameter Input from the Client"
+    ],
+    [
+      "587d7fb2367417b2b2512bf7",
+      "Use body-parser to Parse POST Requests"
+    ],
+    [
+      "587d7fb2367417b2b2512bf8",
+      "Get Data from POST Requests"
+    ]
+  ]
+},
+{
+  "name": "Bootstrap",
+  "dashedName": "bootstrap",
+  "order": 2,
+  "time": "5 hours",
+  "template": "",
+  "required": [
+    {
+      "link": "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.css"
+    }
+  ],
+  "superBlock": "front-end-libraries",
+  "superOrder": 3,
+  "challengeOrder": [
+    [
+      "bad87fee1348bd9acde08712",
+      "Use Responsive Design with Bootstrap Fluid Containers"
+    ],
+    [
+      "bad87fee1348bd9acde08812",
+      "Make Images Mobile Responsive"
+    ],
+    [
+      "bad87fee1348bd8acde08812",
+      "Center Text with Bootstrap"
+    ],
+    [
+      "bad87fee1348cd8acdf08812",
+      "Create a Bootstrap Button"
+    ],
+    [
+      "bad87fee1348cd8acef08812",
+      "Create a Block Element Bootstrap Button"
+    ],
+    [
+      "bad87fee1348cd8acef08811",
+      "Taste the Bootstrap Button Color Rainbow"
+    ],
+    [
+      "bad87fee1348cd8acef08813",
+      "Call out Optional Actions with btn-info"
+    ],
+    [
+      "bad87fee1348ce8acef08814",
+      "Warn Your Users of a Dangerous Action with btn-danger"
+    ],
+    [
+      "bad88fee1348ce8acef08815",
+      "Use the Bootstrap Grid to Put Elements Side By Side"
+    ],
+    [
+      "bad87fee1347bd9aedf08845",
+      "Ditch Custom CSS for Bootstrap"
+    ],
+    [
+      "bad87fee1348bd9aedf08845",
+      "Use a span to Target Inline Elements"
+    ],
+    [
+      "bad87fee1348bd9aede08845",
+      "Create a Custom Heading"
+    ],
+    [
+      "bad87fee1348bd9aedd08845",
+      "Add Font Awesome Icons to our Buttons"
+    ],
+    [
+      "bad87fee1348bd9aedc08845",
+      "Add Font Awesome Icons to all of our Buttons"
+    ],
+    [
+      "bad87fee1348bd9aedb08845",
+      "Responsively Style Radio Buttons"
+    ],
+    [
+      "bad87fee1348bd9aeda08845",
+      "Responsively Style Checkboxes"
+    ],
+    [
+      "bad87fee1348bd9aed908845",
+      "Style Text Inputs as Form Controls"
+    ],
+    [
+      "bad87fee1348bd9aec908845",
+      "Line up Form Elements Responsively with Bootstrap"
+    ],
+    [
+      "bad87fee1348bd9aec908846",
+      "Create a Bootstrap Headline"
+    ],
+    [
+      "bad87fee1348bd9aec908746",
+      "House our page within a Bootstrap container-fluid div"
+    ],
+    [
+      "bad87fee1348bd9bec908846",
+      "Create a Bootstrap Row"
+    ],
+    [
+      "bad87fee1348bd9aec908847",
+      "Split Your Bootstrap Row"
+    ],
+    [
+      "bad87fee1348bd9aec908848",
+      "Create Bootstrap Wells"
+    ],
+    [
+      "bad87fee1348bd9aec908849",
+      "Add Elements within Your Bootstrap Wells"
+    ],
+    [
+      "bad87fee1348bd9aec908850",
+      "Apply the Default Bootstrap Button Style"
+    ],
+    [
+      "bad87fee1348bd9aec908852",
+      "Create a Class to Target with jQuery Selectors"
+    ],
+    [
+      "bad87fee1348bd9aec908853",
+      "Add id Attributes to Bootstrap Elements"
+    ],
+    [
+      "bad87fee1348bd9aec908854",
+      "Label Bootstrap Wells"
+    ],
+    [
+      "bad87fee1348bd9aec908855",
+      "Give Each Element a Unique id"
+    ],
+    [
+      "bad87fee1348bd9aec908856",
+      "Label Bootstrap Buttons"
+    ],
+    [
+      "bad87fee1348bd9aec908857",
+      "Use Comments to Clarify Code"
+    ]
+  ],
+  "helpRoom": "Help",
+  "fileName": "03-front-end-libraries/bootstrap.json"
+},
+{
+  "name": "CSS Flexbox",
+  "dashedName": "css-flexbox",
+  "order": 5,
+  "time": "5 hours",
+  "template": "",
+  "required": [],
+  "superBlock": "responsive-web-design",
+  "superOrder": 1,
+  "challengeOrder": [
+    [
+      "587d78ab367417b2b2512af0",
+      "Use display: flex to Position Two Boxes"
+    ],
+    [
+      "587d78ab367417b2b2512af1",
+      "Add Flex Superpowers to the Tweet Embed"
+    ],
+    [
+      "587d78ab367417b2b2512af2",
+      "Use the flex-direction Property to Make a Row"
+    ],
+    [
+      "587d78ab367417b2b2512af3",
+      "Apply the flex-direction Property to Create Rows in the Tweet Embed"
+    ],
+    [
+      "587d78ac367417b2b2512af4",
+      "Use the flex-direction Property to Make a Column"
+    ],
+    [
+      "587d78ac367417b2b2512af5",
+      "Apply the flex-direction Property to Create a Column in the Tweet Embed"
+    ],
+    [
+      "587d78ac367417b2b2512af6",
+      "Align Elements Using the justify-content Property"
+    ],
+    [
+      "587d78ac367417b2b2512af7",
+      "Use the justify-content Property in the Tweet Embed"
+    ],
+    [
+      "587d78ad367417b2b2512af8",
+      "Align Elements Using the align-items Property"
+    ],
+    [
+      "587d78ad367417b2b2512af9",
+      "Use the align-items Property in the Tweet Embed"
+    ],
+    [
+      "587d78ad367417b2b2512afa",
+      "Use the flex-wrap Property to Wrap a Row or Column"
+    ],
+    [
+      "587d78ad367417b2b2512afb",
+      "Use the flex-shrink Property to Shrink Items"
+    ],
+    [
+      "587d78ae367417b2b2512afc",
+      "Use the flex-grow Property to Expand Items"
+    ],
+    [
+      "587d78ae367417b2b2512afd",
+      "Use the flex-basis Property to Set the Initial Size of an Item"
+    ],
+    [
+      "587d78ae367417b2b2512afe",
+      "Use the flex Shorthand Property"
+    ],
+    [
+      "587d78ae367417b2b2512aff",
+      "Use the order Property to Rearrange Items"
+    ],
+    [
+      "587d78af367417b2b2512b00",
+      "Use the align-self Property"
+    ]
+  ],
+  "helpRoom": "Help",
+  "fileName": "01-responsive-web-design/css-flexbox.json"
+},
+{
+  "name": "CSS Grid",
+  "dashedName": "css-grid",
+  "order": 6,
+  "time": "5 hours",
+  "template": "",
+  "required": [],
+  "superBlock": "responsive-web-design",
+  "superOrder": 1,
+  "challengeOrder": [
+    [
+      "5a858944d96184f06fd60d61",
+      "Create Your First CSS Grid"
+    ],
+    [
+      "5a9036d038fddaf9a66b5d32",
+      "Add Columns with grid-template-columns"
+    ],
+    [
+      "5a9036e138fddaf9a66b5d33",
+      "Add Rows with grid-template-rows"
+    ],
+    [
+      "5a9036ee38fddaf9a66b5d34",
+      "Use CSS Grid units to Change the Size of Columns and Rows"
+    ],
+    [
+      "5a9036ee38fddaf9a66b5d35",
+      "Create a Column Gap Using grid-column-gap"
+    ],
+    [
+      "5a9036ee38fddaf9a66b5d36",
+      "Create a Row Gap using grid-row-gap"
+    ],
+    [
+      "5a9036ee38fddaf9a66b5d37",
+      "Add Gaps Faster with grid-gap"
+    ],
+    [
+      "5a90372638fddaf9a66b5d38",
+      "Use grid-column to Control Spacing"
+    ],
+    [
+      "5a90373638fddaf9a66b5d39",
+      "Use grid-row to Control Spacing"
+    ],
+    [
+      "5a90374338fddaf9a66b5d3a",
+      "Align an Item Horizontally using justify-self"
+    ],
+    [
+      "5a90375238fddaf9a66b5d3b",
+      "Align an Item Vertically using align-self"
+    ],
+    [
+      "5a90376038fddaf9a66b5d3c",
+      "Align All Items Horizontally using justify-items"
+    ],
+    [
+      "5a94fdf869fb03452672e45b",
+      "Align All Items Vertically using align-items"
+    ],
+    [
+      "5a94fe0569fb03452672e45c",
+      "Divide the Grid Into an Area Template"
+    ],
+    [
+      "5a94fe1369fb03452672e45d",
+      "Place Items in Grid Areas Using the grid-area Property"
+    ],
+    [
+      "5a94fe2669fb03452672e45e",
+      "Use grid-area Without Creating an Areas Template"
+    ],
+    [
+      "5a94fe3669fb03452672e45f",
+      "Reduce Repetition Using the repeat Function"
+    ],
+    [
+      "5a94fe4469fb03452672e460",
+      "Limit Item Size Using the minmax Function"
+    ],
+    [
+      "5a94fe5469fb03452672e461",
+      "Create Flexible Layouts Using auto-fill"
+    ],
+    [
+      "5a94fe6269fb03452672e462",
+      "Create Flexible Layouts Using auto-fit"
+    ],
+    [
+      "5a94fe7769fb03452672e463",
+      "Use Media Queries to Create Responsive Layouts"
+    ],
+    [
+      "5a94fe8569fb03452672e464",
+      "Create Grids within Grids"
+    ]
+  ],
+  "helpRoom": "Help",
+  "fileName": "01-responsive-web-design/css-grid.json"
+},
+{
+  "name": "Data Structures",
+  "dashedName": "data-structures",
+  "order": 2,
+  "time": "",
+  "template": "",
+  "required": [],
+  "superBlock": "coding-interview-prep",
+  "superOrder": 8,
+  "challengeOrder": [
+    [
+      "587d8253367417b2b2512c6a",
+      "Typed Arrays"
+    ],
+    [
+      "587d8250367417b2b2512c5e",
+      "Learn how a Stack Works"
+    ],
+    [
+      "587d8250367417b2b2512c5f",
+      "Create a Stack Class"
+    ],
+    [
+      "587d8250367417b2b2512c60",
+      "Create a Queue Class"
+    ],
+    [
+      "587d8255367417b2b2512c74",
+      "Create a Priority Queue Class"
+    ],
+    [
+      "587d8255367417b2b2512c75",
+      "Create a Circular Queue"
+    ],
+    [
+      "8d1323c8c441eddfaeb5bdef",
+      "Create a Set Class"
+    ],
+    [
+      "587d8253367417b2b2512c6b",
+      "Remove from a Set"
+    ],
+    [
+      "8d1923c8c441eddfaeb5bdef",
+      "Size of the Set"
+    ],
+    [
+      "587d8253367417b2b2512c6c",
+      "Perform a Union on Two Sets"
+    ],
+    [
+      "587d8253367417b2b2512c6d",
+      "Perform an Intersection on Two Sets of Data"
+    ],
+    [
+      "587d8254367417b2b2512c6e",
+      "Perform a Difference on Two Sets of Data"
+    ],
+    [
+      "587d8254367417b2b2512c6f",
+      "Perform a Subset Check on Two Sets of Data"
+    ],
+    [
+      "587d8254367417b2b2512c70",
+      "Create and Add to Sets in ES6"
+    ],
+    [
+      "587d8254367417b2b2512c71",
+      "Remove items from a set in ES6"
+    ],
+    [
+      "587d8255367417b2b2512c72",
+      "Use .has and .size on an ES6 Set"
+    ],
+    [
+      "587d8255367417b2b2512c73",
+      "Use Spread and Notes for ES5 Set() Integration"
+    ],
+    [
+      "8d5823c8c441eddfaeb5bdef",
+      "Create a Map Data Structure"
+    ],
+    [
+      "587d825b367417b2b2512c8d",
+      "Create an ES6 JavaScript Map"
+    ],
+    [
+      "587d825b367417b2b2512c8e",
+      "Create a Hash Table"
+    ],
+    [
+      "587d8251367417b2b2512c61",
+      "Work with Nodes in a Linked List"
+    ],
+    [
+      "587d8251367417b2b2512c62",
+      "Create a Linked List Class"
+    ],
+    [
+      "587d8251367417b2b2512c63",
+      "Remove Elements from a Linked List"
+    ],
+    [
+      "587d8251367417b2b2512c64",
+      "Search within a Linked List"
+    ],
+    [
+      "587d8251367417b2b2512c65",
+      "Remove Elements from a Linked List by Index"
+    ],
+    [
+      "587d8252367417b2b2512c67",
+      "Add Elements at a Specific Index in a Linked List"
+    ],
+    [
+      "587d825a367417b2b2512c87",
+      "Create a Doubly Linked List"
+    ],
+    [
+      "587d825a367417b2b2512c88",
+      "Reverse a Doubly Linked List"
+    ],
+    [
+      "587d8256367417b2b2512c7a",
+      "Find the Minimum and Maximum Value in a Binary Search Tree"
+    ],
+    [
+      "587d8257367417b2b2512c7b",
+      "Add a New Element to a Binary Search Tree"
+    ],
+    [
+      "587d8257367417b2b2512c7c",
+      "Check if an Element is Present in a Binary Search Tree"
+    ],
+    [
+      "587d8257367417b2b2512c7d",
+      "Find the Minimum and Maximum Height of a Binary Search Tree"
+    ],
+    [
+      "587d8257367417b2b2512c7e",
+      "Use Depth First Search in a Binary Search Tree"
+    ],
+    [
+      "587d8258367417b2b2512c7f",
+      "Use Breadth First Search in a Binary Search Tree"
+    ],
+    [
+      "587d8258367417b2b2512c80",
+      "Delete a Leaf Node in a Binary Search Tree"
+    ],
+    [
+      "587d8258367417b2b2512c81",
+      "Delete a Node with One Child in a Binary Search Tree"
+    ],
+    [
+      "587d8258367417b2b2512c82",
+      "Delete a Node with Two Children in a Binary Search Tree"
+    ],
+    [
+      "587d8259367417b2b2512c83",
+      "Invert a Binary Tree"
+    ],
+    [
+      "587d8259367417b2b2512c84",
+      "Create a Trie Search Tree"
+    ],
+    [
+      "587d825a367417b2b2512c8a",
+      "Insert an Element into a Max Heap"
+    ],
+    [
+      "587d825b367417b2b2512c8b",
+      "Remove an Element from a Max Heap"
+    ],
+    [
+      "587d825b367417b2b2512c8c",
+      "Implement Heap Sort with a Min Heap"
+    ],
+    [
+      "587d8256367417b2b2512c77",
+      "Adjacency List"
+    ],
+    [
+      "587d8256367417b2b2512c78",
+      "Adjacency Matrix"
+    ],
+    [
+      "587d8256367417b2b2512c79",
+      "Incidence Matrix"
+    ],
+    [
+      "587d825c367417b2b2512c90",
+      "Breadth-First Search"
+    ],
+    [
+      "587d825d367417b2b2512c96",
+      "Depth-First Search"
+    ]
+  ],
+  "helpRoom": "HelpJavaScript",
+  "fileName": "08-coding-interview-prep/data-structures.json"
+},
+{
+  "name": "Data Visualization Certificate",
+  "dashedName": "data-visualization-certificate",
+  "order": 4,
+  "time": "",
+  "template": "",
+  "required": [],
+  "superBlock": "certificates",
+  "superOrder": 9,
+  "challengeOrder": [
+    [
+      "5a553ca864b52e1d8bceea14",
+      "Data Visualization Certificate"
+    ]
+  ],
+  "isPrivate": true,
+  "fileName": "09-certificates/data-visualization-certificate.json"
+},
+{
+  "name": "Data Visualization Projects",
+  "dashedName": "data-visualization-projects",
+  "order": 3,
+  "time": "150 hours",
+  "template": "",
+  "required": [],
+  "superBlock": "data-visualization",
+  "superOrder": 4,
+  "challengeOrder": [
+    [
+      "bd7168d8c242eddfaeb5bd13",
+      "Visualize Data with a Bar Chart"
+    ],
+    [
+      "bd7178d8c242eddfaeb5bd13",
+      "Visualize Data with a Scatterplot Graph"
+    ],
+    [
+      "bd7188d8c242eddfaeb5bd13",
+      "Visualize Data with a Heat Map"
+    ],
+    [
+      "587d7fa6367417b2b2512bbf",
+      "Visualize Data with a Choropleth Map"
+    ],
+    [
+      "587d7fa6367417b2b2512bc0",
+      "Visualize Data with a Treemap Diagram"
+    ]
+  ],
+  "helpRoom": "Help",
+  "fileName": "04-data-visualization/data-visualization-projects.json"
+},
+{
+  "name": "Data Visualization with D3",
+  "dashedName": "data-visualization-with-d3",
+  "order": 1,
+  "time": "5 hours",
+  "template": "",
+  "required": [],
+  "superBlock": "data-visualization",
+  "superOrder": 4,
+  "challengeOrder": [
+    ["587d7fa6367417b2b2512bc2", "Add Document Elements with D3"],
+    ["587d7fa6367417b2b2512bc3", "Select a Group of Elements with D3"],
+    ["587d7fa7367417b2b2512bc4", "Work with Data in D3"],
+    ["587d7fa7367417b2b2512bc5", "Work with Dynamic Data in D3"],
+    ["587d7fa7367417b2b2512bc6", "Add Inline Styling to Elements"],
+    ["587d7fa7367417b2b2512bc7", "Change Styles Based on Data"],
+    ["587d7fa7367417b2b2512bc8", "Add Classes with D3"],
+    ["587d7fa8367417b2b2512bc9", "Update the Height of an Element Dynamically"],
+    ["587d7fa8367417b2b2512bca", "Change the Presentation of a Bar Chart"],
+    ["587d7fa8367417b2b2512bcb", "Learn About SVG in D3"],
+    ["587d7fa8367417b2b2512bcc", "Display Shapes with SVG"],
+    ["587d7fa8367417b2b2512bcd", "Create a Bar for Each Data Point in the Set"],
+    [
+      "587d7fa9367417b2b2512bce",
+      "Dynamically Set the Coordinates for Each Bar"
+    ],
+    ["587d7fa9367417b2b2512bcf", "Dynamically Change the Height of Each Bar"],
+    ["587d7fa9367417b2b2512bd0", "Invert SVG Elements"],
+    ["587d7fa9367417b2b2512bd1", "Change the Color of an SVG Element"],
+    ["587d7faa367417b2b2512bd2", "Add Labels to D3 Elements"],
+    ["587d7faa367417b2b2512bd3", "Style D3 Labels"],
+    ["587d7faa367417b2b2512bd4", "Add a Hover Effect to a D3 Element"],
+    ["587d7faa367417b2b2512bd6", "Add a Tooltip to a D3 Element"],
+    ["587d7fab367417b2b2512bd7", "Create a Scatterplot with SVG Circles"],
+    ["587d7fab367417b2b2512bd8", "Add Attributes to the Circle Elements"],
+    ["587d7fab367417b2b2512bd9", "Add Labels to Scatter Plot Circles"],
+    ["587d7fab367417b2b2512bda", "Create a Linear Scale with D3"],
+    ["587d7fac367417b2b2512bdb", "Set a Domain and a Range on a Scale"],
+    [
+      "587d7fac367417b2b2512bdc",
+      "Use the d3.max and d3.min Functions to Find Minimum and Maximum Values in a Dataset"
+    ],
+    ["587d7fac367417b2b2512bdd", "Use Dynamic Scales"],
+    ["587d7fac367417b2b2512bde", "Use a Pre-Defined Scale to Place Elements"],
+    ["587d7fad367417b2b2512bdf", "Add Axes to a Visualization"]
+  ],
+  "helpRoom": "Help",
+  "fileName": "04-data-visualization/data-visualization-with-d3.json"
+},
+{
+  "name": "Debugging",
+  "dashedName": "debugging",
+  "order": 4,
+  "time": "1 hour",
+  "template": "",
+  "required": [],
+  "superBlock": "javascript-algorithms-and-data-structures",
+  "superOrder": 2,
+  "challengeOrder": [
+    [
+      "587d7b83367417b2b2512b33",
+      "Use the JavaScript Console to Check the Value of a Variable"
+    ],
+    [
+      "587d7b83367417b2b2512b37",
+      "Understanding the Differences between the freeCodeCamp and Browser Console"
+    ],
+    [
+      "587d7b84367417b2b2512b34",
+      "Use typeof to Check the Type of a Variable"
+    ],
+    [
+      "587d7b84367417b2b2512b35",
+      "Catch Misspelled Variable and Function Names"
+    ],
+    [
+      "587d7b84367417b2b2512b36",
+      "Catch Unclosed Parentheses, Brackets, Braces and Quotes"
+    ],
+    [
+      "587d7b84367417b2b2512b37",
+      "Catch Mixed Usage of Single and Double Quotes"
+    ],
+    [
+      "587d7b85367417b2b2512b38",
+      "Catch Use of Assignment Operator Instead of Equality Operator"
+    ],
+    [
+      "587d7b85367417b2b2512b39",
+      "Catch Missing Open and Closing Parenthesis After a Function Call"
+    ],
+    [
+      "587d7b85367417b2b2512b3a",
+      "Catch Arguments Passed in the Wrong Order When Calling a Function"
+    ],
+    [
+      "587d7b86367417b2b2512b3b",
+      "Catch Off By One Errors When Using Indexing"
+    ],
+    [
+      "587d7b86367417b2b2512b3c",
+      "Use Caution When Reinitializing Variables Inside a Loop"
+    ],
+    [
+      "587d7b86367417b2b2512b3d",
+      "Prevent Infinite Loops with a Valid Terminal Condition"
+    ]
+  ],
+  "helpRoom": "Help",
+  "fileName": "02-javascript-algorithms-and-data-structures/debugging.json"
+},
+{
+  "name": "ES6",
+  "dashedName": "es6",
+  "order": 2,
+  "time": "5 hours",
+  "template": "",
+  "required": [],
+  "superBlock": "javascript-algorithms-and-data-structures",
+  "superOrder": 2,
+  "challengeOrder": [
+    [
+      "587d7b87367417b2b2512b3f",
+      "Explore Differences Between the var and let Keywords"
+    ],
+    [
+      "587d7b87367417b2b2512b40",
+      "Compare Scopes of the var and let Keywords"
+    ],
+    [
+      "587d7b87367417b2b2512b41",
+      "Declare a Read-Only Variable with the const Keyword"
+    ],
+    [
+      "587d7b87367417b2b2512b42",
+      "Mutate an Array Declared with const"
+    ],
+    [
+      "598f48a36c8c40764b4e52b3",
+      "Prevent Object Mutation"
+    ],
+    [
+      "587d7b87367417b2b2512b43",
+      "Use Arrow Functions to Write Concise Anonymous Functions"
+    ],
+    [
+      "587d7b88367417b2b2512b44",
+      "Write Arrow Functions with Parameters"
+    ],
+    [
+      "587d7b88367417b2b2512b45",
+      "Write Higher Order Arrow Functions"
+    ],
+    [
+      "587d7b88367417b2b2512b46",
+      "Set Default Parameters for Your Functions"
+    ],
+    [
+      "587d7b88367417b2b2512b47",
+      "Use the Rest Operator with Function Parameters"
+    ],
+    [
+      "587d7b89367417b2b2512b48",
+      "Use the Spread Operator to Evaluate Arrays In-Place"
+    ],
+    [
+      "587d7b89367417b2b2512b49",
+      "Use Destructuring Assignment to Assign Variables from Objects"
+    ],
+    [
+      "587d7b89367417b2b2512b4a",
+      "Use Destructuring Assignment to Assign Variables from Nested Objects"
+    ],
+    [
+      "587d7b89367417b2b2512b4b",
+      "Use Destructuring Assignment to Assign Variables from Arrays"
+    ],
+    [
+      "587d7b8a367417b2b2512b4c",
+      "Use Destructuring Assignment with the Rest Operator to Reassign Array Elements"
+    ],
+    [
+      "587d7b8a367417b2b2512b4d",
+      "Use Destructuring Assignment to Pass an Object as a Function's Parameters"
+    ],
+    [
+      "587d7b8a367417b2b2512b4e",
+      "Create Strings using Template Literals"
+    ],
+    [
+      "587d7b8a367417b2b2512b4f",
+      "Write Concise Object Literal Declarations Using Simple Fields"
+    ],
+    [
+      "587d7b8b367417b2b2512b50",
+      "Write Concise Declarative Functions with ES6"
+    ],
+    [
+      "587d7b8b367417b2b2512b53",
+      "Use class Syntax to Define a Constructor Function"
+    ],
+    [
+      "587d7b8c367417b2b2512b54",
+      "Use getters and setters to Control Access to an Object"
+    ],
+    [
+      "587d7b8c367417b2b2512b55",
+      "Understand the Differences Between import and require"
+    ],
+    [
+      "587d7b8c367417b2b2512b56",
+      "Use export to Reuse a Code Block"
+    ],
+    [
+      "587d7b8c367417b2b2512b57",
+      "Use * to Import Everything from a File"
+    ],
+    [
+      "587d7b8c367417b2b2512b58",
+      "Create an Export Fallback with export default"
+    ],
+    [
+      "587d7b8d367417b2b2512b59",
+      "Import a Default Export"
+    ]
+  ],
+  "helpRoom": "Help",
+  "fileName": "02-javascript-algorithms-and-data-structures/es6.json"
+},
+{
+  "name": "Front End Libraries Certificate",
+  "dashedName": "front-end-libraries-certificate",
+  "order": 3,
+  "time": "",
+  "template": "",
+  "required": [],
+  "superBlock": "certificates",
+  "superOrder": 9,
+  "challengeOrder": [
+    [
+      "561acd10cb82ac38a17513bc",
+      "Front End Libraries Certificate"
+    ]
+  ],
+  "isPrivate": true,
+  "fileName": "09-certificates/front-end-libraries-certificate.json"
+},
+{
+  "name": "Front End Libraries Projects",
+  "dashedName": "front-end-libraries-projects",
+  "order": 8,
+  "time": "150 hours",
+  "template": "",
+  "required": [],
+  "superBlock": "front-end-libraries",
+  "superOrder": 3,
+  "challengeOrder": [
+    [
+      "bd7158d8c442eddfaeb5bd13",
+      "Build a Random Quote Machine"
+    ],
+    [
+      "bd7157d8c242eddfaeb5bd13",
+      "Build a Markdown Previewer"
+    ],
+    [
+      "587d7dbc367417b2b2512bae",
+      "Build a Drum Machine"
+    ],
+    [
+      "bd7158d8c442eddfaeb5bd17",
+      "Build a JavaScript Calculator"
+    ],
+    [
+      "bd7158d8c442eddfaeb5bd0f",
+      "Build a Pomodoro Clock"
+    ]
+  ],
+  "helpRoom": "Help",
+  "fileName": "03-front-end-libraries/front-end-libraries-projects.json"
+},
+{
+  "name": "Functional Programming",
+  "dashedName": "functional-programming",
+  "order": 8,
+  "time": "5 hours",
+  "template": "",
+  "required": [],
+  "superBlock": "javascript-algorithms-and-data-structures",
+  "superOrder": 2,
+  "challengeOrder": [
+    [
+      "587d7b8d367417b2b2512b5b",
+      "Learn About Functional Programming"
+    ],
+    [
+      "587d7b8e367417b2b2512b5c",
+      "Understand Functional Programming Terminology"
+    ],
+    [
+      "587d7b8e367417b2b2512b5d",
+      "Understand the Hazards of Using Imperative Code"
+    ],
+    [
+      "587d7b8e367417b2b2512b5e",
+      "Avoid Mutations and Side Effects Using Functional Programming"
+    ],
+    [
+      "587d7b8e367417b2b2512b5f",
+      "Pass Arguments to Avoid External Dependence in a Function"
+    ],
+    [
+      "587d7b8f367417b2b2512b60",
+      "Refactor Global Variables Out of Functions"
+    ],
+    [
+      "587d7b8f367417b2b2512b61",
+      "Use the map Method to Extract Data from an Array"
+    ],
+    [
+      "587d7b8f367417b2b2512b62",
+      "Implement map on a Prototype"
+    ],
+    [
+      "587d7b8f367417b2b2512b63",
+      "Use the filter Method to Extract Data from an Array"
+    ],
+    [
+      "587d7b8f367417b2b2512b64",
+      "Implement the filter Method on a Prototype"
+    ],
+    [
+      "587d7b90367417b2b2512b65",
+      "Return Part of an Array Using the slice Method"
+    ],
+    [
+      "9d7123c8c441eeafaeb5bdef",
+      "Remove Elements from an Array Using slice Instead of splice"
+    ],
+    [
+      "587d7da9367417b2b2512b66",
+      "Combine Two Arrays Using the concat Method"
+    ],
+    [
+      "587d7da9367417b2b2512b67",
+      "Add Elements to the End of an Array Using concat Instead of push"
+    ],
+    [
+      "587d7da9367417b2b2512b68",
+      "Use the reduce Method to Analyze Data"
+    ],
+    [
+      "587d7da9367417b2b2512b69",
+      "Sort an Array Alphabetically using the sort Method"
+    ],
+    [
+      "587d7da9367417b2b2512b6a",
+      "Return a Sorted Array Without Changing the Original Array"
+    ],
+    [
+      "587d7daa367417b2b2512b6b",
+      "Split a String into an Array Using the split Method"
+    ],
+    [
+      "587d7daa367417b2b2512b6c",
+      "Combine an Array into a String Using the join Method"
+    ],
+    [
+      "587d7dab367417b2b2512b6d",
+      "Apply Functional Programming to Convert Strings to URL Slugs"
+    ],
+    [
+      "587d7dab367417b2b2512b6e",
+      "Use the every Method to Check that Every Element in an Array Meets a Criteria"
+    ],
+    [
+      "587d7dab367417b2b2512b6f",
+      "Use the some Method to Check that Any Elements in an Array Meet a Criteria"
+    ],
+    [
+      "587d7dab367417b2b2512b70",
+      "Introduction to Currying and Partial Application"
+    ]
+  ],
+  "helpRoom": "Help",
+  "fileName": "02-javascript-algorithms-and-data-structures/functional-programming.json"
+},
+{
+  "name": "Information Security and Quality Assurance Projects",
+  "dashedName": "information-security-and-quality-assurance-projects",
+  "order": 4,
+  "time": "150 hours",
+  "template": "",
+  "required": [],
+  "superBlock": "information-security-and-quality-assurance",
+  "superOrder": 6,
+  "challengeOrder": [
+    [
+      "587d8249367417b2b2512c41",
+      "Metric-Imperial Converter"
+    ],
+    [
+      "587d8249367417b2b2512c42",
+      "Issue Tracker"
+    ],
+    [
+      "587d824a367417b2b2512c43",
+      "Personal Library"
+    ],
+    [
+      "587d824a367417b2b2512c44",
+      "Stock Price Checker"
+    ],
+    [
+      "587d824a367417b2b2512c45",
+      "Anonymous Message Board"
+    ]
+  ],
+  "helpRoom": "HelpBackend",
+  "fileName": "06-information-security-and-quality-assurance/quality-assurance-and-information-security-projects.json"
+},
+{
+  "name": "Information Security with HelmetJS",
+  "dashedName": "information-security-with-helmetjs",
+  "order": 1,
+  "time": "5 hours",
+  "template": "",
+  "required": [],
+  "superBlock": "information-security-and-quality-assurance",
+  "superOrder": 6,
+  "challengeOrder": [
+    [
+      "587d8247367417b2b2512c36",
+      "Install and Require Helmet"
+    ],
+    [
+      "587d8247367417b2b2512c37",
+      "Hide Potentially Dangerous Information Using helmet.hidePoweredBy()"
+    ],
+    [
+      "587d8247367417b2b2512c38",
+      "Mitigate the Risk of Clickjacking with helmet.frameguard()"
+    ],
+    [
+      "587d8247367417b2b2512c39",
+      "Mitigate the Risk of Cross Site Scripting (XSS) Attacks with helmet.xssFilter()"
+    ],
+    [
+      "587d8248367417b2b2512c3a",
+      "Avoid Inferring the Response MIME Type with helmet.noSniff()"
+    ],
+    [
+      "587d8248367417b2b2512c3b",
+      "Prevent IE from Opening Untrusted HTML with helmet.ieNoOpen()"
+    ],
+    [
+      "587d8248367417b2b2512c3c",
+      "Ask Browsers to Access Your Site via HTTPS Only with helmet.hsts()"
+    ],
+    [
+      "587d8248367417b2b2512c3d",
+      "Disable DNS Prefetching with helmet.dnsPrefetchControl()"
+    ],
+    [
+      "587d8249367417b2b2512c3e",
+      "Disable Client-Side Caching with helmet.noCache()"
+    ],
+    [
+      "587d8249367417b2b2512c3f",
+      "Set a Content Security Policy with helmet.contentSecurityPolicy()"
+    ],
+    [
+      "587d8249367417b2b2512c40",
+      "Configure Helmet Using the ‘parent’ helmet() Middleware"
+    ],
+    [
+      "58a25bcef9fc0f352b528e7c",
+      "Understand BCrypt Hashes"
+    ],
+    [
+      "58a25bcff9fc0f352b528e7d",
+      "Hash and Compare Passwords Asynchronously"
+    ],
+    [
+      "58a25bcff9fc0f352b528e7e",
+      "Hash and Compare Passwords Synchronously"
+    ]
+  ],
+  "helpRoom": "HelpBackend",
+  "fileName": "06-information-security-and-quality-assurance/helmetjs.json"
+},
+{
+  "name": "Information, Securtiy and Quality Assurance Certificate",
+  "dashedName": "information-securtiy-and-quality-assurance-certificate",
+  "order": 6,
+  "time": "",
+  "template": "",
+  "required": [],
+  "superBlock": "certificates",
+  "superOrder": 9,
+  "challengeOrder": [
+    [
+      "561add10cb82ac38a17213bc",
+      "Information, Securtiy and Quality Assurance Certificate"
+    ]
+  ],
+  "isPrivate": true,
+  "fileName": "09-certificates/information-security-and-quality-assurance-certificate.json"
+},
+{
+  "name": "Intermediate Algorithm Scripting",
+  "dashedName": "intermediate-algorithm-scripting",
+  "order": 9,
+  "time": "50 hours",
+  "template": "",
+  "required": [],
+  "superBlock": "javascript-algorithms-and-data-structures",
+  "superOrder": 2,
+  "challengeOrder": [
+    [
+      "a3566b1109230028080c9345",
+      "Sum All Numbers in a Range"
+    ],
+    [
+      "a5de63ebea8dbee56860f4f2",
+      "Diff Two Arrays"
+    ],
+    [
+      "a39963a4c10bc8b4d4f06d7e",
+      "Seek and Destroy"
+    ],
+    [
+      "a8e512fbe388ac2f9198f0fa",
+      "Wherefore art thou"
+    ],
+    [
+      "a103376db3ba46b2d50db289",
+      "Spinal Tap Case"
+    ],
+    [
+      "aa7697ea2477d1316795783b",
+      "Pig Latin"
+    ],
+    [
+      "a0b5010f579e69b815e7c5d6",
+      "Search and Replace"
+    ],
+    [
+      "afd15382cdfb22c9efe8b7de",
+      "DNA Pairing"
+    ],
+    [
+      "af7588ade1100bde429baf20",
+      "Missing letters"
+    ],
+    [
+      "a105e963526e7de52b219be9",
+      "Sorted Union"
+    ],
+    [
+      "a6b0bb188d873cb2c8729495",
+      "Convert HTML Entities"
+    ],
+    [
+      "a5229172f011153519423690",
+      "Sum All Odd Fibonacci Numbers"
+    ],
+    [
+      "a3bfc1673c0526e06d3ac698",
+      "Sum All Primes"
+    ],
+    [
+      "ae9defd7acaf69703ab432ea",
+      "Smallest Common Multiple"
+    ],
+    [
+      "a5deed1811a43193f9f1c841",
+      "Drop it"
+    ],
+    [
+      "ab306dbdcc907c7ddfc30830",
+      "Steamroller"
+    ],
+    [
+      "a8d97bd4c764e91f9d2bda01",
+      "Binary Agents"
+    ],
+    [
+      "a10d2431ad0c6a099a4b8b52",
+      "Everything Be True"
+    ],
+    [
+      "a97fd23d9b809dac9921074f",
+      "Arguments Optional"
+    ],
+    [
+      "a2f1d72d9b908d0bd72bb9f6",
+      "Make a Person"
+    ],
+    [
+      "af4afb223120f7348cdfc9fd",
+      "Map the Debris"
+    ]
+  ],
+  "helpRoom": "HelpJavaScript",
+  "fileName": "02-javascript-algorithms-and-data-structures/intermediate-algorithm-scripting.json"
+},
+{
+  "name": "JavaScript Algorithms and Data Structures Certificate",
+  "dashedName": "javascript-algorithms-and-data-structures-certificate",
+  "order": 2,
+  "time": "",
+  "template": "",
+  "required": [],
+  "superBlock": "certificates",
+  "superOrder": 9,
+  "challengeOrder": [
+    [
+      "561abd10cb81ac38a17513bc",
+      "JavaScript Algorithms and Data Structures Certificate"
+    ]
+  ],
+  "isPrivate": true,
+  "fileName": "09-certificates/javascript-algorithms-and-data-structures-certificate.json"
+},
+{
+  "name": "JavaScript Algorithms and Data Structures Projects",
+  "dashedName": "javascript-algorithms-and-data-structures-projects",
+  "order": 10,
+  "time": "50 hours",
+  "template": "",
+  "required": [],
+  "superBlock": "javascript-algorithms-and-data-structures",
+  "superOrder": 2,
+  "challengeOrder": [
+    [
+      "aaa48de84e1ecc7c742e1124",
+      "Palindrome Checker"
+    ],
+    [
+      "a7f4d8f2483413a6ce226cac",
+      "Roman Numeral Converter"
+    ],
+    [
+      "56533eb9ac21ba0edf2244e2",
+      "Caesars Cipher"
+    ],
+    [
+      "aff0395860f5d3034dc0bfc9",
+      "Telephone Number Validator"
+    ],
+    [
+      "aa2e6f85cab2ab736c9a9b24",
+      "Cash Register"
+    ]
+  ],
+  "helpRoom": "HelpJavaScript",
+  "fileName": "02-javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects.json"
+},
+{
+  "name": "jQuery",
+  "dashedName": "jquery",
+  "order": 3,
+  "time": "3 hours",
+  "template": "",
+  "required": [
+    {
+      "link": "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.css"
+    }
+  ],
+  "superBlock": "front-end-libraries",
+  "superOrder": 3,
+  "challengeOrder": [
+    [
+      "bad87fee1348bd9acdd08826",
+      "Learn How Script Tags and Document Ready Work"
+    ],
+    [
+      "bad87fee1348bd9bedc08826",
+      "Target HTML Elements with Selectors Using jQuery"
+    ],
+    [
+      "bad87fee1348bd9aedc08826",
+      "Target Elements by Class Using jQuery"
+    ],
+    [
+      "bad87fee1348bd9aeda08826",
+      "Target Elements by id Using jQuery"
+    ],
+    [
+      "bad87fee1348bd9aeda08726",
+      "Delete Your jQuery Functions"
+    ],
+    [
+      "bad87fee1348bd9aed908626",
+      "Target the Same Element with Multiple jQuery Selectors"
+    ],
+    [
+      "bad87fee1348bd9aed918626",
+      "Remove Classes from an Element with jQuery"
+    ],
+    [
+      "bad87fee1348bd9aed908826",
+      "Change the CSS of an Element Using jQuery"
+    ],
+    [
+      "bad87fee1348bd9aed808826",
+      "Disable an Element Using jQuery"
+    ],
+    [
+      "564944c91be2204b269d51e3",
+      "Change Text Inside an Element Using jQuery"
+    ],
+    [
+      "bad87fee1348bd9aed708826",
+      "Remove an Element Using jQuery"
+    ],
+    [
+      "bad87fee1348bd9aed608826",
+      "Use appendTo to Move Elements with jQuery"
+    ],
+    [
+      "bad87fee1348bd9aed508826",
+      "Clone an Element Using jQuery"
+    ],
+    [
+      "bad87fee1348bd9aed308826",
+      "Target the Parent of an Element Using jQuery"
+    ],
+    [
+      "bad87fee1348bd9aed208826",
+      "Target the Children of an Element Using jQuery"
+    ],
+    [
+      "bad87fee1348bd9aed108826",
+      "Target a Specific Child of an Element Using jQuery"
+    ],
+    [
+      "bad87fee1348bd9aed008826",
+      "Target Even Elements Using jQuery"
+    ],
+    [
+      "bad87fee1348bd9aecb08826",
+      "Use jQuery to Modify the Entire Page"
+    ]
+  ],
+  "helpRoom": "Help",
+  "fileName": "03-front-end-libraries/jquery.json"
+},
+{
+  "name": "JSON APIs and AJAX",
+  "dashedName": "json-apis-and-ajax",
+  "order": 2,
+  "time": "2 hours",
+  "template": "",
+  "required": [
+    {
+      "link": "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.css"
+    }
+  ],
+  "superBlock": "data-visualization",
+  "superOrder": 4,
+  "challengeOrder": [
+    [
+      "587d7fad367417b2b2512be1",
+      "Handle Click Events with JavaScript using the onclick property"
+    ],
+    [
+      "587d7fad367417b2b2512be2",
+      "Change Text with click Events"
+    ],
+    [
+      "587d7fae367417b2b2512be3",
+      "Get JSON with the JavaScript XMLHttpRequest Method"
+    ],
+    [
+      "587d7fae367417b2b2512be4",
+      "Access the JSON Data from an API"
+    ],
+    [
+      "587d7fae367417b2b2512be5",
+      "Convert JSON Data to HTML"
+    ],
+    [
+      "587d7fae367417b2b2512be6",
+      "Render Images from Data Sources"
+    ],
+    [
+      "587d7fae367417b2b2512be7",
+      "Pre-filter JSON to Get the Data You Need"
+    ],
+    [
+      "587d7faf367417b2b2512be8",
+      "Get Geolocation Data to Find A User's GPS Coordinates"
+    ],
+    [
+      "587d7faf367417b2b2512be9",
+      "Post Data with the JavaScript XMLHttpRequest Method"
+    ]
+  ],
+  "helpRoom": "Help",
+  "fileName": "04-data-visualization/json-apis-and-ajax.json"
+},
+{
+  "name": "Legacy Back End Certificate",
+  "dashedName": "legacy-back-end-certificate",
+  "order": 1,
+  "time": "",
+  "template": "",
+  "required": [],
+  "superBlock": "certificates",
+  "superOrder": 9,
+  "challengeOrder": [
+    [
+      "660add10cb82ac38a17513be",
+      "Legacy Back End Certificate"
+    ]
+  ],
+  "isPrivate": true,
+  "fileName": "09-certificates/legacy-back-end-certificate.json"
+},
+{
+  "name": "Legacy Data Visualization Certificate",
+  "dashedName": "legacy-data-visualization-certificate",
+  "order": 1,
+  "time": "",
+  "template": "",
+  "required": [],
+  "superBlock": "certificates",
+  "superOrder": 9,
+  "challengeOrder": [
+    [
+      "561add10cb82ac39a17513bc",
+      "Legacy Data Visualization Certificate"
+    ]
+  ],
+  "isPrivate": true,
+  "fileName": "09-certificates/legacy-data-visualization-certificate.json"
+},
+{
+  "name": "Legacy Front End Certificate",
+  "dashedName": "legacy-front-end-certificate",
+  "order": 1,
+  "time": "",
+  "template": "",
+  "required": [],
+  "superBlock": "certificates",
+  "superOrder": 9,
+  "challengeOrder": [
+    [
+      "561add10cb82ac38a17513be",
+      "Legacy Front End Certificate"
+    ]
+  ],
+  "isPrivate": true,
+  "fileName": "09-certificates/legacy-front-end-certificate.json"
+},
+{
+  "name": "Managing Packages with npm",
+  "dashedName": "managing-packages-with-npm",
+  "order": 1,
+  "time": "5 hours",
+  "superBlock": "apis-and-microservices",
+  "superOrder": 5,
+  "challengeOrder": [
+    [
+      "587d7fb3367417b2b2512bfb",
+      "How to Use package.json, the Core of Any Node.js Project or npm Package"
+    ],
+    [
+      "587d7fb3367417b2b2512bfc",
+      "Add a Description to Your package.json"
+    ],
+    [
+      "587d7fb4367417b2b2512bfd",
+      "Add Keywords to Your package.json"
+    ],
+    [
+      "587d7fb4367417b2b2512bfe",
+      "Add a License to Your package.json"
+    ],
+    [
+      "587d7fb4367417b2b2512bff",
+      "Add a Version to Your package.json"
+    ],
+    [
+      "587d7fb4367417b2b2512c00",
+      "Expand Your Project with External Packages from npm"
+    ],
+    [
+      "587d7fb5367417b2b2512c01",
+      "Manage npm Dependencies By Understanding Semantic Versioning"
+    ],
+    [
+      "587d7fb5367417b2b2512c02",
+      "Use the Tilde-Character to Always Use the Latest Patch Version of a Dependency"
+    ],
+    [
+      "587d7fb5367417b2b2512c03",
+      "Use the Caret-Character to Use the Latest Minor Version of a Dependency"
+    ],
+    [
+      "587d7fb5367417b2b2512c04",
+      "Remove a Package from Your Dependencies"
+    ]
+  ]
+},
+{
+  "name": "MongoDB and Mongoose",
+  "dashedName": "mongodb-and-mongoose",
+  "order": 3,
+  "time": "5 hours",
+  "superBlock": "apis-and-microservices",
+  "superOrder": 5,
+  "challengeOrder": [
+    [
+      "587d7fb6367417b2b2512c06",
+      "Install and Set Up Mongoose"
+    ],
+    [
+      "587d7fb6367417b2b2512c07",
+      "Create a Model"
+    ],
+    [
+      "587d7fb6367417b2b2512c09",
+      "Create and Save a Record of a Model"
+    ],
+    [
+      "587d7fb7367417b2b2512c0a",
+      "Create Many Records with model.create()"
+    ],
+    [
+      "587d7fb7367417b2b2512c0b",
+      "Use model.find() to Search Your Database"
+    ],
+    [
+      "587d7fb7367417b2b2512c0c",
+      "Use model.findOne() to Return a Single Matching Document from Your Database"
+    ],
+    [
+      "587d7fb7367417b2b2512c0d",
+      "Use model.findById() to Search Your Database By _id"
+    ],
+    [
+      "587d7fb8367417b2b2512c0e",
+      "Perform Classic Updates by Running Find, Edit, then Save"
+    ],
+    [
+      "587d7fb8367417b2b2512c0f",
+      "Perform New Updates on a Document Using model.findOneAndUpdate()"
+    ],
+    [
+      "587d7fb8367417b2b2512c10",
+      "Delete One Document Using model.findByIdAndRemove"
+    ],
+    [
+      "587d7fb8367417b2b2512c11",
+      "Delete Many Documents with model.remove()"
+    ],
+    [
+      "587d7fb9367417b2b2512c12",
+      "Chain Search Query Helpers to Narrow Search Results"
+    ]
+  ]
+},
+{
+  "name": "Object Oriented Programming",
+  "dashedName": "object-oriented-programming",
+  "order": 7,
+  "time": "5 hours",
+  "template": "",
+  "required": [],
+  "superBlock": "javascript-algorithms-and-data-structures",
+  "superOrder": 2,
+  "challengeOrder": [
+    [
+      "587d7dac367417b2b2512b73",
+      "Create a Basic JavaScript Object"
+    ],
+    [
+      "587d7dac367417b2b2512b74",
+      "Use Dot Notation to Access the Properties of an Object"
+    ],
+    [
+      "587d7dad367417b2b2512b75",
+      "Create a Method on an Object"
+    ],
+    [
+      "587d7dad367417b2b2512b76",
+      "Make Code More Reusable with the this Keyword"
+    ],
+    [
+      "587d7dad367417b2b2512b77",
+      "Define a Constructor Function"
+    ],
+    [
+      "587d7dad367417b2b2512b78",
+      "Use a Constructor to Create Objects"
+    ],
+    [
+      "587d7dae367417b2b2512b79",
+      "Extend Constructors to Receive Arguments"
+    ],
+    [
+      "587d7dae367417b2b2512b7a",
+      "Verify an Object's Constructor with instanceof"
+    ],
+    [
+      "587d7dae367417b2b2512b7b",
+      "Understand Own Properties"
+    ],
+    [
+      "587d7dae367417b2b2512b7c",
+      "Use Prototype Properties to Reduce Duplicate Code"
+    ],
+    [
+      "587d7daf367417b2b2512b7d",
+      "Iterate Over All Properties"
+    ],
+    [
+      "587d7daf367417b2b2512b7e",
+      "Understand the Constructor Property"
+    ],
+    [
+      "587d7daf367417b2b2512b7f",
+      "Change the Prototype to a New Object"
+    ],
+    [
+      "587d7daf367417b2b2512b80",
+      "Remember to Set the Constructor Property when Changing the Prototype"
+    ],
+    [
+      "587d7db0367417b2b2512b81",
+      "Understand Where an Object’s Prototype Comes From"
+    ],
+    [
+      "587d7db0367417b2b2512b82",
+      "Understand the Prototype Chain"
+    ],
+    [
+      "587d7db0367417b2b2512b83",
+      "Use Inheritance So You Don't Repeat Yourself"
+    ],
+    [
+      "587d7db0367417b2b2512b84",
+      "Inherit Behaviors from a Supertype"
+    ],
+    [
+      "587d7db1367417b2b2512b85",
+      "Set the Child's Prototype to an Instance of the Parent"
+    ],
+    [
+      "587d7db1367417b2b2512b86",
+      "Reset an Inherited Constructor Property"
+    ],
+    [
+      "587d7db1367417b2b2512b87",
+      "Add Methods After Inheritance"
+    ],
+    [
+      "587d7db1367417b2b2512b88",
+      "Override Inherited Methods"
+    ],
+    [
+      "587d7db2367417b2b2512b89",
+      "Use a Mixin to Add Common Behavior Between Unrelated Objects"
+    ],
+    [
+      "587d7db2367417b2b2512b8a",
+      "Use Closure to Protect Properties Within an Object from Being Modified Externally"
+    ],
+    [
+      "587d7db2367417b2b2512b8b",
+      "Understand the Immediately Invoked Function Expression (IIFE)"
+    ],
+    [
+      "587d7db2367417b2b2512b8c",
+      "Use an IIFE to Create a Module"
+    ]
+  ],
+  "helpRoom": "Help",
+  "fileName": "02-javascript-algorithms-and-data-structures/object-oriented-programming.json"
+},
+{
+  "name": "Project Euler",
+  "dashedName": "project-euler",
+  "order": 6,
+  "time": "",
+  "template": "",
+  "required": [],
+  "superBlock": "coding-interview-prep",
+  "superOrder": 8,
+  "challengeOrder": [
+    [
+      "5900f36e1000cf542c50fe80",
+      "Problem 1: Multiples of 3 and 5"
+    ],
+    [
+      "5900f36e1000cf542c50fe81",
+      "Problem 2: Even Fibonacci Numbers"
+    ],
+    [
+      "5900f36f1000cf542c50fe82",
+      "Problem 3: Largest prime factor"
+    ],
+    [
+      "5900f3701000cf542c50fe83",
+      "Problem 4: Largest palindrome product"
+    ],
+    [
+      "5900f3711000cf542c50fe84",
+      "Problem 5: Smallest multiple"
+    ],
+    [
+      "5900f3721000cf542c50fe85",
+      "Problem 6: Sum square difference"
+    ],
+    [
+      "5900f3731000cf542c50fe86",
+      "Problem 7: 10001st prime"
+    ],
+    [
+      "5900f3741000cf542c50fe87",
+      "Problem 8: Largest product in a series"
+    ],
+    [
+      "5900f3761000cf542c50fe88",
+      "Problem 9: Special Pythagorean triplet"
+    ],
+    [
+      "5900f3761000cf542c50fe89",
+      "Problem 10: Summation of primes"
+    ],
+    [
+      "5900f3781000cf542c50fe8a",
+      "Problem 11: Largest product in a grid"
+    ],
+    [
+      "5900f3781000cf542c50fe8b",
+      "Problem 12: Highly divisible triangular number"
+    ],
+    [
+      "5900f37a1000cf542c50fe8c",
+      "Problem 13: Large sum"
+    ],
+    [
+      "5900f37a1000cf542c50fe8d",
+      "Problem 14: Longest Collatz sequence"
+    ],
+    [
+      "5900f37b1000cf542c50fe8e",
+      "Problem 15: Lattice paths"
+    ],
+    [
+      "5900f37d1000cf542c50fe8f",
+      "Problem 16: Power digit sum"
+    ],
+    [
+      "5900f37d1000cf542c50fe90",
+      "Problem 17: Number letter counts"
+    ],
+    [
+      "5900f37e1000cf542c50fe91",
+      "Problem 18: Maximum path sum I"
+    ],
+    [
+      "5900f37f1000cf542c50fe92",
+      "Problem 19: Counting Sundays"
+    ],
+    [
+      "5900f3801000cf542c50fe93",
+      "Problem 20: Factorial digit sum"
+    ],
+    [
+      "5900f3811000cf542c50fe94",
+      "Problem 21: Amicable numbers"
+    ],
+    [
+      "5a51eabcad78bf416f316e2a",
+      "Problem 22: Names scores"
+    ],
+    [
+      "5900f3831000cf542c50fe96",
+      "Problem 23: Non-abundant sums"
+    ],
+    [
+      "5900f3841000cf542c50fe97",
+      "Problem 24: Lexicographic permutations"
+    ],
+    [
+      "5900f3851000cf542c50fe98",
+      "Problem 25: 1000-digit Fibonacci number"
+    ],
+    [
+      "5900f3861000cf542c50fe99",
+      "Problem 26: Reciprocal cycles"
+    ],
+    [
+      "5900f3871000cf542c50fe9a",
+      "Problem 27: Quadratic primes"
+    ],
+    [
+      "5900f3881000cf542c50fe9b",
+      "Problem 28: Number spiral diagonals"
+    ],
+    [
+      "5900f3891000cf542c50fe9c",
+      "Problem 29: Distinct powers"
+    ],
+    [
+      "5900f38a1000cf542c50fe9d",
+      "Problem 30: Digit n powers"
+    ],
+    [
+      "5900f38b1000cf542c50fe9e",
+      "Problem 31: Coin sums"
+    ],
+    [
+      "5900f38c1000cf542c50fe9f",
+      "Problem 32: Pandigital products"
+    ],
+    [
+      "5900f38d1000cf542c50fea0",
+      "Problem 33: Digit cancelling fractions"
+    ],
+    [
+      "5900f38e1000cf542c50fea1",
+      "Problem 34: Digit factorials"
+    ],
+    [
+      "5900f38f1000cf542c50fea2",
+      "Problem 35: Circular primes"
+    ],
+    [
+      "5900f3901000cf542c50fea3",
+      "Problem 36: Double-base palindromes"
+    ],
+    [
+      "5900f3911000cf542c50fea4",
+      "Problem 37: Truncatable primes"
+    ],
+    [
+      "5900f3931000cf542c50fea5",
+      "Problem 38: Pandigital multiples"
+    ],
+    [
+      "5900f3931000cf542c50fea6",
+      "Problem 39: Integer right triangles"
+    ],
+    [
+      "5900f3941000cf542c50fea7",
+      "Problem 40: Champernowne's constant"
+    ],
+    [
+      "5900f3951000cf542c50fea8",
+      "Problem 41: Pandigital prime"
+    ],
+    [
+      "5900f3961000cf542c50fea9",
+      "Problem 42: Coded triangle numbers"
+    ],
+    [
+      "5900f3971000cf542c50feaa",
+      "Problem 43: Sub-string divisibility"
+    ],
+    [
+      "5900f3981000cf542c50feab",
+      "Problem 44: Pentagon numbers"
+    ],
+    [
+      "5900f3991000cf542c50feac",
+      "Problem 45: Triangular, pentagonal, and hexagonal"
+    ],
+    [
+      "5900f39a1000cf542c50fead",
+      "Problem 46: Goldbach's other conjecture"
+    ],
+    [
+      "5900f39c1000cf542c50feae",
+      "Problem 47: Distinct primes factors"
+    ],
+    [
+      "5900f39c1000cf542c50feaf",
+      "Problem 48: Self powers"
+    ],
+    [
+      "5900f39d1000cf542c50feb0",
+      "Problem 49: Prime permutations"
+    ],
+    [
+      "5900f39e1000cf542c50feb1",
+      "Problem 50: Consecutive prime sum"
+    ],
+    [
+      "5900f39f1000cf542c50feb2",
+      "Problem 51: Prime digit replacements"
+    ],
+    [
+      "5900f3a01000cf542c50feb3",
+      "Problem 52: Permuted multiples"
+    ],
+    [
+      "5900f3a11000cf542c50feb4",
+      "Problem 53: Combinatoric selections"
+    ],
+    [
+      "5900f3a21000cf542c50feb5",
+      "Problem 54: Poker hands"
+    ],
+    [
+      "5900f3a31000cf542c50feb6",
+      "Problem 55: Lychrel numbers"
+    ],
+    [
+      "5900f3a41000cf542c50feb7",
+      "Problem 56: Powerful digit sum"
+    ],
+    [
+      "5900f3a51000cf542c50feb8",
+      "Problem 57: Square root convergents"
+    ],
+    [
+      "5900f3a61000cf542c50feb9",
+      "Problem 58: Spiral primes"
+    ],
+    [
+      "5900f3a81000cf542c50feba",
+      "Problem 59: XOR decryption"
+    ],
+    [
+      "5900f3a81000cf542c50febb",
+      "Problem 60: Prime pair sets"
+    ],
+    [
+      "5900f3a91000cf542c50febc",
+      "Problem 61: Cyclical figurate numbers"
+    ],
+    [
+      "5900f3aa1000cf542c50febd",
+      "Problem 62: Cubic permutations"
+    ],
+    [
+      "5900f3ab1000cf542c50febe",
+      "Problem 63: Powerful digit counts"
+    ],
+    [
+      "5900f3ac1000cf542c50febf",
+      "Problem 64: Odd period square roots"
+    ],
+    [
+      "5900f3ad1000cf542c50fec0",
+      "Problem 65: Convergents of e"
+    ],
+    [
+      "5900f3ae1000cf542c50fec1",
+      "Problem 66: Diophantine equation"
+    ],
+    [
+      "5900f3b01000cf542c50fec2",
+      "Problem 67: Maximum path sum II"
+    ],
+    [
+      "5900f3b01000cf542c50fec3",
+      "Problem 68: Magic 5-gon ring"
+    ],
+    [
+      "5900f3b11000cf542c50fec4",
+      "Problem 69: Totient maximum"
+    ],
+    [
+      "5900f3b21000cf542c50fec5",
+      "Problem 70: Totient permutation"
+    ],
+    [
+      "5900f3b31000cf542c50fec6",
+      "Problem 71: Ordered fractions"
+    ],
+    [
+      "5900f3b41000cf542c50fec7",
+      "Problem 72: Counting fractions"
+    ],
+    [
+      "5900f3b61000cf542c50fec8",
+      "Problem 73: Counting fractions in a range"
+    ],
+    [
+      "5900f3b61000cf542c50fec9",
+      "Problem 74: Digit factorial chains"
+    ],
+    [
+      "5900f3b71000cf542c50feca",
+      "Problem 75: Singular integer right triangles"
+    ],
+    [
+      "5900f3b81000cf542c50fecb",
+      "Problem 76: Counting summations"
+    ],
+    [
+      "5900f3b91000cf542c50fecc",
+      "Problem 77: Prime summations"
+    ],
+    [
+      "5900f3ba1000cf542c50fecd",
+      "Problem 78: Coin partitions"
+    ],
+    [
+      "5900f3bb1000cf542c50fece",
+      "Problem 79: Passcode derivation"
+    ],
+    [
+      "5900f3bc1000cf542c50fecf",
+      "Problem 80: Square root digital expansion"
+    ],
+    [
+      "5900f3bd1000cf542c50fed0",
+      "Problem 81: Path sum: two ways"
+    ],
+    [
+      "5900f3be1000cf542c50fed1",
+      "Problem 82: Path sum: three ways"
+    ],
+    [
+      "5900f3bf1000cf542c50fed2",
+      "Problem 83: Path sum: four ways"
+    ],
+    [
+      "5900f3c11000cf542c50fed3",
+      "Problem 84: Monopoly odds"
+    ],
+    [
+      "5900f3c11000cf542c50fed4",
+      "Problem 85: Counting rectangles"
+    ],
+    [
+      "5900f3c31000cf542c50fed5",
+      "Problem 86: Cuboid route"
+    ],
+    [
+      "5900f3c51000cf542c50fed8",
+      "Problem 87: Prime power triples"
+    ],
+    [
+      "5900f3c51000cf542c50fed6",
+      "Problem 88: Product-sum numbers"
+    ],
+    [
+      "5900f3c51000cf542c50fed7",
+      "Problem 89: Roman numerals"
+    ],
+    [
+      "5900f3c61000cf542c50fed9",
+      "Problem 90: Cube digit pairs"
+    ],
+    [
+      "5900f3c71000cf542c50feda",
+      "Problem 91: Right triangles with integer coordinates"
+    ],
+    [
+      "5900f3c81000cf542c50fedb",
+      "Problem 92: Square digit chains"
+    ],
+    [
+      "5900f3ca1000cf542c50fedc",
+      "Problem 93: Arithmetic expressions"
+    ],
+    [
+      "5900f3ca1000cf542c50fedd",
+      "Problem 94: Almost equilateral triangles"
+    ],
+    [
+      "5900f3cc1000cf542c50fede",
+      "Problem 95: Amicable chains"
+    ],
+    [
+      "5900f3cc1000cf542c50fedf",
+      "Problem 96: Su Doku"
+    ],
+    [
+      "5900f3ce1000cf542c50fee0",
+      "Problem 97: Large non-Mersenne prime"
+    ],
+    [
+      "5900f3cf1000cf542c50fee1",
+      "Problem 98: Anagramic squares"
+    ],
+    [
+      "5900f3d01000cf542c50fee2",
+      "Problem 99: Largest exponential"
+    ],
+    [
+      "5900f3d01000cf542c50fee3",
+      "Problem 100: Arranged probability"
+    ],
+    [
+      "5900f3d21000cf542c50fee4",
+      "Problem 101: Optimum polynomial"
+    ],
+    [
+      "5900f3d21000cf542c50fee5",
+      "Problem 102: Triangle containment"
+    ],
+    [
+      "5900f3d61000cf542c50fee7",
+      "Problem 103: Special subset sums: optimum"
+    ],
+    [
+      "5900f3d51000cf542c50fee6",
+      "Problem 104: Pandigital Fibonacci ends"
+    ],
+    [
+      "5900f3d61000cf542c50fee8",
+      "Problem 105: Special subset sums: testing"
+    ],
+    [
+      "5900f3d71000cf542c50fee9",
+      "Problem 106: Special subset sums: meta-testing"
+    ],
+    [
+      "5900f3d91000cf542c50feea",
+      "Problem 107: Minimal network"
+    ],
+    [
+      "5900f3d91000cf542c50feeb",
+      "Problem 108: Diophantine Reciprocals I"
+    ],
+    [
+      "5900f3db1000cf542c50feec",
+      "Problem 109: Darts"
+    ],
+    [
+      "5900f3db1000cf542c50feed",
+      "Problem 110: Diophantine Reciprocals II"
+    ],
+    [
+      "5900f3db1000cf542c50feee",
+      "Problem 111: Primes with runs"
+    ],
+    [
+      "5900f3dd1000cf542c50feef",
+      "Problem 112: Bouncy numbers"
+    ],
+    [
+      "5900f3dd1000cf542c50fef0",
+      "Problem 113: Non-bouncy numbers"
+    ],
+    [
+      "5900f3e01000cf542c50fef2",
+      "Problem 114: Counting block combinations I"
+    ],
+    [
+      "5900f3df1000cf542c50fef1",
+      "Problem 115: Counting block combinations II"
+    ],
+    [
+      "5900f3e01000cf542c50fef3",
+      "Problem 116: Red, green or blue tiles"
+    ],
+    [
+      "5900f3e21000cf542c50fef4",
+      "Problem 117: Red, green, and blue tiles"
+    ],
+    [
+      "5900f3e21000cf542c50fef5",
+      "Problem 118: Pandigital prime sets"
+    ],
+    [
+      "5900f3e41000cf542c50fef6",
+      "Problem 119: Digit power sum"
+    ],
+    [
+      "5900f3e41000cf542c50fef7",
+      "Problem 120: Square remainders"
+    ],
+    [
+      "5900f3e51000cf542c50fef8",
+      "Problem 121: Disc game prize fund"
+    ],
+    [
+      "5900f3e61000cf542c50fef9",
+      "Problem 122: Efficient exponentiation"
+    ],
+    [
+      "5900f3e71000cf542c50fefa",
+      "Problem 123: Prime square remainders"
+    ],
+    [
+      "5900f3e81000cf542c50fefb",
+      "Problem 124: Ordered radicals"
+    ],
+    [
+      "5900f3e91000cf542c50fefc",
+      "Problem 125: Palindromic sums"
+    ],
+    [
+      "5900f3ea1000cf542c50fefd",
+      "Problem 126: Cuboid layers"
+    ],
+    [
+      "5900f3ec1000cf542c50fefe",
+      "Problem 127: abc-hits"
+    ],
+    [
+      "5900f3ec1000cf542c50feff",
+      "Problem 128: Hexagonal tile differences"
+    ],
+    [
+      "5900f3ef1000cf542c50ff01",
+      "Problem 129: Repunit divisibility"
+    ],
+    [
+      "5900f3ee1000cf542c50ff00",
+      "Problem 130: Composites with prime repunit property"
+    ],
+    [
+      "5900f3ef1000cf542c50ff02",
+      "Problem 131: Prime cube partnership"
+    ],
+    [
+      "5900f3f11000cf542c50ff03",
+      "Problem 132: Large repunit factors"
+    ],
+    [
+      "5900f3f21000cf542c50ff04",
+      "Problem 133: Repunit nonfactors"
+    ],
+    [
+      "5900f3f21000cf542c50ff05",
+      "Problem 134: Prime pair connection"
+    ],
+    [
+      "5900f3f31000cf542c50ff06",
+      "Problem 135: Same differences"
+    ],
+    [
+      "5900f3f51000cf542c50ff07",
+      "Problem 136: Singleton difference"
+    ],
+    [
+      "5900f3f51000cf542c50ff08",
+      "Problem 137: Fibonacci golden nuggets"
+    ],
+    [
+      "5900f3f61000cf542c50ff09",
+      "Problem 138: Special isosceles triangles"
+    ],
+    [
+      "5900f3f71000cf542c50ff0a",
+      "Problem 139: Pythagorean tiles"
+    ],
+    [
+      "5900f3fa1000cf542c50ff0c",
+      "Problem 140: Modified Fibonacci golden nuggets"
+    ],
+    [
+      "5900f3f91000cf542c50ff0b",
+      "Problem 141: Investigating progressive numbers, n, which are also square"
+    ],
+    [
+      "5900f3fa1000cf542c50ff0d",
+      "Problem 142: Perfect Square Collection"
+    ],
+    [
+      "5900f3fc1000cf542c50ff0e",
+      "Problem 143: Investigating the Torricelli point of a triangle"
+    ],
+    [
+      "5900f3fc1000cf542c50ff0f",
+      "Problem 144: Investigating multiple reflections of a laser beam"
+    ],
+    [
+      "5900f3fd1000cf542c50ff10",
+      "Problem 145: How many reversible numbers are there below one-billion?"
+    ],
+    [
+      "5900f3fe1000cf542c50ff11",
+      "Problem 146: Investigating a Prime Pattern"
+    ],
+    [
+      "5900f3ff1000cf542c50ff12",
+      "Problem 147: Rectangles in cross-hatched grids"
+    ],
+    [
+      "5900f4021000cf542c50ff14",
+      "Problem 148: Exploring Pascal's triangle"
+    ],
+    [
+      "5900f4021000cf542c50ff13",
+      "Problem 149: Searching for a maximum-sum subsequence"
+    ],
+    [
+      "5900f4031000cf542c50ff15",
+      "Problem 150: Searching a triangular array for a sub-triangle having minimum-sum"
+    ],
+    [
+      "5900f4031000cf542c50ff16",
+      "Problem 151: Paper sheets of standard sizes: an expected-value problem"
+    ],
+    [
+      "5900f4041000cf542c50ff17",
+      "Problem 152: Writing one half as a sum of inverse squares"
+    ],
+    [
+      "5900f4051000cf542c50ff18",
+      "Problem 153: Investigating Gaussian Integers"
+    ],
+    [
+      "5900f4071000cf542c50ff19",
+      "Problem 154: Exploring Pascal's pyramid"
+    ],
+    [
+      "5900f4081000cf542c50ff1a",
+      "Problem 155: Counting Capacitor Circuits"
+    ],
+    [
+      "5900f4091000cf542c50ff1b",
+      "Problem 156: Counting Digits"
+    ],
+    [
+      "5900f4091000cf542c50ff1c",
+      "Problem 157: Solving the diophantine equation"
+    ],
+    [
+      "5900f40a1000cf542c50ff1d",
+      "Problem 158: Exploring strings for which only one character comes lexicographically after its neighbour to the left"
+    ],
+    [
+      "5900f40c1000cf542c50ff1e",
+      "Problem 159: Digital root sums of factorisations"
+    ],
+    [
+      "5900f40d1000cf542c50ff1f",
+      "Problem 160: Factorial trailing digits"
+    ],
+    [
+      "5900f40d1000cf542c50ff20",
+      "Problem 161: Triominoes"
+    ],
+    [
+      "5900f40e1000cf542c50ff21",
+      "Problem 162: Hexadecimal numbers"
+    ],
+    [
+      "5900f40f1000cf542c50ff22",
+      "Problem 163: Cross-hatched triangles"
+    ],
+    [
+      "5900f4111000cf542c50ff23",
+      "Problem 164: Numbers for which no three consecutive digits have a sum greater than a given value"
+    ],
+    [
+      "5900f4111000cf542c50ff24",
+      "Problem 165: Intersections"
+    ],
+    [
+      "5900f4131000cf542c50ff25",
+      "Problem 166: Criss Cross"
+    ],
+    [
+      "5900f4141000cf542c50ff26",
+      "Problem 167: Investigating Ulam sequences"
+    ],
+    [
+      "5900f4151000cf542c50ff27",
+      "Problem 168: Number Rotations"
+    ],
+    [
+      "5900f4151000cf542c50ff28",
+      "Problem 169: Exploring the number of different ways a number can be expressed as a sum of powers of 2"
+    ],
+    [
+      "5900f4161000cf542c50ff29",
+      "Problem 170: Find the largest 0 to 9 pandigital that can be formed by concatenating products"
+    ],
+    [
+      "5900f4181000cf542c50ff2a",
+      "Problem 171: Finding numbers for which the sum of the squares of the digits is a square"
+    ],
+    [
+      "5900f4181000cf542c50ff2b",
+      "Problem 172: Investigating numbers with few repeated digits"
+    ],
+    [
+      "5900f41a1000cf542c50ff2c",
+      "Problem 173: Using up to one million tiles how many different \"hollow\" square laminae can be formed?"
+    ],
+    [
+      "5900f41a1000cf542c50ff2d",
+      "Problem 174: Counting the number of \"hollow\" square laminae that can form one, two, three, ... distinct arrangements"
+    ],
+    [
+      "5900f41c1000cf542c50ff2e",
+      "Problem 175: Fractions involving the number of different ways a number can be expressed as a sum of powers of 2"
+    ],
+    [
+      "5900f41c1000cf542c50ff2f",
+      "Problem 176: Right-angled triangles that share a cathetus"
+    ],
+    [
+      "5900f41e1000cf542c50ff30",
+      "Problem 177: Integer angled Quadrilaterals"
+    ],
+    [
+      "5900f41e1000cf542c50ff31",
+      "Problem 178: Step Numbers"
+    ],
+    [
+      "5900f41f1000cf542c50ff32",
+      "Problem 179: Consecutive positive divisors"
+    ],
+    [
+      "5900f4201000cf542c50ff33",
+      "Problem 180: Rational zeros of a function of three variables"
+    ],
+    [
+      "5900f4231000cf542c50ff34",
+      "Problem 181: Investigating in how many ways objects of two different colours can be grouped"
+    ],
+    [
+      "5900f4231000cf542c50ff35",
+      "Problem 182: RSA encryption"
+    ],
+    [
+      "5900f4231000cf542c50ff36",
+      "Problem 183: Maximum product of parts"
+    ],
+    [
+      "5900f4241000cf542c50ff37",
+      "Problem 184: Triangles containing the origin"
+    ],
+    [
+      "5900f4251000cf542c50ff38",
+      "Problem 185: Number Mind"
+    ],
+    [
+      "5900f4281000cf542c50ff39",
+      "Problem 186: Connectedness of a network"
+    ],
+    [
+      "5900f4291000cf542c50ff3a",
+      "Problem 187: Semiprimes"
+    ],
+    [
+      "5900f4291000cf542c50ff3b",
+      "Problem 188: The hyperexponentiation of a number"
+    ],
+    [
+      "5900f4291000cf542c50ff3c",
+      "Problem 189: Tri-colouring a triangular grid"
+    ],
+    [
+      "5900f42b1000cf542c50ff3d",
+      "Problem 190: Maximising a weighted product"
+    ],
+    [
+      "5900f42b1000cf542c50ff3e",
+      "Problem 191: Prize Strings"
+    ],
+    [
+      "5900f42c1000cf542c50ff3f",
+      "Problem 192: Best Approximations"
+    ],
+    [
+      "5900f42f1000cf542c50ff41",
+      "Problem 193: Squarefree Numbers"
+    ],
+    [
+      "5900f42f1000cf542c50ff40",
+      "Problem 194: Coloured Configurations"
+    ],
+    [
+      "5900f4311000cf542c50ff43",
+      "Problem 195: Inscribed circles of triangles with one angle of 60 degrees"
+    ],
+    [
+      "5900f4301000cf542c50ff42",
+      "Problem 196: Prime triplets"
+    ],
+    [
+      "5900f4311000cf542c50ff44",
+      "Problem 197: Investigating the behaviour of a recursively defined sequence"
+    ],
+    [
+      "5900f4331000cf542c50ff45",
+      "Problem 198: Ambiguous Numbers"
+    ],
+    [
+      "5900f4341000cf542c50ff46",
+      "Problem 199: Iterative Circle Packing"
+    ],
+    [
+      "5900f4351000cf542c50ff47",
+      "Problem 200: Find the 200th prime-proof sqube containing the contiguous sub-string \"200\""
+    ],
+    [
+      "5900f4361000cf542c50ff48",
+      "Problem 201: Subsets with a unique sum"
+    ],
+    [
+      "5900f4371000cf542c50ff49",
+      "Problem 202: Laserbeam"
+    ],
+    [
+      "5900f4381000cf542c50ff4a",
+      "Problem 203: Squarefree Binomial Coefficients"
+    ],
+    [
+      "5900f4381000cf542c50ff4b",
+      "Problem 204: Generalised Hamming Numbers"
+    ],
+    [
+      "5900f4391000cf542c50ff4c",
+      "Problem 205: Dice Game"
+    ],
+    [
+      "5900f43a1000cf542c50ff4d",
+      "Problem 206: Concealed Square"
+    ],
+    [
+      "5900f43c1000cf542c50ff4e",
+      "Problem 207: Integer partition equations"
+    ],
+    [
+      "5900f43f1000cf542c50ff51",
+      "Problem 208: Robot Walks"
+    ],
+    [
+      "5900f43e1000cf542c50ff4f",
+      "Problem 209: Circular Logic"
+    ],
+    [
+      "5900f43e1000cf542c50ff50",
+      "Problem 210: Obtuse Angled Triangles"
+    ],
+    [
+      "5900f43f1000cf542c50ff52",
+      "Problem 211: Divisor Square Sum"
+    ],
+    [
+      "5900f4411000cf542c50ff53",
+      "Problem 212: Combined Volume of Cuboids"
+    ],
+    [
+      "5900f4411000cf542c50ff54",
+      "Problem 213: Flea Circus"
+    ],
+    [
+      "5900f4421000cf542c50ff55",
+      "Problem 214: Totient Chains"
+    ],
+    [
+      "5900f4431000cf542c50ff56",
+      "Problem 215: Crack-free Walls"
+    ],
+    [
+      "5900f4451000cf542c50ff57",
+      "Problem 216: Investigating the primality of numbers of the form 2n2-1"
+    ],
+    [
+      "5900f4461000cf542c50ff58",
+      "Problem 217: Balanced Numbers"
+    ],
+    [
+      "5900f4461000cf542c50ff59",
+      "Problem 218: Perfect right-angled triangles"
+    ],
+    [
+      "5900f4481000cf542c50ff5a",
+      "Problem 219: Skew-cost coding"
+    ],
+    [
+      "5900f4481000cf542c50ff5b",
+      "Problem 220: Heighway Dragon"
+    ],
+    [
+      "5900f4491000cf542c50ff5c",
+      "Problem 221: Alexandrian Integers"
+    ],
+    [
+      "5900f44b1000cf542c50ff5d",
+      "Problem 222: Sphere Packing"
+    ],
+    [
+      "5900f44b1000cf542c50ff5e",
+      "Problem 223: Almost right-angled triangles I"
+    ],
+    [
+      "5900f44e1000cf542c50ff5f",
+      "Problem 224: Almost right-angled triangles II"
+    ],
+    [
+      "5900f44e1000cf542c50ff60",
+      "Problem 225: Tribonacci non-divisors"
+    ],
+    [
+      "5900f4511000cf542c50ff62",
+      "Problem 226: A Scoop of Blancmange"
+    ],
+    [
+      "5900f44f1000cf542c50ff61",
+      "Problem 227: The Chase"
+    ],
+    [
+      "5900f4511000cf542c50ff63",
+      "Problem 228: Minkowski Sums"
+    ],
+    [
+      "5900f4521000cf542c50ff64",
+      "Problem 229: Four Representations using Squares"
+    ],
+    [
+      "5900f4531000cf542c50ff65",
+      "Problem 230: Fibonacci Words"
+    ],
+    [
+      "5900f4531000cf542c50ff66",
+      "Problem 231: The prime factorisation of binomial coefficients"
+    ],
+    [
+      "5900f4551000cf542c50ff67",
+      "Problem 232: The Race"
+    ],
+    [
+      "5900f4551000cf542c50ff68",
+      "Problem 233: Lattice points on a circle"
+    ],
+    [
+      "5900f4571000cf542c50ff69",
+      "Problem 234: Semidivisible numbers"
+    ],
+    [
+      "5900f4571000cf542c50ff6a",
+      "Problem 235: An Arithmetic Geometric sequence"
+    ],
+    [
+      "5900f4591000cf542c50ff6b",
+      "Problem 236: Luxury Hampers"
+    ],
+    [
+      "5900f4591000cf542c50ff6c",
+      "Problem 237: Tours on a 4 x n playing board"
+    ],
+    [
+      "5900f45b1000cf542c50ff6d",
+      "Problem 238: Infinite string tour"
+    ],
+    [
+      "5900f45c1000cf542c50ff6e",
+      "Problem 239: Twenty-two Foolish Primes"
+    ],
+    [
+      "5900f45d1000cf542c50ff6f",
+      "Problem 240: Top Dice"
+    ],
+    [
+      "5900f45d1000cf542c50ff70",
+      "Problem 241: Perfection Quotients"
+    ],
+    [
+      "5900f45f1000cf542c50ff71",
+      "Problem 242: Odd Triplets"
+    ],
+    [
+      "5900f4601000cf542c50ff73",
+      "Problem 243: Resilience"
+    ],
+    [
+      "5900f4601000cf542c50ff72",
+      "Problem 244: Sliders"
+    ],
+    [
+      "5900f4621000cf542c50ff74",
+      "Problem 245: Coresilience"
+    ],
+    [
+      "5900f4621000cf542c50ff75",
+      "Problem 246: Tangents to an ellipse"
+    ],
+    [
+      "5900f4641000cf542c50ff76",
+      "Problem 247: Squares under a hyperbola"
+    ],
+    [
+      "5900f4651000cf542c50ff77",
+      "Problem 248: Numbers for which Euler’s totient function equals 13!"
+    ],
+    [
+      "5900f4671000cf542c50ff79",
+      "Problem 249: Prime Subset Sums"
+    ],
+    [
+      "5900f4661000cf542c50ff78",
+      "Problem 250: 250250"
+    ],
+    [
+      "5900f4671000cf542c50ff7a",
+      "Problem 251: Cardano Triplets"
+    ],
+    [
+      "5900f4691000cf542c50ff7b",
+      "Problem 252: Convex Holes"
+    ],
+    [
+      "5900f4691000cf542c50ff7c",
+      "Problem 253: Tidying up"
+    ],
+    [
+      "5900f46b1000cf542c50ff7d",
+      "Problem 254: Sums of Digit Factorials"
+    ],
+    [
+      "5900f46d1000cf542c50ff7f",
+      "Problem 255: Rounded Square Roots"
+    ],
+    [
+      "5900f46c1000cf542c50ff7e",
+      "Problem 256: Tatami-Free Rooms"
+    ],
+    [
+      "5900f46e1000cf542c50ff80",
+      "Problem 257: Angular Bisectors"
+    ],
+    [
+      "5900f46e1000cf542c50ff81",
+      "Problem 258: A lagged Fibonacci sequence"
+    ],
+    [
+      "5900f4701000cf542c50ff82",
+      "Problem 259: Reachable Numbers"
+    ],
+    [
+      "5900f4701000cf542c50ff83",
+      "Problem 260: Stone Game"
+    ],
+    [
+      "5900f4711000cf542c50ff84",
+      "Problem 261: Pivotal Square Sums"
+    ],
+    [
+      "5900f4731000cf542c50ff85",
+      "Problem 262: Mountain Range"
+    ],
+    [
+      "5900f4741000cf542c50ff86",
+      "Problem 263: An engineers' dream come true"
+    ],
+    [
+      "5900f4751000cf542c50ff87",
+      "Problem 264: Triangle Centres"
+    ],
+    [
+      "5900f4761000cf542c50ff88",
+      "Problem 265: Binary Circles"
+    ],
+    [
+      "5900f4771000cf542c50ff89",
+      "Problem 266: Pseudo Square Root"
+    ],
+    [
+      "5900f4771000cf542c50ff8a",
+      "Problem 267: Billionaire"
+    ],
+    [
+      "5900f4791000cf542c50ff8b",
+      "Problem 268: Counting numbers with at least four distinct prime factors less than 100"
+    ],
+    [
+      "5900f4791000cf542c50ff8c",
+      "Problem 269: Polynomials with at least one integer root"
+    ],
+    [
+      "5900f47c1000cf542c50ff8e",
+      "Problem 270: Cutting Squares"
+    ],
+    [
+      "5900f47b1000cf542c50ff8d",
+      "Problem 271: Modular Cubes, part 1"
+    ],
+    [
+      "5900f47d1000cf542c50ff8f",
+      "Problem 272: Modular Cubes, part 2"
+    ],
+    [
+      "5900f47e1000cf542c50ff90",
+      "Problem 273: Sum of Squares"
+    ],
+    [
+      "5900f47f1000cf542c50ff91",
+      "Problem 274: Divisibility Multipliers"
+    ],
+    [
+      "5900f4801000cf542c50ff92",
+      "Problem 275: Balanced Sculptures"
+    ],
+    [
+      "5900f4801000cf542c50ff93",
+      "Problem 276: Primitive Triangles"
+    ],
+    [
+      "5900f4811000cf542c50ff94",
+      "Problem 277: A Modified Collatz sequence"
+    ],
+    [
+      "5900f4831000cf542c50ff95",
+      "Problem 278: Linear Combinations of Semiprimes"
+    ],
+    [
+      "5900f4841000cf542c50ff96",
+      "Problem 279: Triangles with integral sides and an integral angle"
+    ],
+    [
+      "5900f4841000cf542c50ff97",
+      "Problem 280: Ant and seeds"
+    ],
+    [
+      "5900f4861000cf542c50ff98",
+      "Problem 281: Pizza Toppings"
+    ],
+    [
+      "5900f4861000cf542c50ff99",
+      "Problem 282: The Ackermann function"
+    ],
+    [
+      "5900f4881000cf542c50ff9a",
+      "Problem 283: Integer sided triangles for which the area * perimeter ratio is integral"
+    ],
+    [
+      "5900f4891000cf542c50ff9b",
+      "Problem 284: Steady Squares"
+    ],
+    [
+      "5900f48a1000cf542c50ff9c",
+      "Problem 285: Pythagorean odds"
+    ],
+    [
+      "5900f48a1000cf542c50ff9d",
+      "Problem 286: Scoring probabilities"
+    ],
+    [
+      "5900f48b1000cf542c50ff9e",
+      "Problem 287: Quadtree encoding (a simple compression algorithm)"
+    ],
+    [
+      "5900f48d1000cf542c50ff9f",
+      "Problem 288: An enormous factorial"
+    ],
+    [
+      "5900f48d1000cf542c50ffa0",
+      "Problem 289: Eulerian Cycles"
+    ],
+    [
+      "5900f48f1000cf542c50ffa1",
+      "Problem 290: Digital Signature"
+    ],
+    [
+      "5900f48f1000cf542c50ffa2",
+      "Problem 291: Panaitopol Primes"
+    ],
+    [
+      "5900f4911000cf542c50ffa3",
+      "Problem 292: Pythagorean Polygons"
+    ],
+    [
+      "5900f4931000cf542c50ffa4",
+      "Problem 293: Pseudo-Fortunate Numbers"
+    ],
+    [
+      "5900f4931000cf542c50ffa5",
+      "Problem 294: Sum of digits - experience #23"
+    ],
+    [
+      "5900f4931000cf542c50ffa6",
+      "Problem 295: Lenticular holes"
+    ],
+    [
+      "5900f4941000cf542c50ffa7",
+      "Problem 296: Angular Bisector and Tangent"
+    ],
+    [
+      "5900f4951000cf542c50ffa8",
+      "Problem 297: Zeckendorf Representation"
+    ],
+    [
+      "5900f4971000cf542c50ffa9",
+      "Problem 298: Selective Amnesia"
+    ],
+    [
+      "5900f4971000cf542c50ffaa",
+      "Problem 299: Three similar triangles"
+    ],
+    [
+      "5900f49a1000cf542c50ffac",
+      "Problem 300: Protein folding"
+    ],
+    [
+      "5900f4991000cf542c50ffab",
+      "Problem 301: Nim"
+    ],
+    [
+      "5900f49b1000cf542c50ffad",
+      "Problem 302: Strong Achilles Numbers"
+    ],
+    [
+      "5900f49b1000cf542c50ffae",
+      "Problem 303: Multiples with small digits"
+    ],
+    [
+      "5900f49d1000cf542c50ffaf",
+      "Problem 304: Primonacci"
+    ],
+    [
+      "5900f49d1000cf542c50ffb0",
+      "Problem 305: Reflexive Position"
+    ],
+    [
+      "5900f49f1000cf542c50ffb1",
+      "Problem 306: Paper-strip Game"
+    ],
+    [
+      "5900f4a01000cf542c50ffb2",
+      "Problem 307: Chip Defects"
+    ],
+    [
+      "5900f4a11000cf542c50ffb3",
+      "Problem 308: An amazing Prime-generating Automaton"
+    ],
+    [
+      "5900f4a11000cf542c50ffb4",
+      "Problem 309: Integer Ladders"
+    ],
+    [
+      "5900f4a21000cf542c50ffb5",
+      "Problem 310: Nim Square"
+    ],
+    [
+      "5900f4a31000cf542c50ffb6",
+      "Problem 311: Biclinic Integral Quadrilaterals"
+    ],
+    [
+      "5900f4a51000cf542c50ffb7",
+      "Problem 312: Cyclic paths on Sierpiński graphs"
+    ],
+    [
+      "5900f4a61000cf542c50ffb8",
+      "Problem 313: Sliding game"
+    ],
+    [
+      "5900f4a71000cf542c50ffb9",
+      "Problem 314: The Mouse on the Moon"
+    ],
+    [
+      "5900f4a71000cf542c50ffba",
+      "Problem 315: Digital root clocks"
+    ],
+    [
+      "5900f4a81000cf542c50ffbb",
+      "Problem 316: Numbers in decimal expansions"
+    ],
+    [
+      "5900f4aa1000cf542c50ffbc",
+      "Problem 317: Firecracker"
+    ],
+    [
+      "5900f4ab1000cf542c50ffbd",
+      "Problem 318: 2011 nines"
+    ],
+    [
+      "5900f4ab1000cf542c50ffbe",
+      "Problem 319: Bounded Sequences"
+    ],
+    [
+      "5900f4ae1000cf542c50ffbf",
+      "Problem 320: Factorials divisible by a huge integer"
+    ],
+    [
+      "5900f4ae1000cf542c50ffc0",
+      "Problem 321: Swapping Counters"
+    ],
+    [
+      "5900f4af1000cf542c50ffc1",
+      "Problem 322: Binomial coefficients divisible by 10"
+    ],
+    [
+      "5900f4b01000cf542c50ffc2",
+      "Problem 323: Bitwise-OR operations on random integers"
+    ],
+    [
+      "5900f4b11000cf542c50ffc3",
+      "Problem 324: Building a tower"
+    ],
+    [
+      "5900f4b11000cf542c50ffc4",
+      "Problem 325: Stone Game II"
+    ],
+    [
+      "5900f4b21000cf542c50ffc5",
+      "Problem 326: Modulo Summations"
+    ],
+    [
+      "5900f4b31000cf542c50ffc6",
+      "Problem 327: Rooms of Doom"
+    ],
+    [
+      "5900f4b41000cf542c50ffc7",
+      "Problem 328: Lowest-cost Search"
+    ],
+    [
+      "5900f4b51000cf542c50ffc8",
+      "Problem 329: Prime Frog"
+    ],
+    [
+      "5900f4b71000cf542c50ffc9",
+      "Problem 330: Euler's Number"
+    ],
+    [
+      "5900f4b71000cf542c50ffca",
+      "Problem 331: Cross flips"
+    ],
+    [
+      "5900f4b91000cf542c50ffcb",
+      "Problem 332: Spherical triangles"
+    ],
+    [
+      "5900f4b91000cf542c50ffcc",
+      "Problem 333: Special partitions"
+    ],
+    [
+      "5900f4ba1000cf542c50ffcd",
+      "Problem 334: Spilling the beans"
+    ],
+    [
+      "5900f4bd1000cf542c50ffce",
+      "Problem 335: Gathering the beans"
+    ],
+    [
+      "5900f4bd1000cf542c50ffcf",
+      "Problem 336: Maximix Arrangements"
+    ],
+    [
+      "5900f4be1000cf542c50ffd0",
+      "Problem 337: Totient Stairstep Sequences"
+    ],
+    [
+      "5900f4be1000cf542c50ffd1",
+      "Problem 338: Cutting Rectangular Grid Paper"
+    ],
+    [
+      "5900f4c01000cf542c50ffd2",
+      "Problem 339: Peredur fab Efrawg"
+    ],
+    [
+      "5900f4c21000cf542c50ffd4",
+      "Problem 340: Crazy Function"
+    ],
+    [
+      "5900f4c11000cf542c50ffd3",
+      "Problem 341: Golomb's self-describing sequence"
+    ],
+    [
+      "5900f4c31000cf542c50ffd5",
+      "Problem 342: The totient of a square is a cube"
+    ],
+    [
+      "5900f4c41000cf542c50ffd6",
+      "Problem 343: Fractional Sequences"
+    ],
+    [
+      "5900f4c51000cf542c50ffd7",
+      "Problem 344: Silver dollar game"
+    ],
+    [
+      "5900f4c81000cf542c50ffda",
+      "Problem 345: Matrix Sum"
+    ],
+    [
+      "5900f4c71000cf542c50ffd8",
+      "Problem 346: Strong Repunits"
+    ],
+    [
+      "5900f4c81000cf542c50ffd9",
+      "Problem 347: Largest integer divisible by two primes"
+    ],
+    [
+      "5900f4c81000cf542c50ffdb",
+      "Problem 348: Sum of a square and a cube"
+    ],
+    [
+      "5900f4ca1000cf542c50ffdc",
+      "Problem 349: Langton's ant"
+    ],
+    [
+      "5900f4cb1000cf542c50ffdd",
+      "Problem 350: Constraining the least greatest and the greatest least"
+    ],
+    [
+      "5900f4cb1000cf542c50ffde",
+      "Problem 351: Hexagonal orchards"
+    ],
+    [
+      "5900f4cd1000cf542c50ffdf",
+      "Problem 352: Blood tests"
+    ],
+    [
+      "5900f4cd1000cf542c50ffe0",
+      "Problem 353: Risky moon"
+    ],
+    [
+      "5900f4cf1000cf542c50ffe1",
+      "Problem 354: Distances in a bee's honeycomb"
+    ],
+    [
+      "5900f4d01000cf542c50ffe2",
+      "Problem 355: Maximal coprime subset"
+    ],
+    [
+      "5900f4d01000cf542c50ffe3",
+      "Problem 356: Largest roots of cubic polynomials"
+    ],
+    [
+      "5900f4d11000cf542c50ffe4",
+      "Problem 357: Prime generating integers"
+    ],
+    [
+      "5900f4d21000cf542c50ffe5",
+      "Problem 358: Cyclic numbers"
+    ],
+    [
+      "5900f4d31000cf542c50ffe6",
+      "Problem 359: Hilbert's New Hotel"
+    ],
+    [
+      "5900f4d41000cf542c50ffe7",
+      "Problem 360: Scary Sphere"
+    ],
+    [
+      "5900f4d51000cf542c50ffe8",
+      "Problem 361: Subsequence of Thue-Morse sequence"
+    ],
+    [
+      "5900f4d61000cf542c50ffe9",
+      "Problem 362: Squarefree factors"
+    ],
+    [
+      "5900f4d91000cf542c50ffeb",
+      "Problem 363: Bézier Curves"
+    ],
+    [
+      "5900f4d91000cf542c50ffea",
+      "Problem 364: Comfortable distance"
+    ],
+    [
+      "5900f4da1000cf542c50ffec",
+      "Problem 365: A huge binomial coefficient"
+    ],
+    [
+      "5900f4da1000cf542c50ffed",
+      "Problem 366: Stone Game III"
+    ],
+    [
+      "5900f4db1000cf542c50ffee",
+      "Problem 367: Bozo sort"
+    ],
+    [
+      "5900f4dd1000cf542c50ffef",
+      "Problem 368: A Kempner-like series"
+    ],
+    [
+      "5900f4de1000cf542c50fff0",
+      "Problem 369: Badugi"
+    ],
+    [
+      "5900f4de1000cf542c50fff1",
+      "Problem 370: Geometric triangles"
+    ],
+    [
+      "5900f4e01000cf542c50fff2",
+      "Problem 371: Licence plates"
+    ],
+    [
+      "5900f4e11000cf542c50fff3",
+      "Problem 372: Pencils of rays"
+    ],
+    [
+      "5900f4e11000cf542c50fff4",
+      "Problem 373: Circumscribed Circles"
+    ],
+    [
+      "5900f4e51000cf542c50fff6",
+      "Problem 374: Maximum Integer Partition Product"
+    ],
+    [
+      "5900f4e41000cf542c50fff5",
+      "Problem 375: Minimum of subsequences"
+    ],
+    [
+      "5900f4e51000cf542c50fff7",
+      "Problem 376: Nontransitive sets of dice"
+    ],
+    [
+      "5900f4e51000cf542c50fff8",
+      "Problem 377: Sum of digits, experience 13"
+    ],
+    [
+      "5900f4e61000cf542c50fff9",
+      "Problem 378: Triangle Triples"
+    ],
+    [
+      "5900f4e81000cf542c50fffa",
+      "Problem 379: Least common multiple count"
+    ],
+    [
+      "5900f4e81000cf542c50fffb",
+      "Problem 380: Amazing Mazes!"
+    ],
+    [
+      "5900f4ea1000cf542c50fffc",
+      "Problem 381: (prime-k) factorial"
+    ],
+    [
+      "5900f4eb1000cf542c50fffd",
+      "Problem 382: Generating polygons"
+    ],
+    [
+      "5900f4ed1000cf542c50ffff",
+      "Problem 383: Divisibility comparison between factorials"
+    ],
+    [
+      "5900f4ed1000cf542c50fffe",
+      "Problem 384: Rudin-Shapiro sequence"
+    ],
+    [
+      "5900f4ee1000cf542c510000",
+      "Problem 385: Ellipses inside triangles"
+    ],
+    [
+      "5900f4ef1000cf542c510001",
+      "Problem 386: Maximum length of an antichain"
+    ],
+    [
+      "5900f4f11000cf542c510003",
+      "Problem 387: Harshad Numbers"
+    ],
+    [
+      "5900f4f11000cf542c510002",
+      "Problem 388: Distinct Lines"
+    ],
+    [
+      "5900f4f21000cf542c510004",
+      "Problem 389: Platonic Dice"
+    ],
+    [
+      "5900f4f21000cf542c510005",
+      "Problem 390: Triangles with non rational sides and integral area"
+    ],
+    [
+      "5900f4f31000cf542c510006",
+      "Problem 391: Hopping Game"
+    ],
+    [
+      "5900f4f41000cf542c510007",
+      "Problem 392: Enmeshed unit circle"
+    ],
+    [
+      "5900f4f61000cf542c510008",
+      "Problem 393: Migrating ants"
+    ],
+    [
+      "5900f4f71000cf542c510009",
+      "Problem 394: Eating pie"
+    ],
+    [
+      "5900f4f71000cf542c51000a",
+      "Problem 395: Pythagorean tree"
+    ],
+    [
+      "5900f4f81000cf542c51000b",
+      "Problem 396: Weak Goodstein sequence"
+    ],
+    [
+      "5900f4f91000cf542c51000c",
+      "Problem 397: Triangle on parabola"
+    ],
+    [
+      "5900f4fa1000cf542c51000d",
+      "Problem 398: Cutting rope"
+    ],
+    [
+      "5900f4fc1000cf542c51000e",
+      "Problem 399: Squarefree Fibonacci Numbers"
+    ],
+    [
+      "5900f4fe1000cf542c510010",
+      "Problem 400: Fibonacci tree game"
+    ],
+    [
+      "5900f4fd1000cf542c51000f",
+      "Problem 401: Sum of squares of divisors"
+    ],
+    [
+      "5900f4ff1000cf542c510011",
+      "Problem 402: Integer-valued polynomials"
+    ],
+    [
+      "5900f5001000cf542c510013",
+      "Problem 403: Lattice points enclosed by parabola and line"
+    ],
+    [
+      "5900f5001000cf542c510012",
+      "Problem 404: Crisscross Ellipses"
+    ],
+    [
+      "5900f5021000cf542c510014",
+      "Problem 405: A rectangular tiling"
+    ],
+    [
+      "5900f5021000cf542c510015",
+      "Problem 406: Guessing Game"
+    ],
+    [
+      "5900f5041000cf542c510016",
+      "Problem 407: Idempotents"
+    ],
+    [
+      "5900f5091000cf542c51001b",
+      "Problem 408: Admissible paths through a grid"
+    ],
+    [
+      "5900f5061000cf542c510017",
+      "Problem 409: Nim Extreme"
+    ],
+    [
+      "5900f5071000cf542c510018",
+      "Problem 410: Circle and tangent line"
+    ],
+    [
+      "5900f5081000cf542c510019",
+      "Problem 411: Uphill paths"
+    ],
+    [
+      "5900f5081000cf542c51001a",
+      "Problem 412: Gnomon numbering"
+    ],
+    [
+      "5900f50a1000cf542c51001c",
+      "Problem 413: One-child Numbers"
+    ],
+    [
+      "5900f50b1000cf542c51001d",
+      "Problem 414: Kaprekar constant"
+    ],
+    [
+      "5900f50c1000cf542c51001e",
+      "Problem 415: Titanic sets"
+    ],
+    [
+      "5900f50e1000cf542c510020",
+      "Problem 416: A frog's trip"
+    ],
+    [
+      "5900f50d1000cf542c51001f",
+      "Problem 417: Reciprocal cycles II"
+    ],
+    [
+      "5900f50f1000cf542c510021",
+      "Problem 418: Factorisation triples"
+    ],
+    [
+      "5900f5101000cf542c510022",
+      "Problem 419: Look and say sequence"
+    ],
+    [
+      "5900f5111000cf542c510023",
+      "Problem 420: 2x2 positive integer matrix"
+    ],
+    [
+      "5900f5131000cf542c510024",
+      "Problem 421: Prime factors of n15+1"
+    ],
+    [
+      "5900f5131000cf542c510025",
+      "Problem 422: Sequence of points on a hyperbola"
+    ],
+    [
+      "5900f5141000cf542c510027",
+      "Problem 423: Consecutive die throws"
+    ],
+    [
+      "5900f5141000cf542c510026",
+      "Problem 424: Kakuro"
+    ],
+    [
+      "5900f5151000cf542c510028",
+      "Problem 425: Prime connection"
+    ],
+    [
+      "5900f5171000cf542c510029",
+      "Problem 426: Box-ball system"
+    ],
+    [
+      "5900f5181000cf542c51002a",
+      "Problem 427: n-sequences"
+    ],
+    [
+      "5900f5191000cf542c51002b",
+      "Problem 428: Necklace of Circles"
+    ],
+    [
+      "5900f5191000cf542c51002c",
+      "Problem 429: Sum of squares of unitary divisors"
+    ],
+    [
+      "5900f51a1000cf542c51002d",
+      "Problem 430: Range flips"
+    ],
+    [
+      "5900f51b1000cf542c51002e",
+      "Problem 431: Square Space Silo"
+    ],
+    [
+      "5900f51e1000cf542c510030",
+      "Problem 432: Totient sum"
+    ],
+    [
+      "5900f51d1000cf542c51002f",
+      "Problem 433: Steps in Euclid's algorithm"
+    ],
+    [
+      "5900f51f1000cf542c510031",
+      "Problem 434: Rigid graphs"
+    ],
+    [
+      "5900f5201000cf542c510032",
+      "Problem 435: Polynomials of Fibonacci numbers"
+    ],
+    [
+      "5900f5221000cf542c510033",
+      "Problem 436: Unfair wager"
+    ],
+    [
+      "5900f5241000cf542c510036",
+      "Problem 437: Fibonacci primitive roots"
+    ],
+    [
+      "5900f5231000cf542c510034",
+      "Problem 438: Integer part of polynomial equation's solutions"
+    ],
+    [
+      "5900f5231000cf542c510035",
+      "Problem 439: Sum of sum of divisors"
+    ],
+    [
+      "5900f5241000cf542c510037",
+      "Problem 440: GCD and Tiling"
+    ],
+    [
+      "5900f5261000cf542c510038",
+      "Problem 441: The inverse summation of coprime couples"
+    ],
+    [
+      "5900f5271000cf542c510039",
+      "Problem 442: Eleven-free integers"
+    ],
+    [
+      "5900f5271000cf542c51003a",
+      "Problem 443: GCD sequence"
+    ],
+    [
+      "5900f52a1000cf542c51003b",
+      "Problem 444: The Roundtable Lottery"
+    ],
+    [
+      "5900f52a1000cf542c51003c",
+      "Problem 445: Retractions A"
+    ],
+    [
+      "5900f52c1000cf542c51003d",
+      "Problem 446: Retractions B"
+    ],
+    [
+      "5900f52c1000cf542c51003e",
+      "Problem 447: Retractions C"
+    ],
+    [
+      "5900f52c1000cf542c51003f",
+      "Problem 448: Average least common multiple"
+    ],
+    [
+      "5900f52d1000cf542c510040",
+      "Problem 449: Chocolate covered candy"
+    ],
+    [
+      "5900f52e1000cf542c510041",
+      "Problem 450: Hypocycloid and Lattice points"
+    ],
+    [
+      "5900f5311000cf542c510042",
+      "Problem 451: Modular inverses"
+    ],
+    [
+      "5900f5311000cf542c510043",
+      "Problem 452: Long Products"
+    ],
+    [
+      "5900f5311000cf542c510044",
+      "Problem 453: Lattice Quadrilaterals"
+    ],
+    [
+      "5900f5331000cf542c510045",
+      "Problem 454: Diophantine reciprocals III"
+    ],
+    [
+      "5900f5331000cf542c510046",
+      "Problem 455: Powers With Trailing Digits"
+    ],
+    [
+      "5900f5351000cf542c510047",
+      "Problem 456: Triangles containing the origin II"
+    ],
+    [
+      "5900f5361000cf542c510048",
+      "Problem 457: A polynomial modulo the square of a prime"
+    ],
+    [
+      "5900f5361000cf542c510049",
+      "Problem 458: Permutations of Project"
+    ],
+    [
+      "5900f5371000cf542c51004a",
+      "Problem 459: Flipping game"
+    ],
+    [
+      "5900f5381000cf542c51004b",
+      "Problem 460: An ant on the move"
+    ],
+    [
+      "5900f53a1000cf542c51004c",
+      "Problem 461: Almost Pi"
+    ],
+    [
+      "5900f53b1000cf542c51004d",
+      "Problem 462: Permutation of 3-smooth numbers"
+    ],
+    [
+      "5900f53c1000cf542c51004e",
+      "Problem 463: A weird recurrence relation"
+    ],
+    [
+      "5900f53d1000cf542c51004f",
+      "Problem 464: Möbius function and intervals"
+    ],
+    [
+      "5900f53d1000cf542c510050",
+      "Problem 465: Polar polygons"
+    ],
+    [
+      "5900f53e1000cf542c510051",
+      "Problem 466: Distinct terms in a multiplication table"
+    ],
+    [
+      "5900f5411000cf542c510052",
+      "Problem 467: Superinteger"
+    ],
+    [
+      "5900f5411000cf542c510054",
+      "Problem 468: Smooth divisors of binomial coefficients"
+    ],
+    [
+      "5900f5411000cf542c510053",
+      "Problem 469: Empty chairs"
+    ],
+    [
+      "5900f5431000cf542c510055",
+      "Problem 470: Super Ramvok"
+    ],
+    [
+      "5900f5431000cf542c510056",
+      "Problem 471: Triangle inscribed in ellipse"
+    ],
+    [
+      "5900f5451000cf542c510057",
+      "Problem 472: Comfortable Distance II"
+    ],
+    [
+      "5900f5461000cf542c510058",
+      "Problem 473: Phigital number base"
+    ],
+    [
+      "5900f5471000cf542c510059",
+      "Problem 474: Last digits of divisors"
+    ],
+    [
+      "5900f5481000cf542c51005a",
+      "Problem 475: Music festival"
+    ],
+    [
+      "5900f5481000cf542c51005b",
+      "Problem 476: Circle Packing II"
+    ],
+    [
+      "5900f54a1000cf542c51005c",
+      "Problem 477: Number Sequence Game"
+    ],
+    [
+      "5900f54c1000cf542c51005e",
+      "Problem 478: Mixtures"
+    ],
+    [
+      "5900f54b1000cf542c51005d",
+      "Problem 479: Roots on the Rise"
+    ],
+    [
+      "5900f54c1000cf542c51005f",
+      "Problem 480: The Last Question"
+    ]
+  ],
+  "helpRoom": "HelpJavaScript",
+  "fileName": "08-coding-interview-prep/project-euler.json"
+},
+{
+  "name": "Quality Assurance and Testing with Chai",
+  "dashedName": "quality-assurance-and-testing-with-chai",
+  "order": 2,
+  "time": "5 hours",
+  "template": "",
+  "required": [],
+  "superBlock": "information-security-and-quality-assurance",
+  "superOrder": 6,
+  "challengeOrder": [
+    [
+      "587d824a367417b2b2512c46",
+      "Learn How JavaScript Assertions Work"
+    ],
+    [
+      "587d824b367417b2b2512c47",
+      "Test if a Variable or Function is Defined"
+    ],
+    [
+      "587d824b367417b2b2512c48",
+      "Use Assert.isOK and Assert.isNotOK"
+    ],
+    [
+      "587d824b367417b2b2512c49",
+      "Test for Truthiness"
+    ],
+    [
+      "587d824b367417b2b2512c4a",
+      "Use the Double Equals to Assert Equality"
+    ],
+    [
+      "587d824b367417b2b2512c4b",
+      "Use the Triple Equals to Assert Strict Equality"
+    ],
+    [
+      "587d824c367417b2b2512c4c",
+      "Assert Deep Equality with .deepEqual and .notDeepEqual"
+    ],
+    [
+      "587d824c367417b2b2512c4d",
+      "Compare the Properties of Two Elements"
+    ],
+    [
+      "587d824c367417b2b2512c4e",
+      "Test if One Value is Below or At Least as Large as Another"
+    ],
+    [
+      "587d824c367417b2b2512c4f",
+      "Test if a Value Falls within a Specific Range"
+    ],
+    [
+      "587d824d367417b2b2512c50",
+      "Test if a Value is an Array"
+    ],
+    [
+      "587d824d367417b2b2512c51",
+      "Test if an Array Contains an Item"
+    ],
+    [
+      "587d824d367417b2b2512c52",
+      "Test if a Value is a String"
+    ],
+    [
+      "587d824d367417b2b2512c53",
+      "Test if a String Contains a Substring"
+    ],
+    [
+      "587d824d367417b2b2512c54",
+      "Use Regular Expressions to Test a String"
+    ],
+    [
+      "587d824e367417b2b2512c55",
+      "Test if an Object has a Property"
+    ],
+    [
+      "587d824e367417b2b2512c56",
+      "Test if a Value is of a Specific Data Structure Type"
+    ],
+    [
+      "587d824e367417b2b2512c57",
+      "Test if an Object is an Instance of a Constructor"
+    ],
+    [
+      "587d824e367417b2b2512c58",
+      "Run Functional Tests on API Endpoints using Chai-HTTP"
+    ],
+    [
+      "587d824f367417b2b2512c59",
+      "Run Functional Tests on API Endpoints using Chai-HTTP II"
+    ],
+    [
+      "587d824f367417b2b2512c5a",
+      "Run Functional Tests on an API Response using Chai-HTTP III - PUT method"
+    ],
+    [
+      "587d824f367417b2b2512c5b",
+      "Run Functional Tests on an API Response using Chai-HTTP IV - PUT method"
+    ],
+    [
+      "587d824f367417b2b2512c5c",
+      "Run Functional Tests using a Headless Browser"
+    ],
+    [
+      "587d8250367417b2b2512c5d",
+      "Run Functional Tests using a Headless Browser II"
+    ]
+  ],
+  "helpRoom": "Help",
+  "fileName": "06-information-security-and-quality-assurance/testing-with-chai.json"
+},
+{
+  "name": "React and Redux",
+  "dashedName": "react-and-redux",
+  "order": 7,
+  "time": "5 hours",
+  "template": "<body><div id='root'></div>${ source || '' }</body>",
+  "required": [
+    {
+      "src": "https://unpkg.com/react@16.4.0/umd/react.production.min.js"
+    },
+    {
+      "src": "https://unpkg.com/react-dom@16.4.0/umd/react-dom.production.min.js"
+    },
+    {
+      "src": "https://cdnjs.cloudflare.com/ajax/libs/redux/3.7.2/redux.min.js"
+    },
+    {
+      "src": "https://cdnjs.cloudflare.com/ajax/libs/react-redux/5.0.7/react-redux.min.js"
+    }
+  ],
+  "superBlock": "front-end-libraries",
+  "superOrder": 3,
+  "challengeOrder": [
+    [
+      "5a24c314108439a4d4036141",
+      "Getting Started with React Redux"
+    ],
+    [
+      "5a24c314108439a4d4036142",
+      "Manage State Locally First"
+    ],
+    [
+      "5a24c314108439a4d4036143",
+      "Extract State Logic to Redux"
+    ],
+    [
+      "5a24c314108439a4d4036144",
+      "Use Provider to Connect Redux to React"
+    ],
+    [
+      "5a24c314108439a4d4036145",
+      "Map State to Props"
+    ],
+    [
+      "5a24c314108439a4d4036146",
+      "Map Dispatch to Props"
+    ],
+    [
+      "5a24c314108439a4d4036147",
+      "Connect Redux to React"
+    ],
+    [
+      "5a24c314108439a4d4036148",
+      "Connect Redux to the Messages App"
+    ],
+    [
+      "5a24c314108439a4d4036149",
+      "Extract Local State into Redux"
+    ],
+    [
+      "5a24c314108439a4d403614a",
+      "Moving Forward From Here"
+    ]
+  ],
+  "helpRoom": "Help",
+  "fileName": "03-front-end-libraries/react-and-redux.json"
+},
+{
+  "name": "React",
+  "dashedName": "react",
+  "order": 5,
+  "time": "5 hours",
+  "template": "<body><div id='root'></div><div id='challenge-node'></div>${ source || '' }</body>",
+  "required": [
+    {
+      "src": "https://unpkg.com/react@16.4.0/umd/react.production.min.js"
+    },
+    {
+      "src": "https://unpkg.com/react-dom@16.4.0/umd/react-dom.production.min.js"
+    }
+  ],
+  "superBlock": "front-end-libraries",
+  "superOrder": 3,
+  "challengeOrder": [
+    [
+      "587d7dbc367417b2b2512bb1",
+      "Create a Simple JSX Element"
+    ],
+    [
+      "5a24bbe0dba28a8d3cbd4c5d",
+      "Create a Complex JSX Element"
+    ],
+    [
+      "5a24bbe0dba28a8d3cbd4c5e",
+      "Add Comments in JSX"
+    ],
+    [
+      "5a24bbe0dba28a8d3cbd4c5f",
+      "Render HTML Elements to the DOM"
+    ],
+    [
+      "5a24c314108439a4d4036160",
+      "Define an HTML Class in JSX"
+    ],
+    [
+      "5a24c314108439a4d4036161",
+      "Learn About Self-Closing JSX Tags"
+    ],
+    [
+      "5a24c314108439a4d4036162",
+      "Create a Stateless Functional Component"
+    ],
+    [
+      "5a24c314108439a4d4036163",
+      "Create a React Component"
+    ],
+    [
+      "5a24c314108439a4d4036164",
+      "Create a Component with Composition"
+    ],
+    [
+      "5a24c314108439a4d4036165",
+      "Use React to Render Nested Components"
+    ],
+    [
+      "5a24c314108439a4d4036166",
+      "Compose React Components"
+    ],
+    [
+      "5a24c314108439a4d4036167",
+      "Render a Class Component to the DOM"
+    ],
+    [
+      "5a24c314108439a4d4036168",
+      "Write a React Component from Scratch"
+    ],
+    [
+      "5a24c314108439a4d4036169",
+      "Pass Props to a Stateless Functional Component"
+    ],
+    [
+      "5a24c314108439a4d403616a",
+      "Pass an Array as Props"
+    ],
+    [
+      "5a24c314108439a4d403616b",
+      "Use Default Props"
+    ],
+    [
+      "5a24c314108439a4d403616c",
+      "Override Default Props"
+    ],
+    [
+      "5a24c314108439a4d403616d",
+      "Use PropTypes to Define the Props You Expect"
+    ],
+    [
+      "5a24c314108439a4d403616e",
+      "Access Props Using this.props"
+    ],
+    [
+      "5a24c314108439a4d403616f",
+      "Review Using Props with Stateless Functional Components"
+    ],
+    [
+      "5a24c314108439a4d4036170",
+      "Create a Stateful Component"
+    ],
+    [
+      "5a24c314108439a4d4036171",
+      "Render State in the User Interface"
+    ],
+    [
+      "5a24c314108439a4d4036172",
+      "Render State in the User Interface Another Way"
+    ],
+    [
+      "5a24c314108439a4d4036173",
+      "Set State with this.setState"
+    ],
+    [
+      "5a24c314108439a4d4036174",
+      "Bind 'this' to a Class Method"
+    ],
+    [
+      "5a24c314108439a4d4036176",
+      "Use State to Toggle an Element"
+    ],
+    [
+      "5a24c314108439a4d4036177",
+      "Write a Simple Counter"
+    ],
+    [
+      "5a24c314108439a4d4036178",
+      "Create a Controlled Input"
+    ],
+    [
+      "5a24c314108439a4d4036179",
+      "Create a Controlled Form"
+    ],
+    [
+      "5a24c314108439a4d403617a",
+      "Pass State as Props to Child Components"
+    ],
+    [
+      "5a24c314108439a4d403617b",
+      "Pass a Callback as Props"
+    ],
+    [
+      "5a24c314108439a4d403617c",
+      "Use the Lifecycle Method componentWillMount"
+    ],
+    [
+      "5a24c314108439a4d403617d",
+      "Use the Lifecycle Method componentDidMount"
+    ],
+    [
+      "5a24c314108439a4d403617e",
+      "Add Event Listeners"
+    ],
+    [
+      "5a24c314108439a4d403617f",
+      "Manage Updates with Lifecycle Methods"
+    ],
+    [
+      "5a24c314108439a4d4036180",
+      "Optimize Re-Renders with shouldComponentUpdate"
+    ],
+    [
+      "5a24c314108439a4d4036181",
+      "Introducing Inline Styles"
+    ],
+    [
+      "5a24c314108439a4d4036182",
+      "Add Inline Styles in React"
+    ],
+    [
+      "5a24c314108439a4d4036183",
+      "Use Advanced JavaScript in React Render Method"
+    ],
+    [
+      "5a24c314108439a4d4036184",
+      "Render with an If-Else Condition"
+    ],
+    [
+      "5a24c314108439a4d4036185",
+      "Use && for a More Concise Conditional"
+    ],
+    [
+      "5a24c314108439a4d4036187",
+      "Use a Ternary Expression for Conditional Rendering"
+    ],
+    [
+      "5a24c314108439a4d4036188",
+      "Render Conditionally from Props"
+    ],
+    [
+      "5a24c314108439a4d4036189",
+      "Change Inline CSS Conditionally Based on Component State"
+    ],
+    [
+      "5a24c314108439a4d403618a",
+      "Use Array.map() to Dynamically Render Elements"
+    ],
+    [
+      "5a24c314108439a4d403618b",
+      "Give Sibling Elements a Unique Key Attribute"
+    ],
+    [
+      "5a24c314108439a4d403618c",
+      "Use Array.filter() to Dynamically Filter an Array"
+    ],
+    [
+      "5a24c314108439a4d403618d",
+      "Render React on the Server with renderToString"
+    ]
+  ],
+  "helpRoom": "Help",
+  "fileName": "03-front-end-libraries/react.json"
+},
+{
+  "name": "Redux",
+  "dashedName": "redux",
+  "order": 6,
+  "time": "5 hours",
+  "template": "",
+  "required": [
+    {
+      "src": "https://cdnjs.cloudflare.com/ajax/libs/redux/3.7.2/redux.min.js"
+    },
+    {
+      "src": "https://cdnjs.cloudflare.com/ajax/libs/redux-thunk/2.2.0/redux-thunk.min.js"
+    }
+  ],
+  "superBlock": "front-end-libraries",
+  "superOrder": 3,
+  "challengeOrder": [
+    [
+      "5a24c314108439a4d403614b",
+      "Create a Redux Store"
+    ],
+    [
+      "5a24c314108439a4d403614c",
+      "Get State from the Redux Store"
+    ],
+    [
+      "5a24c314108439a4d403614d",
+      "Define a Redux Action"
+    ],
+    [
+      "5a24c314108439a4d403614e",
+      "Define an Action Creator"
+    ],
+    [
+      "5a24c314108439a4d403614f",
+      "Dispatch an Action Event"
+    ],
+    [
+      "5a24c314108439a4d4036150",
+      "Handle an Action in the Store"
+    ],
+    [
+      "5a24c314108439a4d4036151",
+      "Use a Switch Statement to Handle Multiple Actions"
+    ],
+    [
+      "5a24c314108439a4d4036152",
+      "Use const for Action Types"
+    ],
+    [
+      "5a24c314108439a4d4036153",
+      "Register a Store Listener"
+    ],
+    [
+      "5a24c314108439a4d4036154",
+      "Combine Multiple Reducers"
+    ],
+    [
+      "5a24c314108439a4d4036155",
+      "Send Action Data to the Store"
+    ],
+    [
+      "5a24c314108439a4d4036156",
+      "Use Middleware to Handle Asynchronous Actions"
+    ],
+    [
+      "5a24c314108439a4d4036157",
+      "Write a Counter with Redux"
+    ],
+    [
+      "5a24c314108439a4d4036158",
+      "Never Mutate State"
+    ],
+    [
+      "5a24c314108439a4d4036159",
+      "Use the Spread Operator on Arrays"
+    ],
+    [
+      "5a24c314108439a4d403615a",
+      "Remove an Item from an Array"
+    ],
+    [
+      "5a24c314108439a4d403615b",
+      "Copy an Object with Object.assign"
+    ]
+  ],
+  "helpRoom": "Help",
+  "fileName": "03-front-end-libraries/redux.json"
+},
+{
+  "name": "Regular Expressions",
+  "dashedName": "regular-expressions",
+  "order": 3,
+  "time": "5 hours",
+  "template": "",
+  "required": [],
+  "superBlock": "javascript-algorithms-and-data-structures",
+  "superOrder": 2,
+  "challengeOrder": [
+    [
+      "587d7db3367417b2b2512b8e",
+      "Using the Test Method"
+    ],
+    [
+      "587d7db3367417b2b2512b8f",
+      "Match Literal Strings"
+    ],
+    [
+      "587d7db4367417b2b2512b90",
+      "Match a Literal String with Different Possibilities"
+    ],
+    [
+      "587d7db4367417b2b2512b91",
+      "Ignore Case While Matching"
+    ],
+    [
+      "587d7db4367417b2b2512b92",
+      "Extract Matches"
+    ],
+    [
+      "587d7db4367417b2b2512b93",
+      "Find More Than the First Match"
+    ],
+    [
+      "587d7db5367417b2b2512b94",
+      "Match Anything with Wildcard Period"
+    ],
+    [
+      "587d7db5367417b2b2512b95",
+      "Match Single Character with Multiple Possibilities"
+    ],
+    [
+      "587d7db5367417b2b2512b96",
+      "Match Letters of the Alphabet"
+    ],
+    [
+      "587d7db5367417b2b2512b97",
+      "Match Numbers and Letters of the Alphabet"
+    ],
+    [
+      "587d7db6367417b2b2512b98",
+      "Match Single Characters Not Specified"
+    ],
+    [
+      "587d7db6367417b2b2512b99",
+      "Match Characters that Occur One or More Times"
+    ],
+    [
+      "587d7db6367417b2b2512b9a",
+      "Match Characters that Occur Zero or More Times"
+    ],
+    [
+      "587d7db6367417b2b2512b9b",
+      "Find Characters with Lazy Matching"
+    ],
+    [
+      "587d7db7367417b2b2512b9c",
+      "Find One or More Criminals in a Hunt"
+    ],
+    [
+      "587d7db7367417b2b2512b9d",
+      "Match Beginning String Patterns"
+    ],
+    [
+      "587d7db7367417b2b2512b9e",
+      "Match Ending String Patterns"
+    ],
+    [
+      "587d7db7367417b2b2512b9f",
+      "Match All Letters and Numbers"
+    ],
+    [
+      "587d7db8367417b2b2512ba0",
+      "Match Everything But Letters and Numbers"
+    ],
+    [
+      "5d712346c441eddfaeb5bdef",
+      "Match All Numbers"
+    ],
+    [
+      "587d7db8367417b2b2512ba1",
+      "Match All Non-Numbers"
+    ],
+    [
+      "587d7db8367417b2b2512ba2",
+      "Restrict Possible Usernames"
+    ],
+    [
+      "587d7db8367417b2b2512ba3",
+      "Match Whitespace"
+    ],
+    [
+      "587d7db9367417b2b2512ba4",
+      "Match Non-Whitespace Characters"
+    ],
+    [
+      "587d7db9367417b2b2512ba5",
+      "Specify Upper and Lower Number of Matches"
+    ],
+    [
+      "587d7db9367417b2b2512ba6",
+      "Specify Only the Lower Number of Matches"
+    ],
+    [
+      "587d7db9367417b2b2512ba7",
+      "Specify Exact Number of Matches"
+    ],
+    [
+      "587d7dba367417b2b2512ba8",
+      "Check for All or None"
+    ],
+    [
+      "587d7dba367417b2b2512ba9",
+      "Positive and Negative Lookahead"
+    ],
+    [
+      "5c3dda8b4d8df89bea71600f",
+      "Check For Mixed Grouping of Characters"
+    ],
+    [
+      "587d7dbb367417b2b2512baa",
+      "Reuse Patterns Using Capture Groups"
+    ],
+    [
+      "587d7dbb367417b2b2512bab",
+      "Use Capture Groups to Search and Replace"
+    ],
+    [
+      "587d7dbb367417b2b2512bac",
+      "Remove Whitespace from Start and End"
+    ]
+  ],
+  "helpRoom": "Help",
+  "fileName": "02-javascript-algorithms-and-data-structures/regular-expressions.json"
+},
+{
+  "name": "Responsive Web Design Certificate",
+  "dashedName": "responsive-web-design-certificate",
+  "order": 1,
+  "time": "",
+  "template": "",
+  "required": [],
+  "superBlock": "certificates",
+  "superOrder": 9,
+  "challengeOrder": [
+    [
+      "561add10cb82ac38a17513bc",
+      "Responsive Web Design Certificate"
+    ]
+  ],
+  "isPrivate": true,
+  "fileName": "09-certificates/responsive-web-design-certificate.json"
+},
+{
+  "name": "Responsive Web Design Principles",
+  "dashedName": "responsive-web-design-principles",
+  "order": 4,
+  "time": "1 hour",
+  "template": "",
+  "required": [],
+  "superBlock": "responsive-web-design",
+  "superOrder": 1,
+  "challengeOrder": [
+    [
+      "587d78b0367417b2b2512b08",
+      "Create a Media Query"
+    ],
+    [
+      "587d78b1367417b2b2512b09",
+      "Make an Image Responsive"
+    ],
+    [
+      "587d78b1367417b2b2512b0a",
+      "Use a Retina Image for Higher Resolution Displays"
+    ],
+    [
+      "587d78b1367417b2b2512b0c",
+      "Make Typography Responsive"
+    ]
+  ],
+  "helpRoom": "Help",
+  "fileName": "01-responsive-web-design/responsive-web-design.json"
+},
+{
+  "name": "Responsive Web Design Projects",
+  "dashedName": "responsive-web-design-projects",
+  "order": 7,
+  "time": "150 hours",
+  "template": "",
+  "required": [],
+  "superBlock": "responsive-web-design",
+  "superOrder": 1,
+  "challengeOrder": [
+    [
+      "bd7158d8c442eddfaeb5bd18",
+      "Build a Tribute Page"
+    ],
+    [
+      "587d78af367417b2b2512b03",
+      "Build a Survey Form"
+    ],
+    [
+      "587d78af367417b2b2512b04",
+      "Build a Product Landing Page"
+    ],
+    [
+      "587d78b0367417b2b2512b05",
+      "Build a Technical Documentation Page"
+    ],
+    [
+      "bd7158d8c242eddfaeb5bd13",
+      "Build a Personal Portfolio Webpage"
+    ]
+  ],
+  "helpRoom": "Help",
+  "fileName": "01-responsive-web-design/responsive-web-design-projects.json"
+},
+{
+  "name": "Rosetta Code",
+  "dashedName": "rosetta-code",
+  "order": 5,
+  "time": "",
+  "template": "",
+  "required": [],
+  "superBlock": "coding-interview-prep",
+  "superOrder": 8,
+  "challengeOrder": [
+    [
+      "594810f028c0303b75339acb",
+      "100 doors"
+    ],
+    [
+      "5951e88f64ebf159166a1176",
+      "24 game"
+    ],
+    [
+      "5949b579404977fbaefcd736",
+      "9 billion names of God the integer"
+    ],
+    [
+      "594810f028c0303b75339acc",
+      "ABC Problem"
+    ],
+    [
+      "594810f028c0303b75339acd",
+      "Abundant, deficient and perfect number classifications"
+    ],
+    [
+      "594810f028c0303b75339ace",
+      "Accumulator factory"
+    ],
+    [
+      "594810f028c0303b75339acf",
+      "Ackermann function"
+    ],
+    [
+      "594810f028c0303b75339ad0",
+      "Align columns"
+    ],
+    [
+      "5949b579404977fbaefcd737",
+      "Amicable pairs"
+    ],
+    [
+      "594d8d0ab97724821379b1e6",
+      "Averages-Mode"
+    ],
+    [
+      "594d966a1467eb84194f0086",
+      "Averages-Pythagorean means"
+    ],
+    [
+      "594da033de4190850b893874",
+      "Averages-Root mean square"
+    ],
+    [
+      "594db4d0dedb4c06a2a4cefd",
+      "Babbage problem"
+    ],
+    [
+      "594dc6c729e5700999302b45",
+      "Balanced brackets"
+    ],
+    [
+      "5951815dd895584b06884620",
+      "Circles of given radius through two points"
+    ],
+    [
+      "5951a53863c8a34f02bf1bdc",
+      "Closest-pair problem"
+    ],
+    [
+      "5958469238c0d8d2632f46db",
+      "Combinations"
+    ],
+    [
+      "596e414344c3b2872167f0fe",
+      "Comma quibbling"
+    ],
+    [
+      "596e457071c35c882915b3e4",
+      "Compare a list of strings"
+    ],
+    [
+      "596fd036dc1ab896c5db98b1",
+      "Convert seconds to compound duration"
+    ],
+    [
+      "596fda99c69f779975a1b67d",
+      "Count occurrences of a substring"
+    ],
+    [
+      "59713bd26bdeb8a594fb9413",
+      "Count the coins"
+    ],
+    [
+      "59713da0a428c1a62d7db430",
+      "Cramer's rule"
+    ],
+    [
+      "5a23c84252665b21eecc7e03",
+      "Cumulative standard deviation"
+    ],
+    [
+      "5a23c84252665b21eecc7e05",
+      "CUSIP"
+    ],
+    [
+      "5a23c84252665b21eecc7e06",
+      "Cut a rectangle"
+    ],
+    [
+      "59669d08d75b60482359409f",
+      "Date format"
+    ],
+    [
+      "5966c21cf732a95f1b67dd28",
+      "Date manipulation"
+    ],
+    [
+      "5966f99c45e8976909a85575",
+      "Day of the week"
+    ],
+    [
+      "59694356a6e7011f7f1c5f4e",
+      "Deal cards for FreeCell"
+    ],
+    [
+      "596a8888ab7c01048de257d5",
+      "Deepcopy"
+    ],
+    [
+      "597089c87eec450c68aa1643",
+      "Define a primitive data type"
+    ],
+    [
+      "59f40b17e79dbf1ab720ed7a",
+      "Department Numbers"
+    ],
+    [
+      "59f4eafba0343628bb682785",
+      "Discordian date"
+    ],
+    [
+      "5a23c84252665b21eecc7e1e",
+      "Dot product"
+    ],
+    [
+      "599c333915e0ea32d04d4bec",
+      "Element-wise operations"
+    ],
+    [
+      "599d0ba974141b0f508b37d5",
+      "Emirp primes"
+    ],
+    [
+      "599d15309e88c813a40baf58",
+      "Entropy"
+    ],
+    [
+      "5987fd532b954e0f21b5d3f6",
+      "Equilibrium index"
+    ],
+    [
+      "599d1566a02b571412643b84",
+      "Ethiopian multiplication"
+    ],
+    [
+      "59880443fb36441083c6c20e",
+      "Euler method"
+    ],
+    [
+      "598de241872ef8353c58a7a2",
+      "Evaluate binomial coefficients"
+    ],
+    [
+      "59e09e6d412c5939baa02d16",
+      "Execute a Markov algorithm"
+    ],
+    [
+      "59e0a8df964e4540d5abe599",
+      "Execute Brain****"
+    ],
+    [
+      "598ee8b91b410510ae82efef",
+      "Extensible prime generator"
+    ],
+    [
+      "597b2b2a2702b44414742771",
+      "Factorial"
+    ],
+    [
+      "598eea87e5cf4b116c3ff81a",
+      "Factors of a Mersenne number"
+    ],
+    [
+      "597f1e7fbc206f0e9ba95dc4",
+      "Factors of an integer"
+    ],
+    [
+      "59c3ec9f15068017c96eb8a3",
+      "Farey sequence"
+    ],
+    [
+      "598eef80ba501f1268170e1e",
+      "Fibonacci n-step number sequences"
+    ],
+    [
+      "597f24c1dda4e70f53c79c81",
+      "Fibonacci sequence"
+    ],
+    [
+      "5992e222d397f00d21122931",
+      "Fibonacci word"
+    ],
+    [
+      "5a7dad05be01840e1778a0d1",
+      "Fractran"
+    ],
+    [
+      "5a23c84252665b21eecc7e76",
+      "Gamma function"
+    ],
+    [
+      "5a23c84252665b21eecc7e77",
+      "Gaussian elimination"
+    ],
+    [
+      "5a23c84252665b21eecc7e78",
+      "General FizzBuzz"
+    ],
+    [
+      "5a23c84252665b21eecc7e7a",
+      "Generate lower case ASCII alphabet"
+    ],
+    [
+      "5a23c84252665b21eecc7e7b",
+      "GeneratorExponential"
+    ],
+    [
+      "5a23c84252665b21eecc7e80",
+      "Gray code"
+    ],
+    [
+      "5a23c84252665b21eecc7e82",
+      "Greatest common divisor"
+    ],
+    [
+      "5a23c84252665b21eecc7e84",
+      "Greatest subsequential sum"
+    ],
+    [
+      "595608ff8bcd7a50bd490181",
+      "Hailstone sequence"
+    ],
+    [
+      "594810f028c0303b75339ad1",
+      "Happy numbers"
+    ],
+    [
+      "595668ca4cfe1af2fb9818d4",
+      "Harshad or Niven series"
+    ],
+    [
+      "595671d4d2cdc305f0d5b36f",
+      "Hash from two arrays"
+    ],
+    [
+      "5956795bc9e2c415eb244de1",
+      "Hash join"
+    ],
+    [
+      "595b98f8b5a2245e243aa831",
+      "Heronian triangles"
+    ],
+    [
+      "59622f89e4e137560018a40e",
+      "Hofstadter Figure-Figure sequences"
+    ],
+    [
+      "59637c4d89f6786115efd814",
+      "Hofstadter Q sequence"
+    ],
+    [
+      "5a23c84252665b21eecc7eb0",
+      "I before E except after C"
+    ],
+    [
+      "5a23c84252665b21eecc7eaf",
+      "IBAN"
+    ],
+    [
+      "5a23c84252665b21eecc7eb1",
+      "Identity matrix"
+    ],
+    [
+      "5a23c84252665b21eecc7ec1",
+      "Iterated digits squaring"
+    ],
+    [
+      "5a23c84252665b21eecc7ec2",
+      "Jaro distance"
+    ],
+    [
+      "5a23c84252665b21eecc7ec4",
+      "JortSort"
+    ],
+    [
+      "5a23c84252665b21eecc7ec5",
+      "Josephus problem"
+    ],
+    [
+      "59da22823d04c95919d46269",
+      "Sailors, coconuts and a monkey problem"
+    ],
+    [
+      "59d9c6bc214c613ba73ff012",
+      "SEDOLs"
+    ],
+    [
+      "59667989bf71cf555dd5d2ff",
+      "S-Expressions"
+    ],
+    [
+      "5a23c84252665b21eecc7ffe",
+      "Sort an array of composite structures"
+    ],
+    [
+      "5a23c84252665b21eecc8000",
+      "Sort disjoint sublist"
+    ],
+    [
+      "5a23c84252665b21eecc8014",
+      "Sort stability"
+    ],
+    [
+      "5a23c84252665b21eecc8016",
+      "Sort using a custom comparator"
+    ],
+    [
+      "5a23c84252665b21eecc8001",
+      "Sorting algorithms/Bead sort"
+    ],
+    [
+      "5a23c84252665b21eecc8002",
+      "Sorting algorithms/Bogosort"
+    ],
+    [
+      "5a23c84252665b21eecc8003",
+      "Sorting algorithms/Bubble sort"
+    ],
+    [
+      "5a23c84252665b21eecc8004",
+      "Sorting algorithms/Cocktail sort"
+    ],
+    [
+      "5a23c84252665b21eecc8005",
+      "Sorting algorithms/Comb sort"
+    ],
+    [
+      "5a23c84252665b21eecc8006",
+      "Sorting algorithms/Counting sort"
+    ],
+    [
+      "5a23c84252665b21eecc8007",
+      "Sorting algorithms/Gnome sort"
+    ],
+    [
+      "5a23c84252665b21eecc8008",
+      "Sorting algorithms/Heapsort"
+    ],
+    [
+      "5a23c84252665b21eecc8009",
+      "Sorting algorithms/Insertion sort"
+    ],
+    [
+      "5a23c84252665b21eecc800a",
+      "Sorting algorithms/Merge sort"
+    ],
+    [
+      "5a23c84252665b21eecc800b",
+      "Sorting algorithms/Pancake sort"
+    ],
+    [
+      "5a23c84252665b21eecc800c",
+      "Sorting algorithms/Permutation sort"
+    ],
+    [
+      "5a23c84252665b21eecc800d",
+      "Sorting algorithms/Quicksort"
+    ],
+    [
+      "5a23c84252665b21eecc800e",
+      "Sorting algorithms/Radix sort"
+    ],
+    [
+      "5a23c84252665b21eecc800f",
+      "Sorting algorithms/Selection sort"
+    ],
+    [
+      "5a23c84252665b21eecc8010",
+      "Sorting algorithms/Shell sort"
+    ],
+    [
+      "5a23c84252665b21eecc8012",
+      "Sorting algorithms/Stooge sort"
+    ],
+    [
+      "5a23c84252665b21eecc8013",
+      "Sorting algorithms/Strand sort"
+    ],
+    [
+      "5a23c84252665b21eecc8017",
+      "Soundex"
+    ],
+    [
+      "5a23c84252665b21eecc801c",
+      "Spiral matrix"
+    ],
+    [
+      "5a23c84252665b21eecc801d",
+      "Split a character string based on change of character"
+    ],
+    [
+      "5a23c84252665b21eecc8024",
+      "State name puzzle"
+    ],
+    [
+      "5a23c84252665b21eecc8028",
+      "Stern-Brocot sequence"
+    ],
+    [
+      "5a23c84252665b21eecc8029",
+      "Straddling checkerboard"
+    ],
+    [
+      "5a23c84252665b21eecc802a",
+      "Stream Merge"
+    ],
+    [
+      "5a23c84252665b21eecc8036",
+      "Strip control codes and extended characters from a string"
+    ],
+    [
+      "5a23c84252665b21eecc8038",
+      "Subleq"
+    ],
+    [
+      "5a23c84252665b21eecc803c",
+      "Sudoku"
+    ],
+    [
+      "5a23c84252665b21eecc803f",
+      "Sum digits of an integer"
+    ],
+    [
+      "5a23c84252665b21eecc8040",
+      "Sum multiples of 3 and 5"
+    ],
+    [
+      "5a23c84252665b21eecc8041",
+      "Sum of a series"
+    ],
+    [
+      "5a23c84252665b21eecc8042",
+      "Sum of squares"
+    ],
+    [
+      "5a23c84252665b21eecc8043",
+      "Sum to 100"
+    ],
+    [
+      "5a23c84252665b21eecc8045",
+      "Sutherland-Hodgman polygon clipping"
+    ],
+    [
+      "5a23c84252665b21eecc8046",
+      "Symmetric difference"
+    ],
+    [
+      "594ecc0d9a8cf816e3340187",
+      "Taxicab numbers"
+    ],
+    [
+      "594faaab4e2a8626833e9c3d",
+      "Tokenize a string with escaping"
+    ],
+    [
+      "594fa2746886f41f7d8bf225",
+      "Topological sort"
+    ],
+    [
+      "595011cba5a81735713873bd",
+      "Top rank per group"
+    ],
+    [
+      "5951ed8945deab770972ae56",
+      "Towers of Hanoi"
+    ],
+    [
+      "594810f028c0303b75339ad2",
+      "Vector cross product"
+    ],
+    [
+      "594810f028c0303b75339ad3",
+      "Vector dot product"
+    ],
+    [
+      "594810f028c0303b75339ad4",
+      "Word wrap"
+    ],
+    [
+      "594810f028c0303b75339ad5",
+      "Y combinator"
+    ],
+    [
+      "594810f028c0303b75339ad6",
+      "Zeckendorf number representation"
+    ],
+    [
+      "594810f028c0303b75339ad7",
+      "Zhang-Suen thinning algorithm"
+    ],
+    [
+      "594810f028c0303b75339ad8",
+      "Zig-zag matrix"
+    ]
+  ],
+  "helpRoom": "",
+  "nChallenges": 437,
+  "fileName": "08-coding-interview-prep/rosetta-code.json"
+},
+{
+  "name": "Sass",
+  "dashedName": "sass",
+  "order": 4,
+  "time": "5 hours",
+  "template": "",
+  "required": [],
+  "superBlock": "front-end-libraries",
+  "superOrder": 3,
+  "challengeOrder": [
+    [
+      "587d7dbd367417b2b2512bb4",
+      "Store Data with Sass Variables"
+    ],
+    [
+      "587d7dbd367417b2b2512bb5",
+      "Nest CSS with Sass"
+    ],
+    [
+      "587d7dbd367417b2b2512bb6",
+      "Create Reusable CSS with Mixins"
+    ],
+    [
+      "587d7dbe367417b2b2512bb8",
+      "Use @if and @else to Add Logic To Your Styles"
+    ],
+    [
+      "587d7dbe367417b2b2512bb9",
+      "Use @for to Create a Sass Loop"
+    ],
+    [
+      "587d7dbf367417b2b2512bba",
+      "Use @each to Map Over Items in a List"
+    ],
+    [
+      "587d7dbf367417b2b2512bbb",
+      "Apply a Style Until a Condition is Met with @while"
+    ],
+    [
+      "587d7dbf367417b2b2512bbc",
+      "Split Your Styles into Smaller Chunks with Partials"
+    ],
+    [
+      "587d7fa5367417b2b2512bbd",
+      "Extend One Set of CSS Styles to Another Element"
+    ]
+  ],
+  "helpRoom": "Help",
+  "fileName": "03-front-end-libraries/sass.json"
+},
+{
+  "name": "Take Home Projects",
+  "dashedName": "take-home-projects",
+  "order": 4,
+  "time": "",
+  "template": "",
+  "required": [],
+  "superBlock": "coding-interview-prep",
+  "superOrder": 8,
+  "challengeOrder": [
+    [
+      "bd7158d8c442eddfaeb5bd10",
+      "Show the Local Weather"
+    ],
+    [
+      "bd7158d8c442eddfaeb5bd19",
+      "Build a Wikipedia Viewer"
+    ],
+    [
+      "bd7158d8c442eddfaeb5bd1f",
+      "Use the Twitch JSON API"
+    ],
+    [
+      "bd7158d8c443edefaeb5bdee",
+      "Build an Image Search Abstraction Layer"
+    ],
+    [
+      "bd7158d8c442eedfaeb5bd1c",
+      "Build a Tic Tac Toe Game"
+    ],
+    [
+      "bd7158d8c442eddfaeb5bd1c",
+      "Build a Simon Game"
+    ],
+    [
+      "bd7156d8c242eddfaeb5bd13",
+      "Build a Camper Leaderboard"
+    ],
+    [
+      "bd7155d8c242eddfaeb5bd13",
+      "Build a Recipe Box"
+    ],
+    [
+      "bd7154d8c242eddfaeb5bd13",
+      "Build the Game of Life"
+    ],
+    [
+      "bd7153d8c242eddfaeb5bd13",
+      "Build a Roguelike Dungeon Crawler Game"
+    ],
+    [
+      "bd7150d8c442eddfafb5bd1c",
+      "P2P Video Chat Application"
+    ],
+    [
+      "bd7198d8c242eddfaeb5bd13",
+      "Show National Contiguity with a Force Directed Graph"
+    ],
+    [
+      "bd7108d8c242eddfaeb5bd13",
+      "Map Data Across the Globe"
+    ],
+    [
+      "bd7158d8c443eddfaeb5bd0f",
+      "Manage a Book Trading Club"
+    ],
+    [
+      "bd7158d8c443eddfaeb5bdee",
+      "Build a Pinterest Clone"
+    ],
+    [
+      "bd7158d8c443eddfaeb5bdff",
+      "Build a Nightlife Coordination App"
+    ],
+    [
+      "bd7158d8c443eddfaeb5bd0e",
+      "Chart the Stock Market"
+    ],
+    [
+      "bd7158d8c443eddfaeb5bdef",
+      "Build a Voting App"
+    ],
+    [
+      "5a4b7fcdb66f799f199e11db",
+      "Build a Pong Game"
+    ],
+    [
+      "5a5d02bd919fcf9ca8cf46cb",
+      "Build a Light-Bright App"
+    ]
+  ],
+  "helpRoom": "HelpFrontEnd",
+  "fileName": "08-coding-interview-prep/take-home-projects.json"
+}]}
